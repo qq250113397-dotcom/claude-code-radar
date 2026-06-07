@@ -44,9 +44,6 @@ export const CATEGORIES: Category[] = [
   },
 ]
 
-export const CURATED_REPOS: string[] = [
-  // 手动精选：格式 "owner/repo"
-  'anthropics/claude-code',
-  'modelcontextprotocol/servers',
-  'modelcontextprotocol/specification',
-]
+import curatedData from '@/data/curated.json'
+
+export const CURATED_REPOS: string[] = curatedData.repos

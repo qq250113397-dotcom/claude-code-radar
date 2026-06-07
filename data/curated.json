@@ -1,0 +1,8 @@
+{
+  "repos": [
+    "anthropics/claude-code",
+    "modelcontextprotocol/servers",
+    "modelcontextprotocol/specification"
+  ],
+  "comment": "手动精选：在 GitHub 网页直接编辑此文件即可，保存后自动部署"
+}
