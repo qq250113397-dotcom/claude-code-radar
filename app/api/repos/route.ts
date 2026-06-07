@@ -5,7 +5,7 @@ import curatedData from '@/data/curated.json'
 
 const NOTES: Record<string, string> = curatedData.notes
 
-export const runtime = 'edge'
+export const runtime = 'nodejs'
 
 export async function GET(req: NextRequest) {
   const categoryId = req.nextUrl.searchParams.get('category') ?? 'claude-code'
@@ -52,7 +52,8 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ repos: reposWithNotes, category: category.label })
   } catch (e) {
-    console.error(e)
-    return NextResponse.json({ error: 'Failed to fetch repos' }, { status: 500 })
+    const msg = e instanceof Error ? e.message : String(e)
+    console.error('API error:', msg)
+    return NextResponse.json({ error: msg }, { status: 500 })
   }
 }

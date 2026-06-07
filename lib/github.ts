@@ -43,8 +43,7 @@ export async function searchRepos(query: string, sort: 'stars' | 'updated' = 'st
   })
   const res = await fetch(`${GITHUB_API}/search/repositories?${params}`, {
     headers: headers(),
-    cf: { cacheTtl: 3600, cacheEverything: true },
-  } as RequestInit)
+  })
   if (!res.ok) {
     console.error(`GitHub API error: ${res.status} ${res.statusText}`)
     return []
@@ -56,8 +55,7 @@ export async function searchRepos(query: string, sort: 'stars' | 'updated' = 'st
 export async function getRepo(fullName: string): Promise<Repo | null> {
   const res = await fetch(`${GITHUB_API}/repos/${fullName}`, {
     headers: headers(),
-    cf: { cacheTtl: 3600, cacheEverything: true },
-  } as RequestInit)
+  })
   if (!res.ok) return null
   return res.json()
 }
