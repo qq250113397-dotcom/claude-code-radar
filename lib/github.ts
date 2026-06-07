@@ -29,6 +29,7 @@ function headers() {
   const h: Record<string, string> = {
     Accept: 'application/vnd.github+json',
     'X-GitHub-Api-Version': '2022-11-28',
+    'User-Agent': 'claude-code-radar/1.0',
   }
   if (TOKEN) h['Authorization'] = `Bearer ${TOKEN}`
   return h
