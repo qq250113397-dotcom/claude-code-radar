@@ -51,14 +51,19 @@ export default function Home() {
         >
           <div className="flex items-center gap-3">
             <div className="flex-shrink-0 w-10 h-10 bg-orange-100 rounded-xl flex items-center justify-center text-xl">
-              ⚡
+              🛡️
             </div>
             <div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 mb-1">
                 <span className="text-xs font-medium text-orange-500 bg-orange-50 px-2 py-0.5 rounded-full">推荐</span>
-                <span className="font-semibold text-gray-900 text-sm">稳定使用 Claude Code</span>
+                <span className="font-semibold text-gray-900 text-sm">国内稳定使用 Claude Code</span>
               </div>
-              <p className="text-xs text-gray-500 mt-0.5">无需翻墙 · 开箱即用 · 实时同步官方版本</p>
+              <div className="flex flex-wrap gap-x-3 gap-y-0.5">
+                <span className="text-xs text-gray-500">⚡ CF 优选订阅</span>
+                <span className="text-xs text-gray-500">🏠 住宅 IP 仅 $4.8</span>
+                <span className="text-xs text-gray-500">🔒 不封号</span>
+                <span className="text-xs text-gray-500">💰 封号退 75%</span>
+              </div>
             </div>
           </div>
           <svg
