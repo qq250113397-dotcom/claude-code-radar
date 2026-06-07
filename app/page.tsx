@@ -42,6 +42,33 @@ export default function Home() {
           </div>
         </div>
 
+        {/* 引流 Banner */}
+        <a
+          href="https://claude.lbenben.cc.cd/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex items-center justify-between gap-4 mb-6 p-4 bg-white border border-orange-200 rounded-xl hover:border-orange-400 hover:shadow-md transition-all duration-200"
+        >
+          <div className="flex items-center gap-3">
+            <div className="flex-shrink-0 w-10 h-10 bg-orange-100 rounded-xl flex items-center justify-center text-xl">
+              ⚡
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="text-xs font-medium text-orange-500 bg-orange-50 px-2 py-0.5 rounded-full">推荐</span>
+                <span className="font-semibold text-gray-900 text-sm">稳定使用 Claude Code</span>
+              </div>
+              <p className="text-xs text-gray-500 mt-0.5">无需翻墙 · 开箱即用 · 实时同步官方版本</p>
+            </div>
+          </div>
+          <svg
+            className="w-4 h-4 text-orange-400 group-hover:translate-x-0.5 transition-transform flex-shrink-0"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+
         {/* Repo List */}
         <RepoList />
       </main>
