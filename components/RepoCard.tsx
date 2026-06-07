@@ -2,6 +2,8 @@
 
 import type { Repo } from '@/lib/github'
 
+type RepoWithNote = Repo & { note?: string | null }
+
 const LANG_COLORS: Record<string, string> = {
   TypeScript: '#3178c6',
   JavaScript: '#f1e05a',
@@ -27,7 +29,7 @@ function timeAgo(dateStr: string): string {
   return `${Math.floor(days / 365)} 年前`
 }
 
-export default function RepoCard({ repo, rank }: { repo: Repo; rank: number }) {
+export default function RepoCard({ repo, rank }: { repo: RepoWithNote; rank: number }) {
   const langColor = repo.language ? LANG_COLORS[repo.language] ?? '#8b949e' : '#8b949e'
 
   return (
@@ -59,9 +61,18 @@ export default function RepoCard({ repo, rank }: { repo: Repo; rank: number }) {
             </span>
           </div>
 
-          {/* 描述 */}
-          {repo.description && (
-            <p className="text-sm text-gray-600 line-clamp-2 mb-3">{repo.description}</p>
+          {/* 中文解读（优先显示） */}
+          {repo.note ? (
+            <div className="mb-3">
+              <p className="text-sm text-gray-800 leading-relaxed">{repo.note}</p>
+              {repo.description && (
+                <p className="text-xs text-gray-400 mt-1 line-clamp-1">{repo.description}</p>
+              )}
+            </div>
+          ) : (
+            repo.description && (
+              <p className="text-sm text-gray-600 line-clamp-2 mb-3">{repo.description}</p>
+            )
           )}
 
           {/* Topics */}

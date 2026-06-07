@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { searchRepos, getRepo, getTrendingRepos } from '@/lib/github'
 import { CATEGORIES, CURATED_REPOS } from '@/lib/categories'
+import curatedData from '@/data/curated.json'
+
+const NOTES: Record<string, string> = curatedData.notes
 
 export const revalidate = 3600
 
@@ -42,7 +45,12 @@ export async function GET(req: NextRequest) {
       repos = [...newCurated, ...repos]
     }
 
-    return NextResponse.json({ repos, category: category.label })
+    const reposWithNotes = repos.map((r) => ({
+      ...r,
+      note: NOTES[r.full_name] ?? null,
+    }))
+
+    return NextResponse.json({ repos: reposWithNotes, category: category.label })
   } catch (e) {
     console.error(e)
     return NextResponse.json({ error: 'Failed to fetch repos' }, { status: 500 })

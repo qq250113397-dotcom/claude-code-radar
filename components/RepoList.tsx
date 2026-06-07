@@ -2,13 +2,15 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import type { Repo } from '@/lib/github'
+
+type RepoWithNote = Repo & { note?: string | null }
 import RepoCard from './RepoCard'
 import CategoryTabs from './CategoryTabs'
 import { CATEGORIES } from '@/lib/categories'
 
 export default function RepoList() {
   const [activeCategory, setActiveCategory] = useState('claude-code')
-  const [repos, setRepos] = useState<Repo[]>([])
+  const [repos, setRepos] = useState<RepoWithNote[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
 
