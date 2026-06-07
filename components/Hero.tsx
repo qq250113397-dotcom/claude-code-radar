@@ -1,5 +1,3 @@
-'use client'
-
 export default function Hero() {
   return (
     <div className="relative bg-[#111] text-white overflow-hidden">

@@ -1,19 +1,12 @@
 'use client'
 
 import { useState, useEffect, useCallback, useMemo } from 'react'
-import type { Repo } from '@/lib/github'
+import { formatNum, type RepoWithNote } from '@/lib/utils'
 import { CATEGORIES } from '@/lib/categories'
-
-type RepoWithNote = Repo & { note?: string | null }
 
 const LANG_COLORS: Record<string, string> = {
   TypeScript: '#3178c6', JavaScript: '#f1e05a', Python: '#3572A5',
   Go: '#00ADD8', Rust: '#dea584', Java: '#b07219', 'C++': '#f34b7d', Shell: '#89e051',
-}
-
-function formatNum(n: number) {
-  if (n >= 1000) return (n / 1000).toFixed(1) + 'k'
-  return String(n)
 }
 
 function timeAgo(dateStr: string) {
@@ -55,7 +48,6 @@ function RepoCard({ repo, bookmarked, onBookmark }: {
 
   return (
     <div className="group bg-white border border-gray-200 rounded-xl p-5 hover:border-blue-400 hover:shadow-md transition-all flex flex-col">
-      {/* 头部：头像 + 名称 + 书签 */}
       <div className="flex items-start justify-between gap-2 mb-3">
         <a href={repo.html_url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 min-w-0">
           <img src={repo.owner.avatar_url} alt="" className="w-5 h-5 rounded-full shrink-0" />
@@ -77,7 +69,6 @@ function RepoCard({ repo, bookmarked, onBookmark }: {
         </button>
       </div>
 
-      {/* 描述 */}
       <div className="flex-1 mb-3">
         {repo.note ? (
           <>
@@ -93,7 +84,6 @@ function RepoCard({ repo, bookmarked, onBookmark }: {
         )}
       </div>
 
-      {/* Topics */}
       {repo.topics.length > 0 && (
         <div className="flex flex-wrap gap-1 mb-3">
           {repo.topics.slice(0, 3).map((t) => (
@@ -102,7 +92,6 @@ function RepoCard({ repo, bookmarked, onBookmark }: {
         </div>
       )}
 
-      {/* 底部统计 */}
       <div className="flex items-center gap-3 text-xs text-gray-500 pt-3 border-t border-gray-100">
         {repo.language && (
           <span className="flex items-center gap-1">
@@ -170,10 +159,8 @@ export default function RepoBoard() {
   return (
     <section id="board" className="bg-gray-50 py-16">
       <div className="max-w-6xl mx-auto px-6">
-        {/* 标题栏 */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
           <h2 className="text-2xl font-black text-gray-900">项目榜单</h2>
-          {/* 搜索 + 书签 */}
           <div className="flex items-center gap-3">
             <div className="relative">
               <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -203,7 +190,6 @@ export default function RepoBoard() {
           </div>
         </div>
 
-        {/* 分类 Tabs */}
         <div className="flex gap-2 overflow-x-auto pb-1 mb-6">
           {CATEGORIES.filter(c => c.id !== 'trending').map((cat) => (
             <button
@@ -221,7 +207,6 @@ export default function RepoBoard() {
           ))}
         </div>
 
-        {/* 分类描述 */}
         {category && !showBookmarksOnly && (
           <p className="text-sm text-gray-500 mb-6">{category.description}</p>
         )}
@@ -229,7 +214,6 @@ export default function RepoBoard() {
           <p className="text-sm text-gray-500 mb-6">你收藏的 {bookmarks.size} 个项目</p>
         )}
 
-        {/* 卡片网格 */}
         {loading && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {Array.from({ length: 9 }).map((_, i) => (

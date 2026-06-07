@@ -1,9 +1,12 @@
+import curatedData from '@/data/curated.json'
+
 export interface Category {
   id: string
   label: string
   emoji: string
   queries: string[]
   description: string
+  hasCurated?: boolean
 }
 
 export const CATEGORIES: Category[] = [
@@ -13,6 +16,7 @@ export const CATEGORIES: Category[] = [
     emoji: '🤖',
     queries: ['claude-code', 'claude code extension', 'claude code hook', 'claude code mcp'],
     description: '专为 Claude Code 打造的工具、插件、工作流',
+    hasCurated: true,
   },
   {
     id: 'mcp',
@@ -44,6 +48,5 @@ export const CATEGORIES: Category[] = [
   },
 ]
 
-import curatedData from '@/data/curated.json'
-
 export const CURATED_REPOS: string[] = curatedData.repos
+export const CURATED_NOTES: Record<string, string> = curatedData.notes

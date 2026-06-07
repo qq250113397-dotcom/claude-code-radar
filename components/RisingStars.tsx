@@ -1,14 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import type { Repo } from '@/lib/github'
-
-type RepoWithNote = Repo & { note?: string | null }
-
-function formatNum(n: number) {
-  if (n >= 1000) return (n / 1000).toFixed(1) + 'k'
-  return String(n)
-}
+import { formatNum, type RepoWithNote } from '@/lib/utils'
 
 function BigCard({ repo, rank }: { repo: RepoWithNote; rank: number }) {
   return (
@@ -94,7 +87,6 @@ export default function RisingStars() {
   return (
     <section id="rising" className="bg-[#0a0a0a] py-20">
       <div className="max-w-6xl mx-auto px-6">
-        {/* 标题 */}
         <div className="mb-12">
           <div className="text-xs font-bold tracking-[0.2em] text-yellow-400 uppercase mb-3">
             Rising This Week
@@ -118,11 +110,9 @@ export default function RisingStars() {
 
         {!loading && repos.length > 0 && (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-            {/* 大卡片 #1 */}
             <div className="lg:row-span-2">
               <BigCard repo={repos[0]} rank={1} />
             </div>
-            {/* 小卡片 #2-5 */}
             {repos.slice(1, 5).map((repo, i) => (
               <SmallCard key={repo.id} repo={repo} rank={i + 2} />
             ))}
