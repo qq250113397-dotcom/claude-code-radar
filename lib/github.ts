@@ -45,8 +45,9 @@ export async function searchRepos(query: string, sort: 'stars' | 'updated' = 'st
     headers: headers(),
   })
   if (!res.ok) {
-    console.error(`GitHub API error: ${res.status} ${res.statusText}`)
-    return []
+    const body = await res.text()
+    console.error(`GitHub API error: ${res.status} ${res.statusText} | ${body}`)
+    throw new Error(`GitHub ${res.status}: ${body.slice(0, 200)}`)
   }
   const data = await res.json()
   return data.items ?? []
