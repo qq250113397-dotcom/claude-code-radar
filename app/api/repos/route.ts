@@ -5,7 +5,7 @@ import curatedData from '@/data/curated.json'
 
 const NOTES: Record<string, string> = curatedData.notes
 
-export const revalidate = 3600
+export const runtime = 'edge'
 
 export async function GET(req: NextRequest) {
   const categoryId = req.nextUrl.searchParams.get('category') ?? 'claude-code'
