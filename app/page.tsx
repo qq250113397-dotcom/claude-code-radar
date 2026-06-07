@@ -25,6 +25,7 @@ export default function Home() {
                   <span className="text-xs font-bold text-orange-400 bg-orange-500/20 px-2 py-0.5 rounded-full">推荐</span>
                   <span className="font-semibold text-white text-sm">国内稳定使用 Claude Code</span>
                 </div>
+                <p className="text-xs text-gray-300 mb-1">用自己的账号充值会员，支持支付宝微信，享受满血 Claude Code，非中转站，token 0 水分。</p>
                 <div className="flex flex-wrap gap-x-3 gap-y-0.5">
                   <span className="text-xs text-gray-400">⚡ CF 优选订阅</span>
                   <span className="text-xs text-gray-400">🏠 住宅 IP 仅 $4.8</span>
