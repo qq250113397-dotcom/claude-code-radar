@@ -9,5 +9,5 @@
     "modelcontextprotocol/servers": "MCP 官方服务器合集，包含文件系统、数据库、浏览器等几十种工具集成，是扩展 Claude Code 能力的核心仓库。",
     "modelcontextprotocol/specification": "MCP 协议规范文档，想开发自己的 MCP 服务器必读，定义了 AI 模型与工具之间通信的标准格式。"
   },
-  "comment": "手动精选：在 GitHub 网页直接编辑此文件即可，保存后自动部署。notes 字段格式：'owner/repo': '中文解读'"
+  "comment": "自动精选：每日由 Claude Haiku 自动发现并生成解读，也可在 GitHub 网页手动编辑。"
 }
