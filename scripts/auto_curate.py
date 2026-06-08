@@ -10,7 +10,6 @@ import urllib.request
 import urllib.parse
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 
 GITHUB_HEADERS = {
     "Accept": "application/vnd.github+json",
@@ -51,7 +50,7 @@ def github_search(query: str, per_page: int = 10) -> list:
 
 
 def codex_describe(repo: dict) -> str:
-    """用 GPT-4o-mini 生成中文解读"""
+    """用 GitHub Models (gpt-4o-mini) 生成中文解读，免费，Actions 内 GITHUB_TOKEN 自动可用"""
     prompt = f"""为以下 GitHub 项目生成一句中文介绍，供 AI 编程工具榜单展示。
 
 项目名：{repo["full_name"]}
@@ -76,10 +75,10 @@ Stars：{repo["stargazers_count"]}
     }).encode()
 
     req = urllib.request.Request(
-        "https://api.openai.com/v1/chat/completions",
+        "https://models.inference.ai.azure.com/chat/completions",
         data=body,
         headers={
-            "Authorization": f"Bearer {OPENAI_API_KEY}",
+            "Authorization": f"Bearer {GITHUB_TOKEN}",
             "Content-Type": "application/json",
         },
     )
