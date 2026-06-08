@@ -2,7 +2,7 @@ name: Auto Curate
 
 on:
   schedule:
-    - cron: "0 2 * * *"   # 每天北京时间 10:00（UTC+8 = UTC 02:00）
+    - cron: "0 2 * * 1"   # 每周一北京时间 10:00（UTC+8 = UTC 02:00）
   workflow_dispatch:        # 允许手动触发
 
 jobs:

@@ -21,7 +21,7 @@ if GITHUB_TOKEN:
     GITHUB_HEADERS["Authorization"] = f"Bearer {GITHUB_TOKEN}"
 
 # 每个分类最多发现多少个新 repo（控制 Claude API 费用）
-MAX_NEW_PER_RUN = 10
+MAX_NEW_PER_RUN = 30
 
 # 各分类的搜索关键词（与 lib/categories.ts 保持一致）
 CATEGORY_QUERIES = [
