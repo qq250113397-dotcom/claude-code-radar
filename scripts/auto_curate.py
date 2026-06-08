@@ -10,7 +10,7 @@ import urllib.request
 import urllib.parse
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
+OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 
 GITHUB_HEADERS = {
     "Accept": "application/vnd.github+json",
@@ -50,8 +50,8 @@ def github_search(query: str, per_page: int = 10) -> list:
     return data.get("items", [])
 
 
-def claude_describe(repo: dict) -> str:
-    """用 Claude Haiku 生成中文解读，控制成本"""
+def codex_describe(repo: dict) -> str:
+    """用 GPT-4o-mini 生成中文解读"""
     prompt = f"""为以下 GitHub 项目生成一句中文介绍，供 AI 编程工具榜单展示。
 
 项目名：{repo["full_name"]}
@@ -70,23 +70,22 @@ Stars：{repo["stargazers_count"]}
 只输出这一句介绍，不要任何解释。"""
 
     body = json.dumps({
-        "model": "claude-haiku-4-5-20251001",
+        "model": "gpt-4o-mini",
         "max_tokens": 200,
         "messages": [{"role": "user", "content": prompt}],
     }).encode()
 
     req = urllib.request.Request(
-        "https://api.anthropic.com/v1/messages",
+        "https://api.openai.com/v1/chat/completions",
         data=body,
         headers={
-            "x-api-key": ANTHROPIC_API_KEY,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
+            "Authorization": f"Bearer {OPENAI_API_KEY}",
+            "Content-Type": "application/json",
         },
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
         result = json.loads(resp.read())
-    return result["content"][0]["text"].strip()
+    return result["choices"][0]["message"]["content"].strip()
 
 
 def main():
@@ -135,7 +134,7 @@ def main():
         full_name = repo["full_name"]
         print(f"  生成: {full_name} (⭐{repo['stargazers_count']})")
         try:
-            note = claude_describe(repo)
+            note = codex_describe(repo)
             print(f"    → {note}")
             existing_notes[full_name] = note
             if full_name not in existing_repos:
