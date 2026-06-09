@@ -38,7 +38,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-12">
         <div className="flex-1">
           <div className="text-xs font-bold tracking-[0.2em] text-blue-400 mb-5 uppercase">
-            AI Coding Tools Radar · 每小时自动更新
+            AI 编程工具雷达 · 每小时自动更新
           </div>
           <h1 className="text-5xl lg:text-7xl font-black leading-none mb-6 tracking-tight">
             Claude Code<br />
@@ -65,23 +65,23 @@ export default function Hero() {
 
         {/* 统计卡片 */}
         <div className="w-full lg:w-72 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur shrink-0">
-          <div className="text-[10px] font-bold tracking-[0.2em] text-gray-500 mb-1">SELECTION INDEX</div>
+          <div className="text-[10px] font-bold tracking-[0.2em] text-gray-500 mb-1">精选总览</div>
           <div className="text-7xl font-black mb-6 leading-none">200+</div>
           <div className="grid grid-cols-2 gap-3 mb-4">
             <div className="bg-white/5 border border-white/10 rounded-xl p-3">
-              <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-1">TRACKS</div>
+              <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-1">分类</div>
               <div className="text-2xl font-black">{TRACK_COUNT}</div>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-xl p-3">
-              <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-1">RISING</div>
+              <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-1">新星</div>
               <div className="text-2xl font-black text-yellow-400">20</div>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-xl p-3">
-              <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-1">UPDATE</div>
-              <div className="text-2xl font-black">1h</div>
+              <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-1">更新</div>
+              <div className="text-2xl font-black">1小时</div>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-xl p-3">
-              <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-1">SOURCE</div>
+              <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-1">来源</div>
               <div className="text-2xl font-black">GH</div>
             </div>
           </div>

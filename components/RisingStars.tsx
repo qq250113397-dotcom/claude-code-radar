@@ -89,7 +89,7 @@ export default function RisingStars() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="mb-12">
           <div className="text-xs font-bold tracking-[0.2em] text-yellow-400 uppercase mb-3">
-            Rising This Week
+            本周热榜
           </div>
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
             <h2 className="text-white text-4xl font-black">明星项目</h2>
