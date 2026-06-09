@@ -71,16 +71,9 @@ function RepoCard({ repo, bookmarked, onBookmark }: {
 
       <div className="flex-1 mb-3">
         {repo.note ? (
-          <>
-            <p className="text-sm text-gray-800 leading-relaxed mb-1">{repo.note}</p>
-            {repo.description && (
-              <p className="text-xs text-gray-400 line-clamp-1">{repo.description}</p>
-            )}
-          </>
+          <p className="text-sm text-gray-800 leading-relaxed">{repo.note}</p>
         ) : (
-          repo.description && (
-            <p className="text-sm text-gray-600 leading-relaxed line-clamp-2">{repo.description}</p>
-          )
+          <p className="text-xs text-gray-400 italic">暂无中文解读</p>
         )}
       </div>
 

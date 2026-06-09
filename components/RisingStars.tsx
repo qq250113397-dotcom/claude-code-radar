@@ -25,9 +25,7 @@ function BigCard({ repo, rank }: { repo: RepoWithNote; rank: number }) {
       {repo.note ? (
         <p className="text-gray-700 text-base leading-relaxed mb-6">{repo.note}</p>
       ) : (
-        repo.description && (
-          <p className="text-gray-600 text-base leading-relaxed mb-6 line-clamp-3">{repo.description}</p>
-        )
+        <p className="text-gray-400 text-sm italic mb-6">暂无中文解读</p>
       )}
       <div className="flex flex-wrap gap-2 mt-auto">
         {repo.topics.slice(0, 4).map((t) => (
@@ -58,9 +56,7 @@ function SmallCard({ repo, rank }: { repo: RepoWithNote; rank: number }) {
       {repo.note ? (
         <p className="text-gray-400 text-xs leading-relaxed mb-3 line-clamp-2">{repo.note}</p>
       ) : (
-        repo.description && (
-          <p className="text-gray-400 text-xs leading-relaxed mb-3 line-clamp-2">{repo.description}</p>
-        )
+        <p className="text-gray-600 text-xs italic mb-3">暂无中文解读</p>
       )}
       <div className="flex flex-wrap gap-1">
         {repo.topics.slice(0, 3).map((t) => (
