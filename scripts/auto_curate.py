@@ -10,7 +10,8 @@ import urllib.request
 import urllib.parse
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-GROQ_API_KEY = os.environ["GROQ_API_KEY"]
+CF_API_TOKEN = os.environ["CF_API_TOKEN"]
+CF_ACCOUNT_ID = os.environ["CF_ACCOUNT_ID"]
 
 GITHUB_HEADERS = {
     "Accept": "application/vnd.github+json",
@@ -51,7 +52,7 @@ def github_search(query: str, per_page: int = 10) -> list:
 
 
 def codex_describe(repo: dict) -> str:
-    """用 Groq Llama 3.3 70B 生成中文解读（免费，无需绑卡，30次/分钟）"""
+    """用 Cloudflare Workers AI Llama 3.1 生成中文解读（免费 10000次/天，不封 GitHub Actions IP）"""
     prompt = f"""为以下 GitHub 项目生成一句中文介绍，供 AI 编程工具榜单展示。
 
 项目名：{repo["full_name"]}
@@ -70,23 +71,23 @@ Stars：{repo["stargazers_count"]}
 只输出这一句介绍，不要任何解释。"""
 
     body = json.dumps({
-        "model": "llama3-70b-8192",
-        "max_tokens": 200,
         "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": 200,
     }).encode()
 
+    url = f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT_ID}/ai/run/@cf/meta/llama-3.1-8b-instruct"
     req = urllib.request.Request(
-        "https://api.groq.com/openai/v1/chat/completions",
+        url,
         data=body,
         headers={
-            "Authorization": f"Bearer {GROQ_API_KEY}",
+            "Authorization": f"Bearer {CF_API_TOKEN}",
             "Content-Type": "application/json",
         },
     )
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             result = json.loads(resp.read())
-        return result["choices"][0]["message"]["content"].strip()
+        return result["result"]["response"].strip()
     except urllib.error.HTTPError as e:
         err_body = e.read().decode(errors="replace")
         raise RuntimeError(f"HTTP {e.code}: {err_body[:300]}")
