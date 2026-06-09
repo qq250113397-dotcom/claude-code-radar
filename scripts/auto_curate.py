@@ -38,6 +38,17 @@ CATEGORY_CONFIGS = {
         "max_new": 30,
         "min_stars": 100,
     },
+    "ai-agent": {
+        "queries": [
+            "ai agent llm",
+            "autonomous agent framework",
+            "agent memory optimization",
+            "llm agent evaluation",
+            "ai agent enhancement",
+        ],
+        "max_new": 5,
+        "min_stars": 100,
+    },
     "ecommerce": {
         "queries": [
             "ecommerce ai agent",
@@ -60,16 +71,16 @@ CATEGORY_CONFIGS = {
         "max_new": 5,
         "min_stars": 50,
     },
-    "agent-boost": {
+    "short-drama": {
         "queries": [
-            "agent memory llm",
-            "llm agent optimization",
-            "agent evaluation framework",
-            "prompt engineering tool",
-            "ai agent enhancement",
+            "ai short video generation",
+            "ai video script",
+            "ai film production",
+            "ai storytelling video",
+            "ai short drama",
         ],
         "max_new": 5,
-        "min_stars": 100,
+        "min_stars": 50,
     },
     "education": {
         "queries": [

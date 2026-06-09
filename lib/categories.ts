@@ -29,8 +29,9 @@ export const CATEGORIES: Category[] = [
     id: 'ai-agent',
     label: 'AI Agent',
     emoji: '🧠',
-    queries: ['ai agent llm', 'autonomous agent', 'llm agent framework'],
-    description: 'AI Agent 框架与自动化工具',
+    queries: ['ai agent llm', 'autonomous agent', 'llm agent framework', 'agent memory optimization'],
+    description: 'AI Agent 框架、自动化工具与能力增强',
+    hasCurated: true,
   },
   {
     id: 'ai-coding',
@@ -56,11 +57,11 @@ export const CATEGORIES: Category[] = [
     hasCurated: true,
   },
   {
-    id: 'agent-boost',
-    label: 'Agent 增强',
-    emoji: '⚡',
-    queries: ['agent memory llm', 'llm agent optimization', 'agent evaluation framework'],
-    description: '让 AI Agent 更聪明、更高效的增强与优化工具',
+    id: 'short-drama',
+    label: '短剧制作',
+    emoji: '🎬',
+    queries: ['ai short video', 'ai video script', 'ai video generation story', 'ai film production'],
+    description: 'AI 驱动的短剧、短视频创作工具，覆盖剧本、生成、剪辑全流程',
     hasCurated: true,
   },
   {

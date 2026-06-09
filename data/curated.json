@@ -163,22 +163,6 @@
       "fspecii/ace-step-ui": "ACE-Step UI 是一款开源的专业UI工具，专为ACE-Step 1.5 AI音乐生成提供免费、本地、无限的解决方案。"
     }
   },
-  "agent-boost": {
-    "repos": [
-      "affaan-m/ECC",
-      "bytedance/deer-flow",
-      "mem0ai/mem0",
-      "zhayujie/CowAgent",
-      "danny-avila/LibreChat"
-    ],
-    "notes": {
-      "affaan-m/ECC": "ECC 是一款 AI 代理性能优化系统，专为 Claude Code 等 AI 编程工具提供技能、直觉、记忆、安全和研究优先开发能力。",
-      "bytedance/deer-flow": "bytedance/deer-flow 是一个开源的长期任务 SuperAgent 框架，通过沙盒、记忆、工具、技能、子代理和消息网关等功能，帮助处理可能需要几分钟到几小时的任务。",
-      "mem0ai/mem0": "mem0 是一款通用 AI 代理层，提供了核心的 AI 能力",
-      "zhayujie/CowAgent": "CowAgent是开源的超级AI助手，能够独立规划任务、运行工具和技能，并随着记忆和知识的增长而自主成长。",
-      "danny-avila/LibreChat": "LibreChat 是一个增强版的 ChatGPT 克隆，提供了强大的 AI 模型，如 Agents、MCP 和 GPT-5，支持自定义 AI 模型切换和消息搜索等功能。"
-    }
-  },
   "education": {
     "repos": [
       "fighting41love/funNLP",
@@ -194,5 +178,13 @@
       "umlx5h/LLPlayer": "LLPlayer 是一个媒体播放器，专为语言学习设计，提供双字幕、AI生成字幕、实时翻译等功能。",
       "aadi1011/AI-ML-Roadmap-from-scratch": "AI-ML-Roadmap-from-scratch 是一份从零开始的机器学习和人工智能学习资源仓库，旨在帮助用户掌握数据科学、深度学习、自然语言处理等多个领域。"
     }
+  },
+  "ai-agent": {
+    "repos": [],
+    "notes": {}
+  },
+  "short-drama": {
+    "repos": [],
+    "notes": {}
   }
 }
