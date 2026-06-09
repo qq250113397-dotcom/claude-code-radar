@@ -1,3 +1,7 @@
+import { CATEGORIES } from '@/lib/categories'
+
+const TRACK_COUNT = CATEGORIES.filter((c) => c.id !== 'trending').length
+
 export default function Hero() {
   return (
     <div className="relative bg-[#111] text-white overflow-hidden">
@@ -66,7 +70,7 @@ export default function Hero() {
           <div className="grid grid-cols-2 gap-3 mb-4">
             <div className="bg-white/5 border border-white/10 rounded-xl p-3">
               <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-1">TRACKS</div>
-              <div className="text-2xl font-black">5</div>
+              <div className="text-2xl font-black">{TRACK_COUNT}</div>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-xl p-3">
               <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-1">RISING</div>

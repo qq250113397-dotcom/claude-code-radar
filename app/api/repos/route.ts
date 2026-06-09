@@ -34,7 +34,7 @@ async function fetchRepos(
   if (category.hasCurated) {
     const curated = getCuratedForCategory(categoryId)
     notes = curated.notes
-    const fetched = await Promise.all(curated.repos.map((r) => getRepo(r)))
+    const fetched = await Promise.all(curated.repos.slice(0, 20).map((r) => getRepo(r)))
     const curatedValid = fetched.filter(Boolean) as Repo[]
     const existingIds = new Set(repos.map((r) => r.id))
     repos = [...curatedValid.filter((r) => !existingIds.has(r.id)), ...repos]
