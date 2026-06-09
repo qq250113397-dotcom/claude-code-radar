@@ -63,7 +63,29 @@
       "diet103/claude-code-infrastructure-showcase",
       "mark3labs/mcp-go",
       "AgriciDaniel/claude-seo",
-      "sweepai/sweep"
+      "sweepai/sweep",
+      "refly-ai/refly",
+      "github/CopilotForXcode",
+      "ChrisWiles/claude-code-showcase",
+      "datawhalechina/vibe-vibe",
+      "kodu-ai/claude-coder",
+      "the-open-agent/openagent",
+      "cloudflare/vibesdk",
+      "filipecalegario/awesome-vibe-coding",
+      "entireio/cli",
+      "parcadei/Continuous-Claude-v3",
+      "disler/claude-code-hooks-mastery",
+      "Manavarya09/design-extract",
+      "davepoon/buildwithclaude",
+      "giancarloerra/SocratiCode",
+      "coder/claudecode.nvim",
+      "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+      "rohitg00/awesome-claude-code-toolkit",
+      "ComposioHQ/awesome-claude-plugins",
+      "nicobailon/pi-mcp-adapter",
+      "Rishurajgautam24/free-claude-code",
+      "jasonjmcghee/claude-debugs-for-you",
+      "VikashLoomba/copilot-mcp"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -128,7 +150,29 @@
       "diet103/claude-code-infrastructure-showcase": "diet103/claude-code-infrastructure-showcase 是一套 Claude Code 基础设施示例，展示了技能自动激活、钩子和代理的应用，帮助用户构建高效的 AI 编程环境。",
       "mark3labs/mcp-go": "mark3labs/mcp-go 是一个 Go 实现的模型上下文协议，优化了大语言模型应用与外部数据源和工具的整合。",
       "AgriciDaniel/claude-seo": "Claude SEO 是一款通用 SEO 能力，涵盖 25 个子技能和 18 个子代理，帮助您提升技术 SEO、E-E-A-T、schema、GEO/AEO 等多个方面的能力。",
-      "sweepai/sweep": "Sweep 是一款 JetBrains 的 AI 编程助手，帮助开发者高效编码，核心价值在于智能代码完成和建议。"
+      "sweepai/sweep": "Sweep 是一款 JetBrains 的 AI 编程助手，帮助开发者高效编码，核心价值在于智能代码完成和建议。",
+      "refly-ai/refly": "refly-ai/refly 是一个开源的智能代理技能构建器，基于 vibe 工作流定义技能，支持多种 AI 引擎，包括 Claude Code 等，构建自定义技能而非依赖提示。",
+      "github/CopilotForXcode": "CopilotForXcode 是一款 AI 编程助手，帮助开发者自动完成代码任务，提高工作效率。",
+      "ChrisWiles/claude-code-showcase": "ChrisWiles/claude-code-showcase 是一套 Claude Code 项目配置示例，包含 hooks、技能、代理、命令和 GitHub Actions 工作流，帮助用户高效管理 AI 编程项目。",
+      "datawhalechina/vibe-vibe": "Vibe-Vibe 是一款全栈编程实战系统，帮助零基础用户通过 AI 实现自己的想法与创意。",
+      "kodu-ai/claude-coder": "Claude Coder 是一个 VSCode 扩展，生活在你的 IDE 中，它可以帮助你一步一步地构建梦想项目，利用自动化编码代理的最新技术。",
+      "the-open-agent/openagent": "开源个人AI助手OpenAgent，基于LLM、RAG和代理循环，支持计算机、浏览器和编码代理，极大提高开发效率。",
+      "cloudflare/vibesdk": "Cloudflare/vibesdk 是一个开源的编程平台，帮助您构建自己的编程平台，基于 Cloudflare 栈，专注于 AI 编程和实用编程体验。",
+      "filipecalegario/awesome-vibe-coding": "Awesome Vibe Coding 是一份精选的编程参考列表，通过与 AI 合作来辅助编写代码，帮助开发者提高编程效率。",
+      "entireio/cli": "Entire CLI 是一个钩子工具，集成到 Git 工作流中，捕捉 AI 代理会话记录，方便查找代码编写历史。",
+      "parcadei/Continuous-Claude-v3": "Continuous-Claude-v3 是一个用于管理 Claude Code 上下文的工具，通过 Hooks 和手续本来维持状态，实现 MCP 执行和代理协调。",
+      "disler/claude-code-hooks-mastery": "CLAUD Code Hooks Mastery 是一款辅助 AI 编程的工具，帮助用户高效利用 Claude Code 功能。",
+      "Manavarya09/design-extract": "Manavarya09/design-extract 是一个用于提取网站设计系统的工具，利用它可以快速获取任何网站的完整设计系统，特别适合Claude Code/AI编程用户。",
+      "davepoon/buildwithclaude": "Davepoon/buildwithclaude 是一个集成平台，帮助您找到扩展 Claude Code、Claude Desktop、Agent SDK 和 OpenClaw 等的技能、代理、命令、钩子、插件和市场收藏。",
+      "giancarloerra/SocratiCode": "SocratiCode 是一款企业级代码智能工具，提供零配置、局部和私有插件/技能/扩展或 MCP，带来语义搜索、多语言依赖图、符号级影响分析和交互式 HTML 查看等功能，显著提高开发效率。",
+      "coder/claudecode.nvim": "Claude Code Neovim IDE Extension 是一款为 Claude Code 用户打造的 Neovim IDE 扩展，赋予你更高效的 AI 编程体验。",
+      "wesammustafa/Claude-Code-Everything-You-Need-to-Know": "Claude-Code-Everything-You-Need-to-Know 是一份全面指南，帮助你掌握 Claude Code 的所有必要知识，通过设置、提示工程、命令、钩子、工作流、自动化和集成等方面，实现高效的 AI 编程。",
+      "rohitg00/awesome-claude-code-toolkit": "Awesome-Claude-Code-Toolkit 是一款为 Claude Code 提供全面支持的工具集，包含各种可定制的技能、命令和插件，帮助开发者高效工作。",
+      "ComposioHQ/awesome-claude-plugins": "awesome-claude-plugins 是一个扩展 Claude Code 的插件系统，允许用户通过自定义命令、代理、钩子和 MCP 服务器来增强 AI 编程体验。",
+      "nicobailon/pi-mcp-adapter": "nicobailon/pi-mcp-adapter 是一个高效的 Token 模型适配器，专为 Claude Code 和 AI 编程用户打造，可以显著提高编码效率。",
+      "Rishurajgautam24/free-claude-code": "使用 Claude Code 的终端、VSCode 扩展或 Discord，获取免费的 AI 编程体验",
+      "jasonjmcghee/claude-debugs-for-you": "CLAUDÉ-Debugs-for-you 是一款 VS Code 扩展，允许任何 LLM（如 Claude）通过 MCP 交互式地为您调试任何语言。",
+      "VikashLoomba/copilot-mcp": "VikashLoomba/copilot-mcp 是一款 VSCode 扩展，帮助你发现和安装适用于 GitHub Copilot、Claude Code 和 Codex CLI 的 Agent Skills 和 MCP Apps。"
     }
   },
   "ecommerce": {
@@ -137,14 +181,24 @@
       "rush86999/atom",
       "Blazity/enterprise-commerce",
       "Shopify/Shopify-AI-Toolkit",
-      "MugglePay/MugglePay"
+      "MugglePay/MugglePay",
+      "nexscope-ai/Amazon-Skills",
+      "nexscope-ai/eCommerce-Skills",
+      "microsoft/Deploy-Your-AI-Application-In-Production",
+      "piyushpathak03/Recommendation-systems",
+      "CatchTheTornado/open-agents-builder"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
       "rush86999/atom": "Atom Agent 是一个 AI 代理工具，让你通过与它对话来自动化工作流程，记住、搜索和处理任务如同一个真正的助手。",
       "Blazity/enterprise-commerce": "Blazity/enterprise-commerce 是一款高性能电子商务前端解决方案，基于 Shopify 后端和 Algolia 中间层，提供优异的浏览体验",
       "Shopify/Shopify-AI-Toolkit": "Shopify-AI-Toolkit是一套用于 CLI 和 IDE 的智能代理插件，帮助开发者更高效地编程。",
-      "MugglePay/MugglePay": "MugglePay 是一款基于加密货币的支付工具，帮助商家和 AI 代理接受加密货币并通过它销售更多产品。"
+      "MugglePay/MugglePay": "MugglePay 是一款基于加密货币的支付工具，帮助商家和 AI 代理接受加密货币并通过它销售更多产品。",
+      "nexscope-ai/Amazon-Skills": "Amazon-Skills 是一套免费的 AI 代理技能，适用于 Amazon 销售商，提供关键词研究、竞争分析、列表审计等功能。",
+      "nexscope-ai/eCommerce-Skills": "eCommerce-Skills 是一套 AI 代理技能套件，帮助在线卖家实现产品研究、营销自动化、供应链优化和商业分析等功能，适用于 Amazon、Shopify、Etsy、TikTok Shop 等多个平台。",
+      "microsoft/Deploy-Your-AI-Application-In-Production": "Deploy-Your-AI-Application-In-Production 是一个安全、可扩展的环境，用于在生产中运行 AI Foundry 应用程序，简化了包括 Azure 服务在内的关键服务的过程。",
+      "piyushpathak03/Recommendation-systems": "Recommendation Systems 是一个使用机器学习和深度学习技术构建推荐系统的工作室，核心价值在于帮助用户快速搭建高效的推荐系统。",
+      "CatchTheTornado/open-agents-builder": "CatchTheTornado/open-agents-builder 是一个用于构建企业级 AI 代理的工具，帮助公司创建业务流程、API 接口、预约系统、电子商务平台等高效的数字化解决方案。"
     }
   },
   "design": {
@@ -153,14 +207,24 @@
       "creativetimofficial/ui",
       "DouyinFE/semi-design",
       "grab/cursor-talk-to-figma-mcp",
-      "fspecii/ace-step-ui"
+      "fspecii/ace-step-ui",
+      "SwanHubX/SwanLab",
+      "benjitaylor/agentation",
+      "nyldn/claude-octopus",
+      "ZSeven-W/openpencil",
+      "mvanhorn/cli-printing-press"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
       "creativetimofficial/ui": "creativetimofficial/ui 是一个开源组件和 AI 代理集合，旨在加速您的工作流程，通过 Registry 和 MCPs 可以轻松导入您的喜爱工具。",
       "DouyinFE/semi-design": "Semi Design 是一款现代化的、全面而灵活的设计系统和 React UI 库，内置 AI 友好功能，提供 3000+ 设计令牌，让你轻松构建设计系统仅需一键设计到代码。",
       "grab/cursor-talk-to-figma-mcp": "TalkToFigma 是一个将 AI 代理 (Cursor, Claude Code) 与 Figma 集成的工具，允许 Agentic AI 与 Figma 进行通信，读取设计并程序化修改它们。",
-      "fspecii/ace-step-ui": "ACE-Step UI 是一款开源的专业UI工具，专为ACE-Step 1.5 AI音乐生成提供免费、本地、无限的解决方案。"
+      "fspecii/ace-step-ui": "ACE-Step UI 是一款开源的专业UI工具，专为ACE-Step 1.5 AI音乐生成提供免费、本地、无限的解决方案。",
+      "SwanHubX/SwanLab": "SwanLab 是一款开源的、现代设计的 AI 训练跟踪和可视化工具，专为数据科学家和深度学习工程师打造，帮助您高效地管理和优化 AI 训练过程。",
+      "benjitaylor/agentation": "Agentation 是一款视觉反馈工具，帮助开发者更好地理解和优化 AI 代理行为。",
+      "nyldn/claude-octopus": "Claude-Octopus 是一个用于在每个研究、设计或编码任务中托管多个 AI 模型的工具，帮助你在发布前识别 AI blindspots。",
+      "ZSeven-W/openpencil": "开放源码的openpencil是世界上第一个支持AI原生矢量设计的工具，具备协同Agent团队功能，设计即代码，直接将提示转换为UI，现代替代品Pencil。",
+      "mvanhorn/cli-printing-press": "mvanhorn/cli-printing-press 是一款强大的 CLI 工具，面向 AI 代理首创，集成各种功能，提供 SQLite 同步、离线搜索和复合见解命令。"
     }
   },
   "education": {
@@ -169,22 +233,54 @@
       "microsoft/ai-edu",
       "HuaizhengZhang/AI-Infra-from-Zero-to-Hero",
       "umlx5h/LLPlayer",
-      "aadi1011/AI-ML-Roadmap-from-scratch"
+      "aadi1011/AI-ML-Roadmap-from-scratch",
+      "jonyzhang2023/awesome-embodied-vla-va-vln",
+      "noahshinn/reflexion",
+      "asyml/texar",
+      "WenyuChiou/awesome-agentic-ai-zh"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
       "microsoft/ai-edu": "microsoft/ai-edu 是一套为中国学生、教师和IT专业人士提供的人工智能教育资源，帮助他们掌握人工智能领域的核心知识和技能。",
       "HuaizhengZhang/AI-Infra-from-Zero-to-Hero": "AI-Infra-from-Zero-to-Hero 是一套强大的机器学习系统解决方案，提供了从基础架构到实践应用的全面支持。",
       "umlx5h/LLPlayer": "LLPlayer 是一个媒体播放器，专为语言学习设计，提供双字幕、AI生成字幕、实时翻译等功能。",
-      "aadi1011/AI-ML-Roadmap-from-scratch": "AI-ML-Roadmap-from-scratch 是一份从零开始的机器学习和人工智能学习资源仓库，旨在帮助用户掌握数据科学、深度学习、自然语言处理等多个领域。"
+      "aadi1011/AI-ML-Roadmap-from-scratch": "AI-ML-Roadmap-from-scratch 是一份从零开始的机器学习和人工智能学习资源仓库，旨在帮助用户掌握数据科学、深度学习、自然语言处理等多个领域。",
+      "jonyzhang2023/awesome-embodied-vla-va-vln": "awesome-embodied-vla-va-vln 是一份聚合了当前最前沿视觉语言行动模型和视觉语言导航技术的资源清单",
+      "noahshinn/reflexion": "Reflexion 是一款语言代理工具，基于 Verbal Reinforcement Learning 实现，可以帮助开发者训练更强大的语言模型。",
+      "asyml/texar": "asyml/texar 是一个基于 TensorFlow 的机器学习、自然语言处理和文本生成工具集，旨在为深度学习和对话系统提供核心功能",
+      "WenyuChiou/awesome-agentic-ai-zh": "Awesome-агentic-ai-zh 是一份中英双语的 AI 代理学习路线图，涵盖了从 LLM 基础到多智能体系统的 240+ 精选资源和实践案例。"
     }
   },
   "ai-agent": {
-    "repos": [],
-    "notes": {}
+    "repos": [
+      "affaan-m/ECC",
+      "NousResearch/hermes-agent",
+      "langgenius/dify",
+      "langchain-ai/langchain",
+      "Shubhamsaboo/awesome-llm-apps"
+    ],
+    "notes": {
+      "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
+      "NousResearch/hermes-agent": "NousResearch/hermes-agent 是一款 AI 代理工具，可以帮助你持续成长和发展",
+      "langgenius/dify": "Dify 是一款生产就绪的智能工作流开发平台，帮助您快速构建高效的AI工作流。",
+      "langchain-ai/langchain": "langchain 是一款 AI 代理工程平台，帮助开发者构建高效的 AI 代理，实现智能交互和决策。",
+      "Shubhamsaboo/awesome-llm-apps": "awesome-llm-apps 是一个包含超过 100 个可运行的 AI 代理和 RAG 应用程序的集合，允许您克隆、定制和部署这些应用程序。"
+    }
   },
   "short-drama": {
-    "repos": [],
-    "notes": {}
+    "repos": [
+      "safishamsi/graphify",
+      "waooAI/waoowaoo",
+      "chatfire-AI/huobao-drama",
+      "HBAI-Ltd/Toonflow-app",
+      "YILS-LIN/short-video-factory"
+    ],
+    "notes": {
+      "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
+      "waooAI/waoowaoo": "waooAI/waoowaoo 是一款工业级全流程 AI 影视生产平台，提供可控的电影和视频制作流程。",
+      "chatfire-AI/huobao-drama": "火宝短剧是一款基于AI的短剧生成平台，通过一句话即可生成完整的剧本和视频。",
+      "HBAI-Ltd/Toonflow-app": "Toonflow 是一款开源 AI 短剧创作工具，可以快速将小说和剧本转化为动画短剧，帮助创作者低成本批量产出视觉内容。",
+      "YILS-LIN/short-video-factory": "短视频工厂是一款AI批量自动剪辑的跨平台桌面端工具，帮助你快速生成高颜值的产品营销与泛内容短视频。"
+    }
   }
 }
