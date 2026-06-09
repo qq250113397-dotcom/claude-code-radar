@@ -61,12 +61,18 @@ export async function GET(req: NextRequest) {
 
     const { repos, label, notes } = await fetchRepos(categoryId)
 
-    const reposWithNotes = await Promise.all(
-      repos.map(async (r) => {
-        const note = notes[r.full_name] ?? await translateToZh(r.description ?? '', r.full_name)
-        return { ...r, note }
-      })
-    )
+    // 限制最多 5 个并发翻译，避免同时打爆 CF Workers AI
+    const reposWithNotes: (typeof repos[number] & { note: string | null | undefined })[] = []
+    for (let i = 0; i < repos.length; i += 5) {
+      const batch = repos.slice(i, i + 5)
+      const results = await Promise.all(
+        batch.map(async (r) => {
+          const note = notes[r.full_name] ?? await translateToZh(r.description ?? '', r.full_name)
+          return { ...r, note }
+        })
+      )
+      reposWithNotes.push(...results)
+    }
 
     apiCache.set(categoryId, { repos: reposWithNotes, label, expiresAt: Date.now() + CACHE_TTL })
 

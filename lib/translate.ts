@@ -10,6 +10,8 @@ export async function translateToZh(text: string, cacheKey: string): Promise<str
   if (!CF_API_TOKEN || !CF_ACCOUNT_ID) return null
 
   try {
+    const controller = new AbortController()
+    const timer = setTimeout(() => controller.abort(), 3000)
     const res = await fetch(
       `https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/ai/run/@cf/meta/llama-3.1-8b-instruct`,
       {
@@ -22,8 +24,10 @@ export async function translateToZh(text: string, cacheKey: string): Promise<str
           messages: [{ role: 'user', content: `将以下英文翻译成中文，只输出译文，不要任何解释：${text}` }],
           max_tokens: 150,
         }),
+        signal: controller.signal,
       }
     )
+    clearTimeout(timer)
     if (!res.ok) return null
     const data = await res.json()
     const translated: string = data?.result?.response?.trim() || ''
