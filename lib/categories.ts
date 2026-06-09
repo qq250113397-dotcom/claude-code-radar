@@ -64,6 +64,14 @@ export const CATEGORIES: Category[] = [
     hasCurated: true,
   },
   {
+    id: 'education',
+    label: '学习辅助',
+    emoji: '📚',
+    queries: ['ai english learning', 'ai math tutor', 'ai education student', 'ai language learning'],
+    description: 'AI 驱动的学习工具，覆盖英语、数学、编程等各类学科',
+    hasCurated: true,
+  },
+  {
     id: 'trending',
     label: '本周新星',
     emoji: '🚀',

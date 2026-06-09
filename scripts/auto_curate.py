@@ -71,6 +71,17 @@ CATEGORY_CONFIGS = {
         "max_new": 5,
         "min_stars": 100,
     },
+    "education": {
+        "queries": [
+            "ai english learning",
+            "ai math tutor",
+            "ai education student",
+            "ai language learning",
+            "ai homework helper",
+        ],
+        "max_new": 5,
+        "min_stars": 50,
+    },
 }
 
 
