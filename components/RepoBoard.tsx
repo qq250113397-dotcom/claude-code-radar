@@ -73,7 +73,7 @@ function RepoCard({ repo, bookmarked, onBookmark }: {
         {repo.note ? (
           <p className="text-sm text-gray-800 leading-relaxed">{repo.note}</p>
         ) : (
-          <p className="text-xs text-gray-400 italic">暂无中文解读</p>
+          <p className="text-xs text-gray-400 italic">解读生成中…</p>
         )}
       </div>
 

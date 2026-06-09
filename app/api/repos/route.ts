@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { searchRepos, getRepo, getTrendingRepos } from '@/lib/github'
 import { CATEGORIES, getCuratedForCategory } from '@/lib/categories'
 import { isBlocked } from '@/lib/blocklist'
+import { translateToZh } from '@/lib/translate'
 import type { Repo } from '@/lib/github'
 
 export const runtime = 'nodejs'
@@ -60,10 +61,12 @@ export async function GET(req: NextRequest) {
 
     const { repos, label, notes } = await fetchRepos(categoryId)
 
-    const reposWithNotes = repos.map((r) => ({
-      ...r,
-      note: notes[r.full_name] ?? null,
-    }))
+    const reposWithNotes = await Promise.all(
+      repos.map(async (r) => {
+        const note = notes[r.full_name] ?? await translateToZh(r.description ?? '', r.full_name)
+        return { ...r, note }
+      })
+    )
 
     apiCache.set(categoryId, { repos: reposWithNotes, label, expiresAt: Date.now() + CACHE_TTL })
 
