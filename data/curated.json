@@ -33,7 +33,37 @@
       "safishamsi/graphify",
       "mem0ai/mem0",
       "gsd-build/get-shit-done",
-      "bytedance/deer-flow"
+      "bytedance/deer-flow",
+      "hesreallyhim/awesome-claude-code",
+      "PostHog/posthog",
+      "microsoft/playwright-mcp",
+      "TabbyML/tabby",
+      "Alishahryar1/free-claude-code",
+      "github/github-mcp-server",
+      "iOfficeAI/AionUi",
+      "BloopAI/vibe-kanban",
+      "PrefectHQ/fastmcp",
+      "modelcontextprotocol/python-sdk",
+      "activepieces/activepieces",
+      "2025Emma/vibe-coding-cn",
+      "chopratejas/headroom",
+      "datawhalechina/easy-vibe",
+      "microsoft/mcp-for-beginners",
+      "googleapis/mcp-toolbox",
+      "liyupi/ai-guide",
+      "GLips/Figma-Context-MCP",
+      "casdoor/casdoor",
+      "coleam00/context-engineering-intro",
+      "modelcontextprotocol/typescript-sdk",
+      "tadata-org/fastapi_mcp",
+      "chenhg5/cc-connect",
+      "hangwin/mcp-chrome",
+      "CoplayDev/unity-mcp",
+      "mcp-use/mcp-use",
+      "diet103/claude-code-infrastructure-showcase",
+      "mark3labs/mcp-go",
+      "AgriciDaniel/claude-seo",
+      "sweepai/sweep"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -68,23 +98,101 @@
       "shanraisshan/claude-code-best-practice": "CLAUD Code 最佳实践工具，帮助您从编码习惯转向主动工程，通过实践使您的 AI 编程达到完美。",
       "Fission-AI/OpenSpec": "OpenSpec 是一款 AI 编程助手的规范驱动开发工具，帮助您以更加高效的方式规划和编写代码。",
       "aaif-goose/goose": "AAIF Goose 是一款开源、可扩展的 AI 代理，超越代码建议，支持安装、执行、编辑和测试任何 LLM。",
-      "CherryHQ/cherry-studio": "Cherry Studio 是一款 AI 产品效率工作室，集成智能聊天、自主代理和 300+ 助手，提供统一访问前沿 LLMs。"
+      "CherryHQ/cherry-studio": "Cherry Studio 是一款 AI 产品效率工作室，集成智能聊天、自主代理和 300+ 助手，提供统一访问前沿 LLMs。",
+      "hesreallyhim/awesome-claude-code": "awesome-claude-code 是一份为 Claude Code 用户精心收集的技能、钩子、命令、代理协调员、应用程序和插件清单，帮助您提高 AI 编程效率。",
+      "PostHog/posthog": "PostHog 是一款全能开发者平台，帮助你构建成功产品，核心价值在于快速调试代码、加速功能发布和统一管理所有使用和客户数据。",
+      "microsoft/playwright-mcp": "Playwright MCP 服务是一款用于测试和自动化的服务器工具，核心价值在于为开发者提供高效的测试体验",
+      "TabbyML/tabby": "TabbyML/tabby 是一款自主部署的 AI 编码助手，提供高效的编码体验。",
+      "Alishahryar1/free-claude-code": "Claude Code 是一个终端、VSCode 扩展和 Discord 的 AI 编程工具，允许您免费使用 AI 编程功能。",
+      "github/github-mcp-server": "github.github-mcp-server 是 GitHub 官方的 MCP 服务器，提供高效的代码托管和协作体验。",
+      "iOfficeAI/AionUi": "AionUi 是一款免费、开源的本地协作应用，支持多种 CLI 工具，允许用户自定义助手，提高工作效率。",
+      "BloopAI/vibe-kanban": "Vibe-kanban 是一个实用的工具，帮助您充分利用 Claude Code 或任何编码代理，提高工作效率。",
+      "PrefectHQ/fastmcp": "Fastmcp 是一款快速、Pythonic 的 MCP 服务器和客户端构建工具，提供高效的构建体验。",
+      "modelcontextprotocol/python-sdk": "Model Context Protocol 是一款 Python SDK，方便你与 Model Context Protocol 服务器和客户端进行交互，核心价值在于简化模型上下文管理和数据交换",
+      "activepieces/activepieces": "ActivePieces 是一款 AI 代理工具，提供了大约 400 个 MCP 服务器来支持 AI 代理，帮助用户实现 AI 自动化和工作流管理。",
+      "2025Emma/vibe-coding-cn": "Vibe-coding-cn 是一款基于 Python 的 AI 编程工具，帮助用户高效编码提高开发效率。",
+      "chopratejas/headroom": "Chopraterjas/headroom 是一个压缩工具，帮助减少 LLM 的输入量，同样提供准确答案，使用 Python编写。",
+      "datawhalechina/easy-vibe": "Easy Vibe 是一款现代编程课程，帮助初学者一步一步掌握编程技能，助力快速入门编程世界。",
+      "microsoft/mcp-for-beginners": "microsoft/mcp-for-beginners 是一份开源教材，教会开发者如何使用 Model Context Protocol（MCP）来构建可扩展、安全的 AI 工作流程",
+      "googleapis/mcp-toolbox": "googleapis/mcp-toolbox 是一个开源的数据库 MCP 服务器，它让你能够通过 AI 的方式高效地管理和分析数据库。",
+      "liyupi/ai-guide": "liyupi/ai-guide 是一份程序员的 AI 资源大全和 Vibe Coding 零基础教程，帮助你快速掌握 AI 技术并走在时代前沿。",
+      "GLips/Figma-Context-MCP": "Figma-Context-MCP是一个提供给AI编程代理如Cursor的Figma布局信息服务器，通过它可以更好地辅助AI编程的准确性和效率。",
+      "casdoor/casdoor": "CASdoor 是一款开源的身份认证和访问管理系统，提供强大的认证和授权功能，帮助您建立安全的数字身份。",
+      "coleam00/context-engineering-intro": "Coleam00/context-engineering-intro 是一款实用的 AI 编程工具，帮助用户通过上下文工程策略，让 AI 编程助手真正发挥作用。",
+      "modelcontextprotocol/typescript-sdk": "Model Context Protocol TypeScript SDK 是 Model Context Protocol 服务器和客户端的官方 TypeScript SDK，它提供了一个高效的接口让开发者快速构建和集成 Model Context Protocol。",
+      "tadata-org/fastapi_mcp": "使用 FastAPI exposing 终端成为 Model Context Protocol (MCP) 工具，带有认证功能，帮助您更安全地与 AI 编程工具进行交互。",
+      "chenhg5/cc-connect": "chenhg5/cc-connect 是一个连接本地 AI 编程代理到各种消息平台的工具，允许你无论身处何处都能与你的 AI 开发助手进行聊天。",
+      "hangwin/mcp-chrome": "hangwin/mcp-chrome 是一款 Chrome 扩展，通过 Model Context Protocol (MCP) 使 Chrome 浏览器功能暴露给 AI 助手，如 Claude，实现复杂的浏览器自动化和内容分析。",
+      "CoplayDev/unity-mcp": "Unity MCP 是一个连接 AI 助手和 Unity 编辑器的桥梁，让您可以使用 LLM 工具管理资产、控制场景、编辑脚本和自动化任务。",
+      "mcp-use/mcp-use": "mcp-use是全栈MCP框架，用于开发与ChatGPT/ Claude Code互动的AI应用。",
+      "diet103/claude-code-infrastructure-showcase": "diet103/claude-code-infrastructure-showcase 是一套 Claude Code 基础设施示例，展示了技能自动激活、钩子和代理的应用，帮助用户构建高效的 AI 编程环境。",
+      "mark3labs/mcp-go": "mark3labs/mcp-go 是一个 Go 实现的模型上下文协议，优化了大语言模型应用与外部数据源和工具的整合。",
+      "AgriciDaniel/claude-seo": "Claude SEO 是一款通用 SEO 能力，涵盖 25 个子技能和 18 个子代理，帮助您提升技术 SEO、E-E-A-T、schema、GEO/AEO 等多个方面的能力。",
+      "sweepai/sweep": "Sweep 是一款 JetBrains 的 AI 编程助手，帮助开发者高效编码，核心价值在于智能代码完成和建议。"
     }
   },
   "ecommerce": {
-    "repos": [],
-    "notes": {}
+    "repos": [
+      "beikeshop/beikeshop",
+      "rush86999/atom",
+      "Blazity/enterprise-commerce",
+      "Shopify/Shopify-AI-Toolkit",
+      "MugglePay/MugglePay"
+    ],
+    "notes": {
+      "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
+      "rush86999/atom": "Atom Agent 是一个 AI 代理工具，让你通过与它对话来自动化工作流程，记住、搜索和处理任务如同一个真正的助手。",
+      "Blazity/enterprise-commerce": "Blazity/enterprise-commerce 是一款高性能电子商务前端解决方案，基于 Shopify 后端和 Algolia 中间层，提供优异的浏览体验",
+      "Shopify/Shopify-AI-Toolkit": "Shopify-AI-Toolkit是一套用于 CLI 和 IDE 的智能代理插件，帮助开发者更高效地编程。",
+      "MugglePay/MugglePay": "MugglePay 是一款基于加密货币的支付工具，帮助商家和 AI 代理接受加密货币并通过它销售更多产品。"
+    }
   },
   "design": {
-    "repos": [],
-    "notes": {}
+    "repos": [
+      "onlook-dev/onlook",
+      "creativetimofficial/ui",
+      "DouyinFE/semi-design",
+      "grab/cursor-talk-to-figma-mcp",
+      "fspecii/ace-step-ui"
+    ],
+    "notes": {
+      "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
+      "creativetimofficial/ui": "creativetimofficial/ui 是一个开源组件和 AI 代理集合，旨在加速您的工作流程，通过 Registry 和 MCPs 可以轻松导入您的喜爱工具。",
+      "DouyinFE/semi-design": "Semi Design 是一款现代化的、全面而灵活的设计系统和 React UI 库，内置 AI 友好功能，提供 3000+ 设计令牌，让你轻松构建设计系统仅需一键设计到代码。",
+      "grab/cursor-talk-to-figma-mcp": "TalkToFigma 是一个将 AI 代理 (Cursor, Claude Code) 与 Figma 集成的工具，允许 Agentic AI 与 Figma 进行通信，读取设计并程序化修改它们。",
+      "fspecii/ace-step-ui": "ACE-Step UI 是一款开源的专业UI工具，专为ACE-Step 1.5 AI音乐生成提供免费、本地、无限的解决方案。"
+    }
   },
   "agent-boost": {
-    "repos": [],
-    "notes": {}
+    "repos": [
+      "affaan-m/ECC",
+      "bytedance/deer-flow",
+      "mem0ai/mem0",
+      "zhayujie/CowAgent",
+      "danny-avila/LibreChat"
+    ],
+    "notes": {
+      "affaan-m/ECC": "ECC 是一款 AI 代理性能优化系统，专为 Claude Code 等 AI 编程工具提供技能、直觉、记忆、安全和研究优先开发能力。",
+      "bytedance/deer-flow": "bytedance/deer-flow 是一个开源的长期任务 SuperAgent 框架，通过沙盒、记忆、工具、技能、子代理和消息网关等功能，帮助处理可能需要几分钟到几小时的任务。",
+      "mem0ai/mem0": "mem0 是一款通用 AI 代理层，提供了核心的 AI 能力",
+      "zhayujie/CowAgent": "CowAgent是开源的超级AI助手，能够独立规划任务、运行工具和技能，并随着记忆和知识的增长而自主成长。",
+      "danny-avila/LibreChat": "LibreChat 是一个增强版的 ChatGPT 克隆，提供了强大的 AI 模型，如 Agents、MCP 和 GPT-5，支持自定义 AI 模型切换和消息搜索等功能。"
+    }
   },
   "education": {
-    "repos": [],
-    "notes": {}
+    "repos": [
+      "fighting41love/funNLP",
+      "microsoft/ai-edu",
+      "HuaizhengZhang/AI-Infra-from-Zero-to-Hero",
+      "umlx5h/LLPlayer",
+      "aadi1011/AI-ML-Roadmap-from-scratch"
+    ],
+    "notes": {
+      "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
+      "microsoft/ai-edu": "microsoft/ai-edu 是一套为中国学生、教师和IT专业人士提供的人工智能教育资源，帮助他们掌握人工智能领域的核心知识和技能。",
+      "HuaizhengZhang/AI-Infra-from-Zero-to-Hero": "AI-Infra-from-Zero-to-Hero 是一套强大的机器学习系统解决方案，提供了从基础架构到实践应用的全面支持。",
+      "umlx5h/LLPlayer": "LLPlayer 是一个媒体播放器，专为语言学习设计，提供双字幕、AI生成字幕、实时翻译等功能。",
+      "aadi1011/AI-ML-Roadmap-from-scratch": "AI-ML-Roadmap-from-scratch 是一份从零开始的机器学习和人工智能学习资源仓库，旨在帮助用户掌握数据科学、深度学习、自然语言处理等多个领域。"
+    }
   }
 }
