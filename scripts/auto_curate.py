@@ -10,7 +10,7 @@ import urllib.request
 import urllib.parse
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
+GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 
 GITHUB_HEADERS = {
     "Accept": "application/vnd.github+json",
@@ -51,7 +51,7 @@ def github_search(query: str, per_page: int = 10) -> list:
 
 
 def codex_describe(repo: dict) -> str:
-    """用 Google Gemini 2.0 Flash 生成中文解读（免费额度 1500次/天，无需绑卡）"""
+    """用 Groq Llama 3.3 70B 生成中文解读（免费，无需绑卡，30次/分钟）"""
     prompt = f"""为以下 GitHub 项目生成一句中文介绍，供 AI 编程工具榜单展示。
 
 项目名：{repo["full_name"]}
@@ -70,23 +70,26 @@ Stars：{repo["stargazers_count"]}
 只输出这一句介绍，不要任何解释。"""
 
     body = json.dumps({
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"maxOutputTokens": 200},
+        "model": "llama3-70b-8192",
+        "max_tokens": 200,
+        "messages": [{"role": "user", "content": prompt}],
     }).encode()
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
-    req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
-    for attempt in range(3):
-        try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                result = json.loads(resp.read())
-            return result["candidates"][0]["content"]["parts"][0]["text"].strip()
-        except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 2:
-                print(f"    限速，等待 65 秒后重试（第 {attempt + 1} 次）...")
-                time.sleep(65)
-            else:
-                raise
+    req = urllib.request.Request(
+        "https://api.groq.com/openai/v1/chat/completions",
+        data=body,
+        headers={
+            "Authorization": f"Bearer {GROQ_API_KEY}",
+            "Content-Type": "application/json",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read())
+        return result["choices"][0]["message"]["content"].strip()
+    except urllib.error.HTTPError as e:
+        err_body = e.read().decode(errors="replace")
+        raise RuntimeError(f"HTTP {e.code}: {err_body[:300]}")
 
 
 def main():
@@ -143,7 +146,7 @@ def main():
             added_count += 1
         except Exception as e:
             print(f"    生成失败: {e}")
-        time.sleep(5)  # Gemini 免费版限速 15次/分钟，5秒间隔安全
+        time.sleep(3)  # Groq 免费版限速 30次/分钟，3秒间隔安全
 
     # 更新 curated.json，repos 列表按原顺序保留，新的追加到末尾
     original_repos = curated.get("repos", [])
