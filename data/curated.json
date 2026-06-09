@@ -1,13 +1,26 @@
 {
-  "repos": [
-    "anthropics/claude-code",
-    "modelcontextprotocol/servers",
-    "modelcontextprotocol/specification"
-  ],
-  "notes": {
-    "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
-    "modelcontextprotocol/servers": "MCP 官方服务器合集，包含文件系统、数据库、浏览器等几十种工具集成，是扩展 Claude Code 能力的核心仓库。",
-    "modelcontextprotocol/specification": "MCP 协议规范文档，想开发自己的 MCP 服务器必读，定义了 AI 模型与工具之间通信的标准格式。"
+  "claude-code": {
+    "repos": [
+      "anthropics/claude-code",
+      "modelcontextprotocol/servers",
+      "modelcontextprotocol/specification"
+    ],
+    "notes": {
+      "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
+      "modelcontextprotocol/servers": "MCP 官方服务器合集，包含文件系统、数据库、浏览器等几十种工具集成，是扩展 Claude Code 能力的核心仓库。",
+      "modelcontextprotocol/specification": "MCP 协议规范文档，想开发自己的 MCP 服务器必读，定义了 AI 模型与工具之间通信的标准格式。"
+    }
   },
-  "comment": "自动精选：每日由 Claude Haiku 自动发现并生成解读，也可在 GitHub 网页手动编辑。"
+  "ecommerce": {
+    "repos": [],
+    "notes": {}
+  },
+  "design": {
+    "repos": [],
+    "notes": {}
+  },
+  "agent-boost": {
+    "repos": [],
+    "notes": {}
+  }
 }

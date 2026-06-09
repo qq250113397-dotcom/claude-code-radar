@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-自动精选脚本：从 GitHub 发现热门 repo，用 Claude API 生成中文解读，更新 curated.json
+自动精选脚本：从 GitHub 发现热门 repo，用 Cloudflare Workers AI 生成中文解读，更新 curated.json
 """
 
 import json
 import os
 import time
 import urllib.request
+import urllib.error
 import urllib.parse
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -21,20 +22,56 @@ GITHUB_HEADERS = {
 if GITHUB_TOKEN:
     GITHUB_HEADERS["Authorization"] = f"Bearer {GITHUB_TOKEN}"
 
-# 每个分类最多发现多少个新 repo（控制 Claude API 费用）
-MAX_NEW_PER_RUN = 30
-
-# 各分类的搜索关键词（与 lib/categories.ts 保持一致）
-CATEGORY_QUERIES = [
-    "claude-code",
-    "claude code extension",
-    "claude code hook",
-    "mcp server",
-    "model-context-protocol",
-    "ai agent llm",
-    "ai coding assistant",
-    "vibe coding",
-]
+# 各分类的搜索配置
+CATEGORY_CONFIGS = {
+    "claude-code": {
+        "queries": [
+            "claude-code",
+            "claude code extension",
+            "claude code hook",
+            "mcp server",
+            "model-context-protocol",
+            "ai agent llm",
+            "ai coding assistant",
+            "vibe coding",
+        ],
+        "max_new": 30,
+        "min_stars": 100,
+    },
+    "ecommerce": {
+        "queries": [
+            "ecommerce ai agent",
+            "shopify ai",
+            "ai shopping assistant",
+            "ecommerce llm automation",
+            "product recommendation ai",
+        ],
+        "max_new": 5,
+        "min_stars": 50,
+    },
+    "design": {
+        "queries": [
+            "ai design tool",
+            "figma ai plugin",
+            "ui generation ai",
+            "design to code ai",
+            "ai wireframe generator",
+        ],
+        "max_new": 5,
+        "min_stars": 50,
+    },
+    "agent-boost": {
+        "queries": [
+            "agent memory llm",
+            "llm agent optimization",
+            "agent evaluation framework",
+            "prompt engineering tool",
+            "ai agent enhancement",
+        ],
+        "max_new": 5,
+        "min_stars": 100,
+    },
+}
 
 
 def github_search(query: str, per_page: int = 10) -> list:
@@ -93,48 +130,43 @@ Stars：{repo["stargazers_count"]}
         raise RuntimeError(f"HTTP {e.code}: {err_body[:300]}")
 
 
-def main():
-    curated_path = os.path.join(os.path.dirname(__file__), "..", "data", "curated.json")
-    with open(curated_path, encoding="utf-8") as f:
-        curated = json.load(f)
+def process_category(category_id: str, config: dict, curated: dict) -> int:
+    """处理单个分类，返回新增数量"""
+    cat_data = curated.setdefault(category_id, {"repos": [], "notes": {}})
+    existing_notes: dict = cat_data.get("notes", {})
+    existing_repos: list = cat_data.get("repos", [])
 
-    existing_repos: set = set(curated.get("repos", []))
-    existing_notes: dict = curated.get("notes", {})
+    print(f"\n=== 分类: {category_id} ===")
 
-    print(f"现有精选数量: {len(existing_repos)}")
-
-    # 发现所有候选 repo
+    # 搜索候选
     candidates = {}
-    for query in CATEGORY_QUERIES:
-        print(f"搜索: {query}")
+    for query in config["queries"]:
+        print(f"  搜索: {query}")
         try:
-            items = github_search(query, per_page=15)
+            items = github_search(query, per_page=10)
             for item in items:
                 full_name = item["full_name"]
                 if full_name not in candidates:
                     candidates[full_name] = item
         except Exception as e:
-            print(f"  搜索失败: {e}")
-        time.sleep(1)  # 避免触发 GitHub API 速率限制
+            print(f"    搜索失败: {e}")
+        time.sleep(1)
 
-    # 过滤出还没有解读的 repo
+    # 过滤未收录且达到 star 门槛的
     new_repos = [
         repo for full_name, repo in candidates.items()
         if full_name not in existing_notes
-        and repo["stargazers_count"] >= 100  # 至少 100 stars
+        and repo["stargazers_count"] >= config["min_stars"]
     ]
-
-    # 按 star 数降序，取前 N 个
     new_repos.sort(key=lambda r: r["stargazers_count"], reverse=True)
-    new_repos = new_repos[:MAX_NEW_PER_RUN]
+    new_repos = new_repos[:config["max_new"]]
 
     if not new_repos:
-        print("没有发现需要新增的 repo，退出。")
-        return
+        print(f"  没有新 repo")
+        return 0
 
-    print(f"\n发现 {len(new_repos)} 个新 repo，开始生成解读...")
-
-    added_count = 0
+    print(f"  发现 {len(new_repos)} 个新 repo，开始生成解读...")
+    added = 0
     for repo in new_repos:
         full_name = repo["full_name"]
         print(f"  生成: {full_name} (⭐{repo['stargazers_count']})")
@@ -143,26 +175,31 @@ def main():
             print(f"    → {note}")
             existing_notes[full_name] = note
             if full_name not in existing_repos:
-                existing_repos.add(full_name)
-            added_count += 1
+                existing_repos.append(full_name)
+            added += 1
         except Exception as e:
             print(f"    生成失败: {e}")
-        time.sleep(3)  # Groq 免费版限速 30次/分钟，3秒间隔安全
+        time.sleep(3)
 
-    # 更新 curated.json，repos 列表按原顺序保留，新的追加到末尾
-    original_repos = curated.get("repos", [])
-    for full_name in existing_repos:
-        if full_name not in original_repos:
-            original_repos.append(full_name)
+    cat_data["repos"] = existing_repos
+    cat_data["notes"] = existing_notes
+    return added
 
-    curated["repos"] = original_repos
-    curated["notes"] = existing_notes
-    curated["comment"] = "自动精选：每日由 Claude Haiku 自动发现并生成解读，也可在 GitHub 网页手动编辑。"
+
+def main():
+    curated_path = os.path.join(os.path.dirname(__file__), "..", "data", "curated.json")
+    with open(curated_path, encoding="utf-8") as f:
+        curated = json.load(f)
+
+    total_added = 0
+    for category_id, config in CATEGORY_CONFIGS.items():
+        added = process_category(category_id, config, curated)
+        total_added += added
 
     with open(curated_path, "w", encoding="utf-8") as f:
         json.dump(curated, f, ensure_ascii=False, indent=2)
 
-    print(f"\n完成！新增 {added_count} 个 repo，已写入 data/curated.json")
+    print(f"\n完成！共新增 {total_added} 个 repo，已写入 data/curated.json")
 
 
 if __name__ == "__main__":

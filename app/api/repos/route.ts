@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { searchRepos, getRepo, getTrendingRepos } from '@/lib/github'
-import { CATEGORIES, CURATED_REPOS, CURATED_NOTES } from '@/lib/categories'
+import { CATEGORIES, getCuratedForCategory } from '@/lib/categories'
 import type { Repo } from '@/lib/github'
 
 export const runtime = 'nodejs'
@@ -8,9 +8,11 @@ export const runtime = 'nodejs'
 const CACHE_TTL = 60 * 60 * 1000
 const apiCache = new Map<string, { repos: Repo[]; label: string; expiresAt: number }>()
 
-async function fetchRepos(categoryId: string): Promise<{ repos: Repo[]; label: string }> {
+async function fetchRepos(
+  categoryId: string
+): Promise<{ repos: Repo[]; label: string; notes: Record<string, string> }> {
   const category = CATEGORIES.find((c) => c.id === categoryId)!
-
+  let notes: Record<string, string> = {}
   let repos: Repo[]
 
   if (categoryId === 'trending') {
@@ -30,13 +32,15 @@ async function fetchRepos(categoryId: string): Promise<{ repos: Repo[]; label: s
   }
 
   if (category.hasCurated) {
-    const curated = await Promise.all(CURATED_REPOS.map((r) => getRepo(r)))
-    const curatedValid = curated.filter(Boolean) as Repo[]
+    const curated = getCuratedForCategory(categoryId)
+    notes = curated.notes
+    const fetched = await Promise.all(curated.repos.map((r) => getRepo(r)))
+    const curatedValid = fetched.filter(Boolean) as Repo[]
     const existingIds = new Set(repos.map((r) => r.id))
     repos = [...curatedValid.filter((r) => !existingIds.has(r.id)), ...repos]
   }
 
-  return { repos, label: category.label }
+  return { repos, label: category.label, notes }
 }
 
 export async function GET(req: NextRequest) {
@@ -53,11 +57,11 @@ export async function GET(req: NextRequest) {
       return NextResponse.json({ repos: cached.repos, category: cached.label, cached: true })
     }
 
-    const { repos, label } = await fetchRepos(categoryId)
+    const { repos, label, notes } = await fetchRepos(categoryId)
 
     const reposWithNotes = repos.map((r) => ({
       ...r,
-      note: CURATED_NOTES[r.full_name] ?? null,
+      note: notes[r.full_name] ?? null,
     }))
 
     apiCache.set(categoryId, { repos: reposWithNotes, label, expiresAt: Date.now() + CACHE_TTL })
