@@ -135,7 +135,7 @@ def main():
             added_count += 1
         except Exception as e:
             print(f"    生成失败: {e}")
-        time.sleep(0.5)
+        time.sleep(5)  # Gemini 免费版限速 15次/分钟，5秒间隔安全
 
     # 更新 curated.json，repos 列表按原顺序保留，新的追加到末尾
     original_repos = curated.get("repos", [])
