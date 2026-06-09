@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { searchRepos, getRepo, getTrendingRepos } from '@/lib/github'
 import { CATEGORIES, getCuratedForCategory } from '@/lib/categories'
+import { isBlocked } from '@/lib/blocklist'
 import type { Repo } from '@/lib/github'
 
 export const runtime = 'nodejs'
@@ -16,7 +17,7 @@ async function fetchRepos(
   let repos: Repo[]
 
   if (categoryId === 'trending') {
-    repos = await getTrendingRepos(category.queries)
+    repos = (await getTrendingRepos(category.queries)).filter((r) => !isBlocked(r))
   } else {
     const results = await Promise.all(
       category.queries.map((q) => searchRepos(q, 'stars', 8))
@@ -28,7 +29,7 @@ async function fetchRepos(
       return true
     })
     repos.sort((a, b) => b.stargazers_count - a.stargazers_count)
-    repos = repos.slice(0, 20)
+    repos = repos.filter((r) => !isBlocked(r)).slice(0, 20)
   }
 
   if (category.hasCurated) {
