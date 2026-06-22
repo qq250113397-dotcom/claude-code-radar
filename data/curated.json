@@ -85,7 +85,12 @@
       "nicobailon/pi-mcp-adapter",
       "Rishurajgautam24/free-claude-code",
       "jasonjmcghee/claude-debugs-for-you",
-      "VikashLoomba/copilot-mcp"
+      "VikashLoomba/copilot-mcp",
+      "headroomlabs-ai/headroom",
+      "mksglu/context-mode",
+      "DeusData/codebase-memory-mcp",
+      "calesthio/OpenMontage",
+      "zai-org/GLM-5"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -172,7 +177,12 @@
       "nicobailon/pi-mcp-adapter": "nicobailon/pi-mcp-adapter 是一个高效的 Token 模型适配器，专为 Claude Code 和 AI 编程用户打造，可以显著提高编码效率。",
       "Rishurajgautam24/free-claude-code": "使用 Claude Code 的终端、VSCode 扩展或 Discord，获取免费的 AI 编程体验",
       "jasonjmcghee/claude-debugs-for-you": "CLAUDÉ-Debugs-for-you 是一款 VS Code 扩展，允许任何 LLM（如 Claude）通过 MCP 交互式地为您调试任何语言。",
-      "VikashLoomba/copilot-mcp": "VikashLoomba/copilot-mcp 是一款 VSCode 扩展，帮助你发现和安装适用于 GitHub Copilot、Claude Code 和 Codex CLI 的 Agent Skills 和 MCP Apps。"
+      "VikashLoomba/copilot-mcp": "VikashLoomba/copilot-mcp 是一款 VSCode 扩展，帮助你发现和安装适用于 GitHub Copilot、Claude Code 和 Codex CLI 的 Agent Skills 和 MCP Apps。",
+      "headroomlabs-ai/headroom": "Headroom 是一款 AI 压缩工具，通过压缩工具输出、日志、文件和 RAG 块，能够显著减少 LLM 的输入量，同样保持准确的答案。",
+      "mksglu/context-mode": "mksglu/context-mode 是一个用于优化 AI 编程代理的上下文窗口工具，它能大幅减少输出 sandbox 的工具输出，并提供会话内存的持久化和 17 个平台的路由管理",
+      "DeusData/codebase-memory-mcp": "DeusData/codebase-memory-mcp 是一款高性能的代码智能 MCP 服务器，能够快速索引代码库并构建持久知识图谱，平均仓库索引时间仅为毫秒级，支持 158 种语言，极速查询，99% 减少 token 数量。",
+      "calesthio/OpenMontage": "OpenMontage 是全球首个开源的代理式视频制作系统，内置 12 个 pipeline、52 个工具和 500+ agent 技能，能够将你的 AI 编程助手转变为全能视频制作工作室",
+      "zai-org/GLM-5": "GLM-5 是一种从 Vibe Coding 到 Agentic Engineering 的工具，它可以帮助您构建更具自主性的 AI 编程。"
     }
   },
   "ecommerce": {
@@ -186,7 +196,12 @@
       "nexscope-ai/eCommerce-Skills",
       "microsoft/Deploy-Your-AI-Application-In-Production",
       "piyushpathak03/Recommendation-systems",
-      "CatchTheTornado/open-agents-builder"
+      "CatchTheTornado/open-agents-builder",
+      "tinyhumansai/tiny.place",
+      "40RTY-ai/shopify-admin-skills",
+      "upsidelab/enthusiast",
+      "Hoanganhvu123/ShoppingGPT",
+      "jtrackingai/analytics-tracking-automation"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -198,7 +213,12 @@
       "nexscope-ai/eCommerce-Skills": "eCommerce-Skills 是一套 AI 代理技能套件，帮助在线卖家实现产品研究、营销自动化、供应链优化和商业分析等功能，适用于 Amazon、Shopify、Etsy、TikTok Shop 等多个平台。",
       "microsoft/Deploy-Your-AI-Application-In-Production": "Deploy-Your-AI-Application-In-Production 是一个安全、可扩展的环境，用于在生产中运行 AI Foundry 应用程序，简化了包括 Azure 服务在内的关键服务的过程。",
       "piyushpathak03/Recommendation-systems": "Recommendation Systems 是一个使用机器学习和深度学习技术构建推荐系统的工作室，核心价值在于帮助用户快速搭建高效的推荐系统。",
-      "CatchTheTornado/open-agents-builder": "CatchTheTornado/open-agents-builder 是一个用于构建企业级 AI 代理的工具，帮助公司创建业务流程、API 接口、预约系统、电子商务平台等高效的数字化解决方案。"
+      "CatchTheTornado/open-agents-builder": "CatchTheTornado/open-agents-builder 是一个用于构建企业级 AI 代理的工具，帮助公司创建业务流程、API 接口、预约系统、电子商务平台等高效的数字化解决方案。",
+      "tinyhumansai/tiny.place": "tiny.place 是一个社会经济平台，为自主 AI agent 提供了一个交互空间，核心价值在于它为 AI agent 提供了一个自治的经济环境",
+      "40RTY-ai/shopify-admin-skills": "40RTY-ai/shopify-admin-skills 是一套社区维护的 Shopify 商店管理 AI Agent 技能，提供工作流、优化和报告等功能，帮助您更高效地管理您的在线商店",
+      "upsidelab/enthusiast": "UpsideLab的Enthusiast是一个开源的AI商业代理，提供强大的商业推理能力",
+      "Hoanganhvu123/ShoppingGPT": "ShoppingGPT 是一款 AI 购物助手，集聚了 RAG、LLMs 和 Semantic Router 等技术，专注于越南语市场。",
+      "jtrackingai/analytics-tracking-automation": "这是一个基于 AI 的分析跟踪自动化工具，能够简化网站分析和事件跟踪流程"
     }
   },
   "design": {
@@ -212,7 +232,12 @@
       "benjitaylor/agentation",
       "nyldn/claude-octopus",
       "ZSeven-W/openpencil",
-      "mvanhorn/cli-printing-press"
+      "mvanhorn/cli-printing-press",
+      "nexu-io/html-video",
+      "cirosantilli/china-dictatorship",
+      "rag-web-ui/rag-web-ui",
+      "Tencent/behaviac",
+      "skills/secure-code-game"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -224,7 +249,12 @@
       "benjitaylor/agentation": "Agentation 是一款视觉反馈工具，帮助开发者更好地理解和优化 AI 代理行为。",
       "nyldn/claude-octopus": "Claude-Octopus 是一个用于在每个研究、设计或编码任务中托管多个 AI 模型的工具，帮助你在发布前识别 AI blindspots。",
       "ZSeven-W/openpencil": "开放源码的openpencil是世界上第一个支持AI原生矢量设计的工具，具备协同Agent团队功能，设计即代码，直接将提示转换为UI，现代替代品Pencil。",
-      "mvanhorn/cli-printing-press": "mvanhorn/cli-printing-press 是一款强大的 CLI 工具，面向 AI 代理首创，集成各种功能，提供 SQLite 同步、离线搜索和复合见解命令。"
+      "mvanhorn/cli-printing-press": "mvanhorn/cli-printing-press 是一款强大的 CLI 工具，面向 AI 代理首创，集成各种功能，提供 SQLite 同步、离线搜索和复合见解命令。",
+      "nexu-io/html-video": "nexu-io/html-video 是一款编程工具，通过 HTML、CSS 和数据生成真实的 MP4 视频",
+      "cirosantilli/china-dictatorship": "反中共政治宣传库。",
+      "rag-web-ui/rag-web-ui": "RAG Web UI 是一种基于 RAG 技术的智能对话系统，可以帮助您更高效地生成 AI 代码",
+      "Tencent/behaviac": "behaviac 是一个用于游戏 AI 开发的框架，也可以快速设计游戏原型，支持行为树、有限状态机和层次任务网络",
+      "skills/secure-code-game": "Secure Code Game 是一个在线编程体验，让你在浏览器中快速学习编码安全技能"
     }
   },
   "education": {
@@ -237,7 +267,12 @@
       "jonyzhang2023/awesome-embodied-vla-va-vln",
       "noahshinn/reflexion",
       "asyml/texar",
-      "WenyuChiou/awesome-agentic-ai-zh"
+      "WenyuChiou/awesome-agentic-ai-zh",
+      "cirosantilli/china-dictatorship",
+      "yaojingang/yao-open-prompts",
+      "gege-circle/.github",
+      "Delta-ML/delta",
+      "towardsai/tutorials"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
@@ -248,7 +283,12 @@
       "jonyzhang2023/awesome-embodied-vla-va-vln": "awesome-embodied-vla-va-vln 是一份聚合了当前最前沿视觉语言行动模型和视觉语言导航技术的资源清单",
       "noahshinn/reflexion": "Reflexion 是一款语言代理工具，基于 Verbal Reinforcement Learning 实现，可以帮助开发者训练更强大的语言模型。",
       "asyml/texar": "asyml/texar 是一个基于 TensorFlow 的机器学习、自然语言处理和文本生成工具集，旨在为深度学习和对话系统提供核心功能",
-      "WenyuChiou/awesome-agentic-ai-zh": "Awesome-агentic-ai-zh 是一份中英双语的 AI 代理学习路线图，涵盖了从 LLM 基础到多智能体系统的 240+ 精选资源和实践案例。"
+      "WenyuChiou/awesome-agentic-ai-zh": "Awesome-агentic-ai-zh 是一份中英双语的 AI 代理学习路线图，涵盖了从 LLM 基础到多智能体系统的 240+ 精选资源和实践案例。",
+      "cirosantilli/china-dictatorship": "cirosantilli/china-dictatorship是一款反中共政治宣传库，提供反中国政府宣传的信息和资源，帮助用户了解中国政治现状和历史。",
+      "yaojingang/yao-open-prompts": "Yao Open Prompts 是一个中文 AI 提示库，适用于工作、学习、内容创作、营销和日常生活，提供高效的 AI 应用场景。",
+      "gege-circle/.github": "gege-circle/.github 是 GitHub 的草场和戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。",
+      "Delta-ML/delta": "DELTA 是一个基于深度学习的自然语言和语音处理平台，它提供了情感识别等核心功能",
+      "towardsai/tutorials": "towardsai/tutorials 是一个免费的 AI 相关教程平台，提供高质量的深度学习和数据科学教程。"
     }
   },
   "ai-agent": {
@@ -257,14 +297,24 @@
       "NousResearch/hermes-agent",
       "langgenius/dify",
       "langchain-ai/langchain",
-      "Shubhamsaboo/awesome-llm-apps"
+      "Shubhamsaboo/awesome-llm-apps",
+      "browser-use/browser-use",
+      "infiniflow/ragflow",
+      "OpenHands/OpenHands",
+      "bytedance/deer-flow",
+      "hiyouga/LlamaFactory"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
       "NousResearch/hermes-agent": "NousResearch/hermes-agent 是一款 AI 代理工具，可以帮助你持续成长和发展",
       "langgenius/dify": "Dify 是一款生产就绪的智能工作流开发平台，帮助您快速构建高效的AI工作流。",
       "langchain-ai/langchain": "langchain 是一款 AI 代理工程平台，帮助开发者构建高效的 AI 代理，实现智能交互和决策。",
-      "Shubhamsaboo/awesome-llm-apps": "awesome-llm-apps 是一个包含超过 100 个可运行的 AI 代理和 RAG 应用程序的集合，允许您克隆、定制和部署这些应用程序。"
+      "Shubhamsaboo/awesome-llm-apps": "awesome-llm-apps 是一个包含超过 100 个可运行的 AI 代理和 RAG 应用程序的集合，允许您克隆、定制和部署这些应用程序。",
+      "browser-use/browser-use": "browser-use 是一个用于让 AI agent 访问网站的工具，通过它可以轻松自动化在线任务。",
+      "infiniflow/ragflow": "RAGFlow 是一款领先的开源 Retrieval-Augmented Generation 引擎，融合了前沿 RAG 和 Agent 能力，打造出超级上下文层面来提升 LLMs 的性能",
+      "OpenHands/OpenHands": "OpenHands 是一款基于 AI 的开发工具，帮助您快速构建高效的应用程序。",
+      "bytedance/deer-flow": "Bytedance的Deer-Flow是一个开源的SuperAgent 框架，利用沙盒、记忆、工具、技能、子代理和消息网关来处理长时间任务。",
+      "hiyouga/LlamaFactory": "LLamaFactory是一款用于高效微调100+LLM和VLM的工具，通过其统一的微调方案，最大限度地提高模型性能。"
     }
   },
   "short-drama": {
@@ -273,14 +323,24 @@
       "waooAI/waoowaoo",
       "chatfire-AI/huobao-drama",
       "HBAI-Ltd/Toonflow-app",
-      "YILS-LIN/short-video-factory"
+      "YILS-LIN/short-video-factory",
+      "Forget-C/Jellyfish",
+      "MemeCalculate/moyin-creator",
+      "FireRedTeam/FireRed-OpenStoryline",
+      "yuanzhongqiao/printfilm",
+      "LingyiChen-AI/AIComicBuilder"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
       "waooAI/waoowaoo": "waooAI/waoowaoo 是一款工业级全流程 AI 影视生产平台，提供可控的电影和视频制作流程。",
       "chatfire-AI/huobao-drama": "火宝短剧是一款基于AI的短剧生成平台，通过一句话即可生成完整的剧本和视频。",
       "HBAI-Ltd/Toonflow-app": "Toonflow 是一款开源 AI 短剧创作工具，可以快速将小说和剧本转化为动画短剧，帮助创作者低成本批量产出视觉内容。",
-      "YILS-LIN/short-video-factory": "短视频工厂是一款AI批量自动剪辑的跨平台桌面端工具，帮助你快速生成高颜值的产品营销与泛内容短视频。"
+      "YILS-LIN/short-video-factory": "短视频工厂是一款AI批量自动剪辑的跨平台桌面端工具，帮助你快速生成高颜值的产品营销与泛内容短视频。",
+      "Forget-C/Jellyfish": "Forget-C/Jellyfish 是一款全栈 AI 生成短剧工作空间，提供从脚本输入到视频输出的完整流程，帮助用户快速高效生成专业短剧。",
+      "MemeCalculate/moyin-creator": "Moyin-creator 是一款 AI 影视生产级工具，支持 Seedance 2.0，能够将剧本批量化成片，极大提高影视制作效率",
+      "FireRedTeam/FireRed-OpenStoryline": "FireRed-OpenStoryline 是一个 AI 视频编辑代理，通过自然语言交互、LLM 驱动的规划和精确工具协调，将手动编辑转变为意图驱动的导演。",
+      "yuanzhongqiao/printfilm": "printfilm 是一款短剧平台，利用工业级 AI 自动生成动漫短片和视频，极大提高创作效率",
+      "LingyiChen-AI/AIComicBuilder": "AIComicBuilder是一款基于AI的动画漫画生成工具，能够将脚本转换为由AI驱动的动画视频。"
     }
   }
 }
