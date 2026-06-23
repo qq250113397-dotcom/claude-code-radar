@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useMemo } from 'react'
 import { formatNum, type RepoWithNote } from '@/lib/utils'
 import { CATEGORIES } from '@/lib/categories'
+import KitModal, { hasKit } from '@/components/KitModal'
 
 const LANG_COLORS: Record<string, string> = {
   TypeScript: '#3178c6', JavaScript: '#f1e05a', Python: '#3572A5',
@@ -39,12 +40,14 @@ function useBookmarks() {
   return { bookmarks, toggle }
 }
 
-function RepoCard({ repo, bookmarked, onBookmark }: {
+function RepoCard({ repo, bookmarked, onBookmark, onKitClick }: {
   repo: RepoWithNote
   bookmarked: boolean
   onBookmark: (id: number) => void
+  onKitClick: (fullName: string) => void
 }) {
   const langColor = repo.language ? LANG_COLORS[repo.language] ?? '#8b949e' : '#8b949e'
+  const showKit = hasKit(repo.full_name)
 
   return (
     <div className="group bg-white border border-gray-200 rounded-xl p-5 hover:border-blue-400 hover:shadow-md transition-all flex flex-col">
@@ -58,15 +61,25 @@ function RepoCard({ repo, bookmarked, onBookmark }: {
             </span>
           </div>
         </a>
-        <button
-          onClick={() => onBookmark(repo.id)}
-          className={`shrink-0 p-1 rounded transition-colors ${bookmarked ? 'text-yellow-500' : 'text-gray-300 hover:text-yellow-400'}`}
-          aria-label="收藏"
-        >
-          <svg className="w-4 h-4" fill={bookmarked ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-          </svg>
-        </button>
+        <div className="flex items-center gap-1 shrink-0">
+          {showKit && (
+            <button
+              onClick={() => onKitClick(repo.full_name)}
+              className="px-2 py-0.5 text-xs font-bold bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
+            >
+              动手做
+            </button>
+          )}
+          <button
+            onClick={() => onBookmark(repo.id)}
+            className={`p-1 rounded transition-colors ${bookmarked ? 'text-yellow-500' : 'text-gray-300 hover:text-yellow-400'}`}
+            aria-label="收藏"
+          >
+            <svg className="w-4 h-4" fill={bookmarked ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+            </svg>
+          </button>
+        </div>
       </div>
 
       <div className="flex-1 mb-3">
@@ -116,6 +129,7 @@ export default function RepoBoard() {
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
   const [showBookmarksOnly, setShowBookmarksOnly] = useState(false)
+  const [kitFullName, setKitFullName] = useState<string | null>(null)
   const { bookmarks, toggle } = useBookmarks()
 
   const fetchRepos = useCallback(async (categoryId: string) => {
@@ -150,6 +164,7 @@ export default function RepoBoard() {
   const category = CATEGORIES.find((c) => c.id === activeCategory)
 
   return (
+    <>
     <section id="board" className="bg-gray-50 py-16">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
@@ -230,6 +245,7 @@ export default function RepoBoard() {
                 repo={repo}
                 bookmarked={bookmarks.has(repo.id)}
                 onBookmark={toggle}
+                onKitClick={setKitFullName}
               />
             ))}
           </div>
@@ -242,5 +258,10 @@ export default function RepoBoard() {
         )}
       </div>
     </section>
+
+    {kitFullName && (
+      <KitModal fullName={kitFullName} onClose={() => setKitFullName(null)} />
+    )}
+  </>
   )
 }

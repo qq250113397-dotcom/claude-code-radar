@@ -342,5 +342,65 @@
       "yuanzhongqiao/printfilm": "printfilm 是一款短剧平台，利用工业级 AI 自动生成动漫短片和视频，极大提高创作效率",
       "LingyiChen-AI/AIComicBuilder": "AIComicBuilder是一款基于AI的动画漫画生成工具，能够将脚本转换为由AI驱动的动画视频。"
     }
+  },
+  "desktop-pet": {
+    "repos": [
+      "Coding-With-Adam/desktop_pet",
+      "HypnoticOcelot/shimeji-ee",
+      "jsartelle/vite-desktop-pet",
+      "DouglasDollars/electron-desktop-pet",
+      "GarrettJohnLaw/DesktopPetGame"
+    ],
+    "notes": {
+      "Coding-With-Adam/desktop_pet": "跟着 YouTube 教程用 Python + Pygame 手写桌面小宠物，能自定义动画帧和互动行为，非常适合学 Python 的朋友边做边学。",
+      "HypnoticOcelot/shimeji-ee": "日本流行的桌面吉祥物（Shimeji），角色会在任意窗口边缘爬行行走，支持完全自定义形象，治愈系桌面伴侣的天花板。",
+      "jsartelle/vite-desktop-pet": "用 Vite + Web 技术做的桌面宠物，前端开发者做桌面小玩意儿的现代示范项目，代码清晰架构好。"
+    }
+  },
+  "ai-game": {
+    "repos": [
+      "gabrielecirulli/2048",
+      "jakesgordon/javascript-tetris",
+      "KilledByAPixel/LittleJS",
+      "ondras/rot.js",
+      "nickgrossman/tetris"
+    ],
+    "notes": {
+      "gabrielecirulli/2048": "风靡全球的 2048 滑块益智游戏，纯前端实现，代码精简优雅，是学 Claude Code 做游戏的经典参考项目。",
+      "jakesgordon/javascript-tetris": "JavaScript 实现的经典俄罗斯方块，几百行代码搞定完整游戏逻辑，用 Claude Code 改造或学习游戏开发的绝佳素材。",
+      "KilledByAPixel/LittleJS": "4KB 超轻量 JavaScript 游戏引擎，自带精灵、音效、粒子系统，用 Claude Code 一两天就能做出完整的浏览器游戏。",
+      "ondras/rot.js": "专为 Roguelike 游戏设计的 JavaScript 工具库，地图生成、视野计算、路径寻找一站搞定，用 AI 做地下城探索游戏的最佳搭档。"
+    }
+  },
+  "creative-generator": {
+    "repos": [
+      "AUTOMATIC1111/stable-diffusion-webui",
+      "facebookresearch/audiocraft",
+      "lllyasviel/ControlNet",
+      "openai/whisper",
+      "CompVis/stable-diffusion"
+    ],
+    "notes": {
+      "AUTOMATIC1111/stable-diffusion-webui": "全球最流行的 AI 绘画本地 WebUI，支持 LoRA、ControlNet、图生图，功能覆盖 AI 绘画全场景，是 AI 艺术创作的必装神器。",
+      "facebookresearch/audiocraft": "Meta 开源的 AI 音乐生成框架，MusicGen 就出自这里，输入一段文字描述就能生成风格各异的背景音乐，视频配乐党必备。",
+      "lllyasviel/ControlNet": "让 AI 绘画真正可控的神器，通过骨架、线稿、深度图来精确控制 AI 出图结果，大幅提升创作精准度的关键技术。",
+      "openai/whisper": "OpenAI 开源的语音识别模型，能把各种语言的音频自动转成文字，中文识别准确度极高，适合做字幕生成和会议记录工具。",
+      "CompVis/stable-diffusion": "Stable Diffusion 最初的官方开源代码，AI 图像生成领域的历史性里程碑，让普通人本地运行高质量 AI 绘画成为可能。"
+    }
+  },
+  "fun-tool": {
+    "repos": [
+      "suno-ai/bark",
+      "invoke-ai/InvokeAI",
+      "jantic/DeOldify",
+      "AliaksandrSiarohin/first-order-model",
+      "openai/point-e"
+    ],
+    "notes": {
+      "suno-ai/bark": "能生成带情绪的语音，还能输出笑声、叹气、哭泣等非语言音效，用来做有趣配音视频和整活内容简直绝了。",
+      "invoke-ai/InvokeAI": "功能强大的 Stable Diffusion 本地客户端，界面比 WebUI 更现代好看，支持画布式 AI 创作，整活和艺术创作两不误。",
+      "jantic/DeOldify": "神奇的 AI 黑白照片上色工具，把老照片和黑白视频自动还原成彩色，效果惊艳，给家里老照片「复活」的绝佳神器。",
+      "AliaksandrSiarohin/first-order-model": "用一张照片 + 一段视频就能让静态图片「动」起来，人脸表情迁移效果极为逼真，整活创意视频的必备工具。"
+    }
   }
 }
