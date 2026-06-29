@@ -90,7 +90,9 @@
       "mksglu/context-mode",
       "DeusData/codebase-memory-mcp",
       "calesthio/OpenMontage",
-      "zai-org/GLM-5"
+      "zai-org/GLM-5",
+      "FlorianBruniaux/claude-code-ultimate-guide",
+      "plmbr/notebook-intelligence"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -182,7 +184,9 @@
       "mksglu/context-mode": "mksglu/context-mode 是一个用于优化 AI 编程代理的上下文窗口工具，它能大幅减少输出 sandbox 的工具输出，并提供会话内存的持久化和 17 个平台的路由管理",
       "DeusData/codebase-memory-mcp": "DeusData/codebase-memory-mcp 是一款高性能的代码智能 MCP 服务器，能够快速索引代码库并构建持久知识图谱，平均仓库索引时间仅为毫秒级，支持 158 种语言，极速查询，99% 减少 token 数量。",
       "calesthio/OpenMontage": "OpenMontage 是全球首个开源的代理式视频制作系统，内置 12 个 pipeline、52 个工具和 500+ agent 技能，能够将你的 AI 编程助手转变为全能视频制作工作室",
-      "zai-org/GLM-5": "GLM-5 是一种从 Vibe Coding 到 Agentic Engineering 的工具，它可以帮助您构建更具自主性的 AI 编程。"
+      "zai-org/GLM-5": "GLM-5 是一种从 Vibe Coding 到 Agentic Engineering 的工具，它可以帮助您构建更具自主性的 AI 编程。",
+      "FlorianBruniaux/claude-code-ultimate-guide": "CLAUD CODE 最全面的指南，涵盖了流程、钩子、技能、MCP 服务器、测试和生产就绪模板等，共 430K+ 行代码。",
+      "plmbr/notebook-intelligence": "notebook-intelligence 是一款 JupyterLab 扩展，支持 Claude Code、Copilot、Ollama 和 OpenAI 兼容 LLM，帮助用户快速搭建 AI 编程环境。"
     }
   },
   "ecommerce": {
@@ -201,7 +205,12 @@
       "40RTY-ai/shopify-admin-skills",
       "upsidelab/enthusiast",
       "Hoanganhvu123/ShoppingGPT",
-      "jtrackingai/analytics-tracking-automation"
+      "jtrackingai/analytics-tracking-automation",
+      "spring-ai-alibaba/spring-ai-alibaba-multi-agent-demo",
+      "sonnysangha/ecommerce-ai-nextjs-16-sanity-clerk-agentkit-stripe-checkout-vercel-ai-agents",
+      "ankush850/ShopIQ-AI-Retail-Intelligence-Platform",
+      "lucasboscatti/sales-ai-agent-langgraph",
+      "dh-orko/Help-me-get-rid-of-unhumans"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -218,7 +227,12 @@
       "40RTY-ai/shopify-admin-skills": "40RTY-ai/shopify-admin-skills 是一套社区维护的 Shopify 商店管理 AI Agent 技能，提供工作流、优化和报告等功能，帮助您更高效地管理您的在线商店",
       "upsidelab/enthusiast": "UpsideLab的Enthusiast是一个开源的AI商业代理，提供强大的商业推理能力",
       "Hoanganhvu123/ShoppingGPT": "ShoppingGPT 是一款 AI 购物助手，集聚了 RAG、LLMs 和 Semantic Router 等技术，专注于越南语市场。",
-      "jtrackingai/analytics-tracking-automation": "这是一个基于 AI 的分析跟踪自动化工具，能够简化网站分析和事件跟踪流程"
+      "jtrackingai/analytics-tracking-automation": "这是一个基于 AI 的分析跟踪自动化工具，能够简化网站分析和事件跟踪流程",
+      "spring-ai-alibaba/spring-ai-alibaba-multi-agent-demo": "这是一个基于 Spring AI Alibaba Agentic API 构建的分布式多智能体系统，旨在为云端饮料店提供智能订单助手",
+      "sonnysangha/ecommerce-ai-nextjs-16-sanity-clerk-agentkit-stripe-checkout-vercel-ai-agents": "这是一个基于 Next.js 和 Sanity 的电子商务 AI 项目，帮助开发者快速构建高效的在线商店。",
+      "ankush850/ShopIQ-AI-Retail-Intelligence-Platform": "ShopIQ 是一款 AI 驱动的零售智能平台，帮助分析购物数据预测趋势、揭示消费者行为模式、客户分群和产品亲和性",
+      "lucasboscatti/sales-ai-agent-langgraph": "这是一个基于 LangChain 和 LangGraph 的虚拟销售代理，通过友好的 Streamlit 界面模拟客户交互，提供产品询价、订单管理和个性化推荐",
+      "dh-orko/Help-me-get-rid-of-unhumans": "Help-me-get-rid-of-unhumans 是一个 JavaScript 项目，旨在提供一个高效的 JSON 解析和字符串化功能。"
     }
   },
   "design": {
@@ -237,7 +251,12 @@
       "cirosantilli/china-dictatorship",
       "rag-web-ui/rag-web-ui",
       "Tencent/behaviac",
-      "skills/secure-code-game"
+      "skills/secure-code-game",
+      "cobusgreyling/loop-engineering",
+      "Light-Heart-Labs/ODS",
+      "instill-ai/instill-core",
+      "gege-circle/.github",
+      "study8677/awesome-architecture"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -254,7 +273,12 @@
       "cirosantilli/china-dictatorship": "反中共政治宣传库。",
       "rag-web-ui/rag-web-ui": "RAG Web UI 是一种基于 RAG 技术的智能对话系统，可以帮助您更高效地生成 AI 代码",
       "Tencent/behaviac": "behaviac 是一个用于游戏 AI 开发的框架，也可以快速设计游戏原型，支持行为树、有限状态机和层次任务网络",
-      "skills/secure-code-game": "Secure Code Game 是一个在线编程体验，让你在浏览器中快速学习编码安全技能"
+      "skills/secure-code-game": "Secure Code Game 是一个在线编程体验，让你在浏览器中快速学习编码安全技能",
+      "cobusgreyling/loop-engineering": "Loop-Engineering 是一个实用的 AI 编程工具集，提供了循环工程的模式、启动器和 CLI 工具，帮助设计者编写和协调 AI 代行者，实现更高效的编程体验。",
+      "Light-Heart-Labs/ODS": "ODS 是一个将个人电脑转变为 AI 服务器的工具，让你轻松实现 LLM 推理、聊天界面、语音功能、智能代理、工作流、RAG 和图像生成",
+      "instill-ai/instill-core": "Instill Core 是一款全栈 AI 基础设施工具，帮助开发者高效管理数据、模型和管道，构建出色的 AI 应用",
+      "gege-circle/.github": "gege-circle/.github 是 GitHub 的草场和戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题。",
+      "study8677/awesome-architecture": "awesome-architecture 是一套体系化的系统设计工具，提供 26 个双语教程、25 个架构模板和 6 个全栈案例，帮助开发者设计和优化分布式系统、AI 原生系统和其他复杂系统。"
     }
   },
   "education": {
@@ -272,7 +296,12 @@
       "yaojingang/yao-open-prompts",
       "gege-circle/.github",
       "Delta-ML/delta",
-      "towardsai/tutorials"
+      "towardsai/tutorials",
+      "KartikChugh/Otto",
+      "aaryansamanta/ai-ethos",
+      "notque/vexjoy-agent",
+      "cirosantilli/china-dictatroship-7",
+      "DharminJoshi/Final-Year-Project-Ideas-2025"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
@@ -288,7 +317,12 @@
       "yaojingang/yao-open-prompts": "Yao Open Prompts 是一个中文 AI 提示库，适用于工作、学习、内容创作、营销和日常生活，提供高效的 AI 应用场景。",
       "gege-circle/.github": "gege-circle/.github 是 GitHub 的草场和戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。",
       "Delta-ML/delta": "DELTA 是一个基于深度学习的自然语言和语音处理平台，它提供了情感识别等核心功能",
-      "towardsai/tutorials": "towardsai/tutorials 是一个免费的 AI 相关教程平台，提供高质量的深度学习和数据科学教程。"
+      "towardsai/tutorials": "towardsai/tutorials 是一个免费的 AI 相关教程平台，提供高质量的深度学习和数据科学教程。",
+      "KartikChugh/Otto": "Otto 是一个使机器学习成为自然语言体验的工具，帮助用户以直观的方式进行机器学习。",
+      "aaryansamanta/ai-ethos": "ai-ethos 是一款非营利项目，致力于全球推广道德人工智能教育，提供工作坊、偏差减轻资源和全球研讨会，已经影响了 75+ 名学生来自 3 个国家。",
+      "notque/vexjoy-agent": "VexJoy Agent是一款AI代理工具，它能智能路由并将自然语言请求转发给合适的专家代理，实现工作流程的管理和学习循环。",
+      "cirosantilli/china-dictatroship-7": "这是一个反中共政治宣传库，用于抗议中国政府的宣传活动，提供了各种资源和信息，包括新闻集、饭店和音乐建议。",
+      "DharminJoshi/Final-Year-Project-Ideas-2025": "Final-Year-Project-Ideas-2025 是一个涵盖 AI、可持续性、健康、教育等领域的项目清单，旨在激发创造力和解决现实问题。"
     }
   },
   "ai-agent": {
@@ -302,7 +336,12 @@
       "infiniflow/ragflow",
       "OpenHands/OpenHands",
       "bytedance/deer-flow",
-      "hiyouga/LlamaFactory"
+      "hiyouga/LlamaFactory",
+      "FoundationAgents/MetaGPT",
+      "crewAIInc/crewAI",
+      "danny-avila/LibreChat",
+      "mlflow/mlflow",
+      "promptfoo/promptfoo"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -314,7 +353,12 @@
       "infiniflow/ragflow": "RAGFlow 是一款领先的开源 Retrieval-Augmented Generation 引擎，融合了前沿 RAG 和 Agent 能力，打造出超级上下文层面来提升 LLMs 的性能",
       "OpenHands/OpenHands": "OpenHands 是一款基于 AI 的开发工具，帮助您快速构建高效的应用程序。",
       "bytedance/deer-flow": "Bytedance的Deer-Flow是一个开源的SuperAgent 框架，利用沙盒、记忆、工具、技能、子代理和消息网关来处理长时间任务。",
-      "hiyouga/LlamaFactory": "LLamaFactory是一款用于高效微调100+LLM和VLM的工具，通过其统一的微调方案，最大限度地提高模型性能。"
+      "hiyouga/LlamaFactory": "LLamaFactory是一款用于高效微调100+LLM和VLM的工具，通过其统一的微调方案，最大限度地提高模型性能。",
+      "FoundationAgents/MetaGPT": "MetaGPT 是一个多智能体框架，旨在实现自然语言编程，简化 AI 软件开发",
+      "crewAIInc/crewAI": "CrewAI 是一个用于协调角色扮演和自主 AI agent 的框架，通过促进协同智能使 agent 能够无缝合作，解决复杂任务。",
+      "danny-avila/LibreChat": "LibreChat 是一个高级 ChatGPT 克隆项目，提供了 Agent、MCP、技能、深度搜索等功能，支持 AI 模型切换和消息搜索等高级特性。",
+      "mlflow/mlflow": "MLflow 是一款开源 AI 工程平台，帮助团队在控制成本和管理模型和数据访问的同时，调试、评估、监控和优化高质量的 AI 应用",
+      "promptfoo/promptfoo": "promptfoo 是一个用于测试和评估 AI agents 和 RAGs 的工具，帮助开发者比较不同 AI 模型的性能，例如 GPT 和 Claude，简化配置和 CI/CD 集成。"
     }
   },
   "short-drama": {
@@ -328,7 +372,12 @@
       "MemeCalculate/moyin-creator",
       "FireRedTeam/FireRed-OpenStoryline",
       "yuanzhongqiao/printfilm",
-      "LingyiChen-AI/AIComicBuilder"
+      "LingyiChen-AI/AIComicBuilder",
+      "tin2tin/Pallaidium",
+      "xuanyustudio/LocalMiniDrama",
+      "IgorShadurin/app.yumcut.com",
+      "naqashafzal/AI-Content-Studio",
+      "SamurAIGPT/AI-Faceless-Video-Generator"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -340,7 +389,12 @@
       "MemeCalculate/moyin-creator": "Moyin-creator 是一款 AI 影视生产级工具，支持 Seedance 2.0，能够将剧本批量化成片，极大提高影视制作效率",
       "FireRedTeam/FireRed-OpenStoryline": "FireRed-OpenStoryline 是一个 AI 视频编辑代理，通过自然语言交互、LLM 驱动的规划和精确工具协调，将手动编辑转变为意图驱动的导演。",
       "yuanzhongqiao/printfilm": "printfilm 是一款短剧平台，利用工业级 AI 自动生成动漫短片和视频，极大提高创作效率",
-      "LingyiChen-AI/AIComicBuilder": "AIComicBuilder是一款基于AI的动画漫画生成工具，能够将脚本转换为由AI驱动的动画视频。"
+      "LingyiChen-AI/AIComicBuilder": "AIComicBuilder是一款基于AI的动画漫画生成工具，能够将脚本转换为由AI驱动的动画视频。",
+      "tin2tin/Pallaidium": "PALLAIDIUM是一款集成在Blender视频编辑器中的生成性AI电影工作室，可以从剧本到屏幕并反复进行生产。",
+      "xuanyustudio/LocalMiniDrama": "LocalMiniDrama 是一个开源本地 AI 短剧生成工具，允许您在本机完成从故事到成片的创作过程，确保您的数据安全。",
+      "IgorShadurin/app.yumcut.com": "YumCut 是一个免费的 AI 视频生成器，可以根据提示快速制作垂直视频，适合 TikTok、Reels 和 YouTube Shorts 等平台，支持自定义脚本、场景、配音、字幕和水印等功能，帮助创作者和独立开发者快速高效生产视频内容。",
+      "naqashafzal/AI-Content-Studio": "AI-Content-Studio 是一个完全免费和开源的 AI 内容自动化工具，它可以生成脚本、创建语音导游、制作视频并自动上传至 YouTube —— 由 AI 驱动的手动 YouTube 成长。",
+      "SamurAIGPT/AI-Faceless-Video-Generator": "SamurAIGPT/AI-Faceless-Video-Generator 是一款 AI 生成视频工具，能用 AI 自动生成视频脚本、声音和嘴巴动画"
     }
   },
   "desktop-pet": {
