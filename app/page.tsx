@@ -1,10 +1,30 @@
 import Hero from '@/components/Hero'
 import RisingStars from '@/components/RisingStars'
 import RepoBoard from '@/components/RepoBoard'
+import StarterGuide from '@/components/StarterGuide'
+
+const schemaOrg = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Claude Code 雷达",
+  "alternateName": ["Claude Code Radar", "AI 编程工具榜单"],
+  "url": "https://radar.lbenben.cc.cd",
+  "description": "追踪 GitHub 上 Claude Code、MCP、AI Agent 等领域的热门开源项目，每小时自动更新。",
+  "inLanguage": "zh-CN",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://radar.lbenben.cc.cd/?cat={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
 
 export default function Home() {
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }}
+      />
       <Hero />
 
       {/* 引流 Banner */}
@@ -42,6 +62,7 @@ export default function Home() {
       </div>
 
       <RisingStars />
+      <StarterGuide />
       <RepoBoard />
 
       <footer className="bg-gray-50 border-t border-gray-200 text-center text-xs text-gray-400 py-8">

@@ -124,13 +124,28 @@ function RepoCard({ repo, bookmarked, onBookmark, onKitClick }: {
 }
 
 export default function RepoBoard() {
-  const [activeCategory, setActiveCategory] = useState('claude-code')
+  const getInitialCat = () => {
+    if (typeof window === 'undefined') return 'claude-code'
+    return new URLSearchParams(window.location.search).get('cat') ?? 'claude-code'
+  }
+  const [activeCategory, setActiveCategory] = useState(getInitialCat)
   const [repos, setRepos] = useState<RepoWithNote[]>([])
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
   const [showBookmarksOnly, setShowBookmarksOnly] = useState(false)
   const [kitFullName, setKitFullName] = useState<string | null>(null)
   const { bookmarks, toggle } = useBookmarks()
+
+  // 监听新手选择器发出的分类切换事件
+  useEffect(() => {
+    const handler = (e: Event) => {
+      const cat = (e as CustomEvent<string>).detail
+      setActiveCategory(cat)
+      setSearch('')
+    }
+    window.addEventListener('ccr-cat-change', handler)
+    return () => window.removeEventListener('ccr-cat-change', handler)
+  }, [])
 
   const fetchRepos = useCallback(async (categoryId: string) => {
     setLoading(true)

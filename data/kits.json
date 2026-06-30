@@ -8,10 +8,18 @@
       "改成 6×6 棋盘，目标数字从 2048 变成 8192，体验更魔性的难度",
       "加上本地最高分记录，用 localStorage 保存，刷新页面也不会丢"
     ],
-    "fileStructure": ["index.html", "js/game_manager.js", "js/tile.js", "style/main.css"],
+    "fileStructure": [
+      "index.html",
+      "js/game_manager.js",
+      "js/tile.js",
+      "style/main.css"
+    ],
     "prompt": "我想用 Claude Code 做一个 2048 游戏，参考这个开源仓库：https://github.com/gabrielecirulli/2048\n\n目标：先把原版跑通，再改成自己的风格\n\n请帮我：\n1. 读懂这个仓库的核心文件（game_manager.js），解释棋盘逻辑\n2. 做一个可以直接在浏览器运行的版本（不需要后端）\n3. 先列出文件结构，再写代码\n\n先做最小可运行版本，不需要加复杂功能，控制在1天内完成。",
     "skills": [
-      { "name": "GitHub CLI", "reason": "用来 clone 原版仓库，方便参考源码" }
+      {
+        "name": "GitHub CLI",
+        "reason": "用来 clone 原版仓库，方便参考源码"
+      }
     ]
   },
   "jakesgordon/javascript-tetris": {
@@ -23,10 +31,17 @@
       "加音效：落地声、消行声、游戏结束声（用 Web Audio API，不需要音频文件）",
       "加本地排行榜，保存前 5 名成绩，用 localStorage 存"
     ],
-    "fileStructure": ["index.html", "tetris.js", "style.css"],
+    "fileStructure": [
+      "index.html",
+      "tetris.js",
+      "style.css"
+    ],
     "prompt": "我想用 Claude Code 做一个俄罗斯方块游戏，参考：https://github.com/jakesgordon/javascript-tetris\n\n这个仓库只有 3 个文件，代码很短，请帮我：\n1. 读懂 tetris.js 的核心逻辑（碰撞检测、消行）\n2. 在原版基础上加一个「下一个方块」预览\n3. 加简单音效（落地声、消行声）\n\n不需要后端，纯浏览器运行，先给我文件结构和第一步要写的代码。",
     "skills": [
-      { "name": "GitHub CLI", "reason": "clone 仓库快速获取原版代码" }
+      {
+        "name": "GitHub CLI",
+        "reason": "clone 仓库快速获取原版代码"
+      }
     ]
   },
   "KilledByAPixel/LittleJS": {
@@ -38,10 +53,17 @@
       "加粒子爆炸效果：砖块被打碎时有炸裂动画",
       "加关卡系统：第二关砖块更多更快，做 3 关就够了"
     ],
-    "fileStructure": ["index.html", "game.js", "littlejs.js"],
+    "fileStructure": [
+      "index.html",
+      "game.js",
+      "littlejs.js"
+    ],
     "prompt": "我想用 LittleJS 游戏引擎（https://github.com/KilledByAPixel/LittleJS）做一个小游戏。\n\n目标：在 breakout（打砖块）示例基础上做一个有主题的版本，比如「打怪兽」或「太空射击」。\n\n请帮我：\n1. 基于 examples/breakout 改造，不要从零开始\n2. 先改视觉主题（颜色/形状），再加新功能\n3. 加粒子爆炸效果和音效\n4. 做 3 个关卡\n\n纯浏览器运行，先给文件结构。",
     "skills": [
-      { "name": "GitHub CLI", "reason": "clone LittleJS 仓库获取引擎文件和示例" }
+      {
+        "name": "GitHub CLI",
+        "reason": "clone LittleJS 仓库获取引擎文件和示例"
+      }
     ]
   },
   "ondras/rot.js": {
@@ -53,10 +75,17 @@
       "加视野系统：玩家只能看到附近一圈，走过的地方变灰色",
       "加一些 ★ 符号代表宝物，走到宝物上自动拾取，显示收集数量"
     ],
-    "fileStructure": ["index.html", "game.js", "style.css"],
+    "fileStructure": [
+      "index.html",
+      "game.js",
+      "style.css"
+    ],
     "prompt": "我想用 rot.js 做一个 Roguelike 风格的地下城探索游戏，参考：https://github.com/ondras/rot.js\n\n目标：随机地图、玩家移动、视野系统、收集宝物\n\n请帮我：\n1. 用 rot.js 的 Map.Digger 生成随机地下城\n2. 玩家用方向键移动\n3. 加简单视野效果（FOV）\n4. 放几个可以收集的物品\n\n纯浏览器运行，用 CDN 引入 rot.js，先给文件结构。",
     "skills": [
-      { "name": "GitHub CLI", "reason": "clone 仓库参考官方示例代码" }
+      {
+        "name": "GitHub CLI",
+        "reason": "clone 仓库参考官方示例代码"
+      }
     ]
   },
   "Coding-With-Adam/desktop_pet": {
@@ -68,7 +97,12 @@
       "让小宠物沿屏幕边缘随机行走，到了边缘就转向",
       "加点击互动：鼠标点击小宠物时，播放一段开心的动画或者冒出爱心"
     ],
-    "fileStructure": ["main.py", "pet.py", "assets/cat_idle_1.png", "assets/cat_idle_2.png"],
+    "fileStructure": [
+      "main.py",
+      "pet.py",
+      "assets/cat_idle_1.png",
+      "assets/cat_idle_2.png"
+    ],
     "prompt": "我想用 Python + Pygame 做一个桌面小宠物，参考：https://github.com/Coding-With-Adam/desktop_pet\n\n目标：一个小宠物在屏幕上行走，可以点击互动\n\n请帮我：\n1. 先做最小版：一个图片在屏幕右下角显示，窗口无边框透明背景\n2. 加简单动画（2-4 帧循环）\n3. 让宠物沿屏幕边缘行走\n4. 点击有互动反应\n\n先给我文件结构和安装步骤。",
     "skills": []
   },
@@ -81,7 +115,12 @@
       "修改 actions.xml 调整动作参数：行走速度、跳跃频率、坐下时间",
       "在 img 文件夹里放多个角色，运行时右键可以召唤更多角色同时出现"
     ],
-    "fileStructure": ["Shimeji.jar", "img/shimeji1/*.png", "conf/actions.xml", "conf/behaviors.xml"],
+    "fileStructure": [
+      "Shimeji.jar",
+      "img/shimeji1/*.png",
+      "conf/actions.xml",
+      "conf/behaviors.xml"
+    ],
     "prompt": "我想做一个自定义的 Shimeji 桌面吉祥物，参考：https://github.com/HypnoticOcelot/shimeji-ee\n\n目标：换上自己的图片，做一个专属桌面小人\n\n请帮我：\n1. 解释 img 目录下图片命名规则（Fall、Walk、Sit 等动作）\n2. 解释 actions.xml 里最常用的动作参数怎么改\n3. 给我一份最简单的自定义步骤清单\n\n我不懂 Java 开发，只想换图片和调参数。",
     "skills": []
   },
@@ -94,10 +133,17 @@
       "在提示词后加负面提示词（negative prompt）：ugly, blurry, bad hands，感受质量提升",
       "试 img2img 功能：上传一张照片，让 AI 画成动漫风格"
     ],
-    "fileStructure": ["webui.sh / webui-user.bat", "models/Stable-diffusion/*.safetensors", "outputs/txt2img-images/"],
+    "fileStructure": [
+      "webui.sh / webui-user.bat",
+      "models/Stable-diffusion/*.safetensors",
+      "outputs/txt2img-images/"
+    ],
     "prompt": "我想在本地搭建 Stable Diffusion WebUI（https://github.com/AUTOMATIC1111/stable-diffusion-webui）\n\n我的环境：[请告诉我你的系统 Mac/Win/Linux，有没有 NVIDIA 显卡]\n\n请帮我：\n1. 根据我的环境给出最简单的安装步骤\n2. 安装好后如何生成第一张图\n3. 推荐 3-5 个新手友好的提示词写法\n\n我完全不懂 AI 绘画，请用最简单的语言说明。",
     "skills": [
-      { "name": "GitHub CLI", "reason": "clone 仓库到本地" }
+      {
+        "name": "GitHub CLI",
+        "reason": "clone 仓库到本地"
+      }
     ]
   },
   "facebookresearch/audiocraft": {
@@ -109,7 +155,11 @@
       "试不同的风格描述：电子舞曲、中国古风、爵士钢琴，感受文字如何控制音乐风格",
       "用生成的音乐给你的抖音视频配乐，导出 wav 文件"
     ],
-    "fileStructure": ["notebooks/musicgen.ipynb", "audiocraft/models/", "outputs/*.wav"],
+    "fileStructure": [
+      "notebooks/musicgen.ipynb",
+      "audiocraft/models/",
+      "outputs/*.wav"
+    ],
     "prompt": "我想用 AudioCraft 的 MusicGen 生成 AI 音乐，参考：https://github.com/facebookresearch/audiocraft\n\n目标：用文字描述生成一段 15 秒的背景音乐，用于我的短视频\n\n请帮我：\n1. 用 Google Colab 最快的方式跑起来 MusicGen\n2. 写 5 个不同风格的中文提示词示例（我会翻译成英文用）\n3. 如何调整音乐时长和生成质量参数\n\n我没有本地 GPU，用 Colab 免费 T4 跑。",
     "skills": []
   },
@@ -122,7 +172,10 @@
       "用 OpenPose 功能：上传一张人物照片，AI 提取骨架，用这个骨架生成另一个人物但保持相同姿势",
       "试 Canny 边缘控制：上传线稿或手绘草图，让 AI 给它上色并渲染成精美插画"
     ],
-    "fileStructure": ["SD WebUI/extensions/sd-webui-controlnet/", "SD WebUI/models/ControlNet/*.pth"],
+    "fileStructure": [
+      "SD WebUI/extensions/sd-webui-controlnet/",
+      "SD WebUI/models/ControlNet/*.pth"
+    ],
     "prompt": "我已经装好了 Stable Diffusion WebUI，想安装 ControlNet 来更精准地控制 AI 画图。\n参考：https://github.com/lllyasviel/ControlNet\n\n请帮我：\n1. 一步步安装 ControlNet 扩展到 SD WebUI\n2. 推荐新手应该先下载哪几个 ControlNet 模型（OpenPose/Canny/Depth）\n3. 用 OpenPose 控制人物姿势的具体操作步骤\n4. 写 3 个示例提示词配合 ControlNet 使用\n\n先告诉我安装是否成功的验证方法。",
     "skills": []
   },
@@ -135,7 +188,12 @@
       "用 --output_format srt 参数，直接输出字幕文件，导入视频编辑软件",
       "写一个 Python 脚本批量转换整个文件夹里的所有音频，自动保存 txt 和 srt"
     ],
-    "fileStructure": ["transcribe.py", "batch_transcribe.py", "output/*.txt", "output/*.srt"],
+    "fileStructure": [
+      "transcribe.py",
+      "batch_transcribe.py",
+      "output/*.txt",
+      "output/*.srt"
+    ],
     "prompt": "我想用 OpenAI Whisper 把音频/视频转成中文文字，参考：https://github.com/openai/whisper\n\n我的需求：把抖音视频的对话转成字幕文件（.srt 格式）\n\n请帮我：\n1. 安装 Whisper 的步骤（我用 Mac，没有 NVIDIA 显卡）\n2. 推荐用哪个模型（在准确率和速度上平衡）\n3. 写一个 Python 脚本，批量把文件夹里的 mp4 视频转成 srt 字幕\n\n先给我安装命令和第一次测试用的命令。",
     "skills": []
   },
@@ -148,7 +206,11 @@
       "运行 scripts/txt2img.py，用命令行生成第一张图，理解各参数的意义",
       "读 ldm/models/diffusion/ddpm.py 了解扩散模型的核心逻辑（进阶学习）"
     ],
-    "fileStructure": ["scripts/txt2img.py", "ldm/models/", "configs/stable-diffusion/v1-inference.yaml"],
+    "fileStructure": [
+      "scripts/txt2img.py",
+      "ldm/models/",
+      "configs/stable-diffusion/v1-inference.yaml"
+    ],
     "prompt": "我想了解 Stable Diffusion 的原版代码，参考：https://github.com/CompVis/stable-diffusion\n\n我的目标：想在自己的应用里调用 SD 生图能力（不是用 WebUI）\n\n请帮我：\n1. 搭建 conda 开发环境\n2. 写一个最简单的 Python 脚本，输入一段文字，输出一张图片\n3. 解释关键参数（cfg_scale、sampling_steps、seed）的作用\n\n我是 Python 程序员但没有 AI 背景。",
     "skills": []
   },
@@ -161,7 +223,11 @@
       "在文本里加特殊标记：[laughs]、[sighs]、[clears throat]，让语音更有表情",
       "生成一段 30 秒以内的配音，导出 wav 文件用在你的抖音视频里"
     ],
-    "fileStructure": ["generate.py", "bark/", "output/audio.wav"],
+    "fileStructure": [
+      "generate.py",
+      "bark/",
+      "output/audio.wav"
+    ],
     "prompt": "我想用 Bark 生成有感情的中文语音配音，参考：https://github.com/suno-ai/bark\n\n我的需求：给抖音短视频生成有感情的旁白配音\n\n请帮我：\n1. 在 Google Colab 最快速启动 Bark\n2. 列出所有中文说话人的声音特点（哪个声音适合旁白/对话）\n3. 写一个示例文本，包含 [laughs] [sighs] 等情绪标记\n4. 如何把生成的 wav 导入视频剪辑\n\nColab 免费 T4 能跑中等质量吗？",
     "skills": []
   },
@@ -174,7 +240,11 @@
       "试「画布」（Unified Canvas）功能：上传一张图，用画笔涂抹要重绘的部分，让 AI 填充",
       "试「工作流」（Nodes/Workflow）模式：像搭积木一样连接多个 AI 步骤"
     ],
-    "fileStructure": ["invoke.sh / invoke.bat", "invokeai/", "outputs/"],
+    "fileStructure": [
+      "invoke.sh / invoke.bat",
+      "invokeai/",
+      "outputs/"
+    ],
     "prompt": "我想安装 InvokeAI 作为我的主力 AI 绘画工具，参考：https://github.com/invoke-ai/InvokeAI\n\n我的系统：[Mac/Win/Linux，显卡情况]\n\n请帮我：\n1. 最简单的安装方法（推荐用官方安装脚本）\n2. 安装后如何下载和使用第一个模型\n3. InvokeAI 的「画布」功能和普通 txt2img 的区别和使用场景\n\n我之前用过 AUTOMATIC1111，InvokeAI 有什么优势？",
     "skills": []
   },
@@ -187,7 +257,10 @@
       "调整 render_factor 参数（7-40），数值越大质量越好但越慢，找到最合适的平衡点",
       "试 DeOldify_Video.ipynb 给一段黑白视频上色，适合给老电影片段上色"
     ],
-    "fileStructure": ["notebooks/DeOldify_Image.ipynb", "notebooks/DeOldify_Video.ipynb"],
+    "fileStructure": [
+      "notebooks/DeOldify_Image.ipynb",
+      "notebooks/DeOldify_Video.ipynb"
+    ],
     "prompt": "我想用 DeOldify 给家里的黑白老照片上色，参考：https://github.com/jantic/DeOldify\n\n请帮我：\n1. 在 Google Colab 使用 DeOldify 的完整步骤（我不想装本地环境）\n2. render_factor 参数怎么设置最好（在质量和速度之间）\n3. 什么样的老照片上色效果最好，什么样的效果差\n4. 如何批量处理多张照片\n\n我只想用不想开发，给我最简单的使用说明。",
     "skills": []
   },
@@ -200,7 +273,11 @@
       "把照片和视频上传到 Colab，运行生成，第一次大概需要等 5-10 分钟",
       "调整 relative（相对运动）和 adapt_scale 参数，让动作更自然不变形"
     ],
-    "fileStructure": ["demo/demo.ipynb", "config/vox-256.yaml", "checkpoints/"],
+    "fileStructure": [
+      "demo/demo.ipynb",
+      "config/vox-256.yaml",
+      "checkpoints/"
+    ],
     "prompt": "我想用 First Order Model 让老照片「动」起来，参考：https://github.com/AliaksandrSiarohin/first-order-model\n\n我的目标：让一张家人的老照片配合音乐动起来\n\n请帮我：\n1. 在 Google Colab 运行这个模型的步骤\n2. 源照片和驾驶视频的要求（大小、格式、什么样效果好）\n3. 关键参数 relative 和 adapt_scale 怎么调整\n4. 生成后怎么加音乐导出\n\n我没有 GPU，用 Colab 免费版能跑吗？",
     "skills": []
   },
@@ -213,10 +290,288 @@
       "加一个新状态：比如「睡觉」（一段时间没有互动后触发）",
       "用 Tauri 或 Electron 打包成桌面应用，让宠物在真实桌面上显示（无边框窗口）"
     ],
-    "fileStructure": ["src/Pet.ts", "src/main.ts", "public/sprites/", "index.html"],
+    "fileStructure": [
+      "src/Pet.ts",
+      "src/main.ts",
+      "public/sprites/",
+      "index.html"
+    ],
     "prompt": "我想用这个 Vite 桌面宠物项目做一个自定义版本，参考：https://github.com/jsartelle/vite-desktop-pet\n\n目标：做一个有自定义图片和互动的桌面宠物\n\n请帮我：\n1. 把项目跑起来（npm 命令）\n2. 换成我自己的宠物图片（需要什么格式和尺寸）\n3. 加一个「睡觉」状态：5 分钟无互动后切换到睡眠动画\n4. 如果要打包成真实桌面应用怎么做\n\n先给我文件结构和第一步改什么文件。",
     "skills": [
-      { "name": "GitHub CLI", "reason": "clone 仓库到本地" }
+      {
+        "name": "GitHub CLI",
+        "reason": "clone 仓库到本地"
+      }
+    ]
+  },
+  "browser-use/browser-use": {
+    "title": "AI 自动操控浏览器",
+    "step1": "browser-use 让 AI 像人一样操控浏览器——打开网页、点击按钮、填表单、抓数据。先装好 Python 3.11+，然后 pip install browser-use，再配上 Claude 或 GPT 的 API Key，3 分钟就能跑起第一个自动化任务。",
+    "mvpSteps": [
+      "pip install browser-use playwright，运行 playwright install，把浏览器驱动装好",
+      "跑官方示例：让 AI 去 Google 搜索一个关键词，截图保存结果",
+      "改成自己的任务：比如每天自动去某个网站抓最新价格，存到 txt 文件",
+      "加定时功能：用 schedule 库每天早上 8 点自动执行，结果发到自己邮箱"
+    ],
+    "fileStructure": [
+      "main.py",
+      "tasks/",
+      "results/",
+      ".env（放 API Key）"
+    ],
+    "prompt": "我想用 browser-use 让 AI 自动操控浏览器，参考：https://github.com/browser-use/browser-use\n\n目标：做一个每天自动抓取指定网页信息的小工具\n\n请帮我：\n1. 完整的安装步骤（pip install + playwright install）\n2. 写一个任务：打开某个网页，抓取标题和前5条内容，保存到文件\n3. 加上错误处理（网络超时、元素找不到）\n4. 怎么设置 API Key（.env 文件）\n\n先给我能直接跑通的最小示例代码。",
+    "skills": [
+      {
+        "name": "Python 3.11+",
+        "reason": "browser-use 依赖新版 Python"
+      },
+      {
+        "name": "API Key",
+        "reason": "需要 Claude 或 GPT 的 API 才能运行"
+      }
+    ]
+  },
+  "langgenius/dify": {
+    "title": "可视化搭建 AI 应用",
+    "step1": "Dify 是一个不用写代码就能搭建 AI 应用的平台，有对话机器人、工作流、知识库等功能。最快的方式是用官方云服务（dify.ai）直接注册，本地部署用 docker-compose up -d 一键启动，适合想把 AI 应用私有化的场景。",
+    "mvpSteps": [
+      "去 dify.ai 注册账号，或者本地 docker-compose up -d 启动（需要有 Docker）",
+      "创建第一个「聊天助手」：选一个模型，写一段系统提示词，测试对话效果",
+      "接入知识库：上传一份 PDF 或 Word 文档，让 AI 基于这份文档回答问题",
+      "发布成 API：拿到 API Key，用 Python 调用，或者嵌入网页做成自己的产品"
+    ],
+    "fileStructure": [
+      "docker-compose.yaml",
+      "volumes/（数据存储）",
+      ".env（配置 API Key）"
+    ],
+    "prompt": "我想用 Dify 搭建一个基于自己文档的 AI 问答机器人，参考：https://github.com/langgenius/dify\n\n目标：上传一批 PDF，让 AI 只根据这些文档回答问题\n\n请帮我：\n1. 本地 Docker 部署步骤\n2. 创建知识库并上传文档的操作流程\n3. 配置一个「只能回答知识库内容」的机器人（不乱编答案）\n4. 拿到 API 接口，用 Python 调用示例\n\n一步一步给我操作说明。",
+    "skills": [
+      {
+        "name": "Docker Desktop",
+        "reason": "本地部署需要，或者直接用云版本免安装"
+      }
+    ]
+  },
+  "OpenHands/OpenHands": {
+    "title": "AI 软件工程师自动写代码",
+    "step1": "OpenHands 是一个 AI 软件工程师，你给它需求，它会自己写代码、运行、调试，直到完成。用 Docker 启动最简单，打开浏览器就能用，不需要懂代码。",
+    "mvpSteps": [
+      "用官方 Docker 命令启动 OpenHands，配好 Claude 或 GPT 的 API Key",
+      "给它一个简单任务：「做一个网页，显示今天的天气」，看它自己写代码的过程",
+      "升级难度：「爬取某个网站的数据，存到 Excel 文件」",
+      "试试让它修 bug：把一段有错误的代码粘给它，让它找出问题并修复"
+    ],
+    "fileStructure": [
+      "workspace/（AI 生成的文件都在这里）",
+      "config.toml",
+      ".env"
+    ],
+    "prompt": "我想用 OpenHands 让 AI 帮我自动完成编程任务，参考：https://github.com/OpenHands/OpenHands\n\n目标：让 AI 帮我做一个实用的小工具\n\n请帮我：\n1. Docker 启动命令（直接给我可以复制的命令）\n2. 配置 API Key 的方法\n3. 设计一个适合新手的第一个任务（不太难但能看到效果）\n4. 任务失败或卡住了怎么处理\n\n给我详细的启动步骤。",
+    "skills": [
+      {
+        "name": "Docker Desktop",
+        "reason": "OpenHands 用 Docker 运行，必须安装"
+      },
+      {
+        "name": "API Key",
+        "reason": "需要 Claude 或 GPT 的 API"
+      }
+    ]
+  },
+  "onlook-dev/onlook": {
+    "title": "AI 直接在页面上改设计",
+    "step1": "Onlook 让你在浏览器里直接拖拽修改 UI，代码同步自动变——不用一边看代码一边猜效果。下载 Mac/Windows 客户端，连接你的 React 项目就能用。",
+    "mvpSteps": [
+      "下载安装 Onlook 客户端，连接一个本地 React 或 Next.js 项目",
+      "在页面上直接点击元素，用右侧面板改颜色、字体、间距，看代码实时同步",
+      "用 AI 对话功能：选中一个区块，用自然语言描述「把这里改成卡片风格」",
+      "生成一个新页面：告诉 AI 你想要什么布局，它直接生成 React 组件代码"
+    ],
+    "fileStructure": [
+      "（接入你现有的 React 项目）",
+      "src/components/",
+      "src/app/"
+    ],
+    "prompt": "我想用 Onlook 把我的 React 项目做成可视化编辑，参考：https://github.com/onlook-dev/onlook\n\n我有一个 Next.js 项目，想直接在页面上拖拽修改样式\n\n请帮我：\n1. 安装 Onlook 后如何连接我的 Next.js 项目\n2. 如果项目没用 Tailwind 能用吗，怎么配\n3. 用 AI 对话生成一个新的导航栏组件\n4. 修改完怎么把代码导出或提交 git\n\n给我接入步骤。",
+    "skills": [
+      {
+        "name": "React/Next.js 项目",
+        "reason": "Onlook 目前主要支持 React 生态"
+      }
+    ]
+  },
+  "umlx5h/LLPlayer": {
+    "title": "AI 实时翻译字幕播放器",
+    "step1": "LLPlayer 是一个视频播放器，能用 AI 实时翻译字幕、生成词汇解释，专门为语言学习设计。下载 Windows 安装包直接用，支持本地视频和流媒体，配好 Whisper 模型就能开始。",
+    "mvpSteps": [
+      "下载 LLPlayer 安装包（GitHub Releases 页面），安装后打开一个英文视频",
+      "配置 Whisper 模型（选 small 版本，免费且速度够快），开启实时字幕",
+      "开启「AI 翻译」：选中一段字幕，AI 给出中文翻译和重点词解释",
+      "进阶：配合 AI API，让它根据你看的内容出练习题，测试理解"
+    ],
+    "fileStructure": [
+      "（直接用安装包，无需修改代码）",
+      "models/（Whisper 模型文件）",
+      "subtitles/（字幕缓存）"
+    ],
+    "prompt": "我想用 LLPlayer 看英文视频练习英语，参考：https://github.com/umlx5h/LLPlayer\n\n目标：能实时看到 AI 生成的中英对照字幕，生词能查解释\n\n请帮我：\n1. 安装步骤和下载哪个版本\n2. Whisper 模型怎么选（我电脑配置普通）\n3. 配置 AI 翻译的方案\n4. 有没有完全免费、不需要 API Key 的方案\n\n给我最省钱的使用方案。",
+    "skills": [
+      {
+        "name": "Windows 系统",
+        "reason": "LLPlayer 目前主要支持 Windows"
+      },
+      {
+        "name": "Whisper 模型",
+        "reason": "语音识别核心，可免费下载使用"
+      }
+    ]
+  },
+  "YILS-LIN/short-video-factory": {
+    "title": "AI 批量生成短视频",
+    "step1": "short-video-factory 是一个自动化短视频生产线——输入文字内容，AI 自动配音、加字幕、合成视频。适合批量做资讯类、科普类短视频的创作者。先 git clone，pip install -r requirements.txt，配好 TTS API 就能跑。",
+    "mvpSteps": [
+      "clone 仓库，pip install，配置 TTS API（可用微软 Azure 免费额度）",
+      "准备一个文字稿（比如今日新闻 5 条），运行脚本，看自动生成带字幕的视频",
+      "替换背景图片/视频素材，改成自己账号的风格（配色、字体）",
+      "批量生产：准备 10 条稿子，一键生成 10 个视频，测试效率提升"
+    ],
+    "fileStructure": [
+      "scripts/（文字稿放这里）",
+      "assets/（背景图片、音乐）",
+      "output/（生成的视频）",
+      "config.yaml"
+    ],
+    "prompt": "我想用 short-video-factory 批量生产短视频，参考：https://github.com/YILS-LIN/short-video-factory\n\n我是抖音创作者，想做资讯类科普视频，内容我有，缺效率\n\n请帮我：\n1. 安装步骤（Windows 和 Mac 都说清楚）\n2. 配置免费或低成本的中文女声 TTS\n3. 自定义视频样式：换背景、改字幕字体和位置\n4. 一次批量处理 10 篇稿子的工作流\n\n给我完整的配置和使用步骤。",
+    "skills": [
+      {
+        "name": "FFmpeg",
+        "reason": "视频合成核心工具，需要提前安装"
+      },
+      {
+        "name": "TTS API",
+        "reason": "文字转语音，推荐微软 Azure 免费额度"
+      }
+    ]
+  },
+  "DouglasDollars/electron-desktop-pet": {
+    "title": "Electron 桌面宠物（可打包发布）",
+    "step1": "这个桌面宠物用 Electron 做，可以打包成真正的 .exe 或 .app 应用分享给别人。npm install，npm start 就能在桌面上看到宠物漂浮。核心是 main.js 里 frame: false + transparent: true 实现透明无边框。",
+    "mvpSteps": [
+      "clone 仓库，npm install，npm start，看宠物在桌面上出现",
+      "换宠物图片：准备 PNG（透明背景），替换 assets 文件夹里的图片",
+      "改行为逻辑：修改移动速度、点击反应（比如点一下宠物就跑掉）",
+      "用 electron-builder 打包：npm run build，生成可以给朋友的安装包"
+    ],
+    "fileStructure": [
+      "main.js（Electron 主进程）",
+      "renderer.js（宠物行为逻辑）",
+      "assets/（宠物图片）",
+      "index.html"
+    ],
+    "prompt": "我想用 Electron 做一个桌面宠物，参考：https://github.com/DouglasDollars/electron-desktop-pet\n\n目标：做一个透明悬浮在桌面上的宠物，能点击互动，最后打包成安装包\n\n请帮我：\n1. 安装和启动步骤（npm install + npm start）\n2. 怎么换成我自己的宠物图片（需要什么格式和尺寸）\n3. 加一个点击互动：点击宠物播放一段动画然后消失再出现\n4. electron-builder 打包命令，生成 Windows .exe 文件\n\n先给我跑起来的步骤，再做自定义。",
+    "skills": [
+      {
+        "name": "Node.js 18+",
+        "reason": "Electron 运行需要 Node.js"
+      },
+      {
+        "name": "electron-builder",
+        "reason": "打包成安装包，npm install electron-builder"
+      }
+    ]
+  },
+  "infiniflow/ragflow": {
+    "title": "给自己的文档装上 AI 问答",
+    "step1": "RAGFlow 专门解决「AI 乱编答案」问题——让 AI 只基于你上传的文档回答，还能显示出处。用 Docker 最省事：docker-compose up -d，等几分钟，浏览器打开 localhost:80 就能用。",
+    "mvpSteps": [
+      "docker-compose up -d 启动，第一次等几分钟拉取镜像，打开 localhost:80",
+      "创建知识库，上传你的文档（PDF、Word、Excel 都支持），等待解析完成",
+      "创建一个「助手」，绑定知识库，设置提示词：只根据文档内容回答，不知道就说不知道",
+      "测试问答效果，看 AI 给出的答案是否附带文档原文出处，验证准确性"
+    ],
+    "fileStructure": [
+      "docker-compose.yml",
+      "volumes/（文档和索引数据）",
+      ".env（配置端口和 API）"
+    ],
+    "prompt": "我想用 RAGFlow 给我的文档做一个只基于文档内容回答的 AI 问答系统，参考：https://github.com/infiniflow/ragflow\n\n我有一批内部资料（PDF 和 Word），想让团队可以用 AI 搜索这些内容\n\n请帮我：\n1. Docker 启动步骤（给我可以直接复制的命令）\n2. 上传文档后，怎么验证文档被正确解析了\n3. 配置「严格模式」：AI 只能根据文档回答，不能乱编\n4. 怎么分享给团队其他人（内网访问配置）\n\n给我从安装到上线的完整步骤。",
+    "skills": [
+      {
+        "name": "Docker Desktop",
+        "reason": "RAGFlow 用 Docker 部署，必须安装"
+      },
+      {
+        "name": "16GB 内存",
+        "reason": "RAGFlow 比较占内存，低配机器会慢"
+      }
+    ]
+  },
+  "nickgrossman/tetris": {
+    "title": "极简俄罗斯方块（100行代码）",
+    "step1": "这个俄罗斯方块极其精简，核心逻辑只用 HTML + JavaScript 写成，代码不超过 100 行。直接打开 index.html 就能玩，非常适合拿来改造——加皮肤、加音效，一两小时就能做出自己的版本。",
+    "mvpSteps": [
+      "下载仓库，直接双击 index.html 在浏览器里玩，确认基础玩法正常",
+      "改颜色主题：在 CSS 里换 7 种方块的颜色，比如改成糖果色或赛博朋克风",
+      "加分数面板：在右侧显示当前分数、最高分、消除行数（localStorage 保存）",
+      "加音效：用 Web Audio API 在消行时播放声音（不需要音频文件）"
+    ],
+    "fileStructure": [
+      "index.html",
+      "style.css",
+      "tetris.js"
+    ],
+    "prompt": "我想基于这个极简俄罗斯方块做一个有自己风格的版本，参考：https://github.com/nickgrossman/tetris\n\n目标：保留核心玩法，换上自己的主题风格\n\n请帮我：\n1. 先读懂代码结构（方块怎么表示、碰撞怎么检测）\n2. 改成「中国风」主题：背景深红色，方块用金色\n3. 加一个记分板：显示当前分和最高分（localStorage 保存）\n4. 加消行音效（用 Web Audio API 生成，不需要音频文件）\n\n给我改造后的完整代码。",
+    "skills": []
+  },
+  "openai/point-e": {
+    "title": "文字生成 3D 模型",
+    "step1": "Point-E 是 OpenAI 的 3D 生成模型，输入一段英文描述，输出一个 3D 点云模型。用 Google Colab 最省事，不需要本地 GPU——打开 Colab，pip install point-e，输入「a red chair」，几秒就出来一个 3D 椅子。",
+    "mvpSteps": [
+      "在 Google Colab 新建笔记本，pip install point-e，加载官方示例代码",
+      "输入自己的描述词（英文），生成第一个 3D 点云，看效果",
+      "调整参数：改 guidance_scale 控制生成精确度，试试不同描述词",
+      "导出 PLY 文件，用免费的 MeshLab 打开，看 3D 效果"
+    ],
+    "fileStructure": [
+      "（在 Google Colab 里运行）",
+      "output.ply（生成的 3D 模型文件）"
+    ],
+    "prompt": "我想用 Point-E 把文字描述变成 3D 模型，参考：https://github.com/openai/point-e\n\n我没有 GPU，想在 Google Colab 免费版上运行\n\n请帮我：\n1. Google Colab 上的完整安装和运行代码（直接可以跑的）\n2. 什么样的描述词效果好，给我 5 个测试例子\n3. 生成的 PLY 文件怎么在电脑上打开查看（免费软件）\n4. 如果想把点云转成可以 3D 打印的格式怎么做\n\n给我可以直接复制到 Colab 的代码。",
+    "skills": [
+      {
+        "name": "Google Colab",
+        "reason": "免费 GPU，不需要本地环境"
+      },
+      {
+        "name": "MeshLab",
+        "reason": "免费 3D 文件查看器，打开 PLY 文件"
+      }
+    ]
+  },
+  "fighting41love/funNLP": {
+    "title": "中文 NLP 资源大合集",
+    "step1": "funNLP 是一个中文自然语言处理资源库，收集了词典、语料、预训练模型几百个资源。你可以从里面找「敏感词词典」「地名词典」「情感分析数据集」，直接下载用到自己的项目里，不需要运行这个仓库本身。",
+    "mvpSteps": [
+      "打开 GitHub 仓库，Ctrl+F 搜索你需要的资源类型（比如「敏感词」「情感」）",
+      "下载对应的词典文件（通常是 txt 或 csv），看数据格式",
+      "在自己的 Python 项目里加载这个词典，做一个简单的关键词检测功能",
+      "进阶：用情感词典做一个评论情感分析小工具（正面/负面/中性）"
+    ],
+    "fileStructure": [
+      "data/（下载的词典文件）",
+      "main.py（你自己写的应用）"
+    ],
+    "prompt": "我想用 funNLP 的中文 NLP 资源做一个评论情感分析工具，参考：https://github.com/fighting41love/funNLP\n\n输入一段评论，判断是好评还是差评\n\n请帮我：\n1. 从 funNLP 找合适的情感词典（正面词/负面词）\n2. 用 Python 加载词典，写一个情感打分函数\n3. 做一个命令行工具：输入文字，输出「正面 85%」这样的结果\n4. 如果想做成网页版，用 Flask 包装的步骤\n\n代码要适合 Python 初学者。",
+    "skills": [
+      {
+        "name": "Python 3.8+",
+        "reason": "数据处理主要用 Python"
+      },
+      {
+        "name": "jieba",
+        "reason": "中文分词，pip install jieba"
+      }
     ]
   }
 }
