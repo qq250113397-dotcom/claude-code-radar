@@ -38,7 +38,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-12">
         <div className="flex-1">
           <div className="text-xs font-bold tracking-[0.2em] text-blue-400 mb-5 uppercase">
-            AI 编程工具雷达 · 每小时自动更新
+            AI 编程工具雷达 · 每天自动更新
           </div>
           <h1 className="text-5xl lg:text-7xl font-black leading-none mb-6 tracking-tight">
             Claude Code<br />
@@ -78,7 +78,7 @@ export default function Hero() {
             </div>
             <div className="bg-white/5 border border-white/10 rounded-xl p-3">
               <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-1">更新</div>
-              <div className="text-2xl font-black">1小时</div>
+              <div className="text-2xl font-black">每天</div>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-xl p-3">
               <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-1">来源</div>

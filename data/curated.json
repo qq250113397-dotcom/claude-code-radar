@@ -248,7 +248,6 @@
       "ZSeven-W/openpencil",
       "mvanhorn/cli-printing-press",
       "nexu-io/html-video",
-      "cirosantilli/china-dictatorship",
       "rag-web-ui/rag-web-ui",
       "Tencent/behaviac",
       "skills/secure-code-game",
@@ -270,7 +269,6 @@
       "ZSeven-W/openpencil": "开放源码的openpencil是世界上第一个支持AI原生矢量设计的工具，具备协同Agent团队功能，设计即代码，直接将提示转换为UI，现代替代品Pencil。",
       "mvanhorn/cli-printing-press": "mvanhorn/cli-printing-press 是一款强大的 CLI 工具，面向 AI 代理首创，集成各种功能，提供 SQLite 同步、离线搜索和复合见解命令。",
       "nexu-io/html-video": "nexu-io/html-video 是一款编程工具，通过 HTML、CSS 和数据生成真实的 MP4 视频",
-      "cirosantilli/china-dictatorship": "反中共政治宣传库。",
       "rag-web-ui/rag-web-ui": "RAG Web UI 是一种基于 RAG 技术的智能对话系统，可以帮助您更高效地生成 AI 代码",
       "Tencent/behaviac": "behaviac 是一个用于游戏 AI 开发的框架，也可以快速设计游戏原型，支持行为树、有限状态机和层次任务网络",
       "skills/secure-code-game": "Secure Code Game 是一个在线编程体验，让你在浏览器中快速学习编码安全技能",
@@ -283,7 +281,6 @@
   },
   "education": {
     "repos": [
-      "fighting41love/funNLP",
       "microsoft/ai-edu",
       "HuaizhengZhang/AI-Infra-from-Zero-to-Hero",
       "umlx5h/LLPlayer",
@@ -292,7 +289,6 @@
       "noahshinn/reflexion",
       "asyml/texar",
       "WenyuChiou/awesome-agentic-ai-zh",
-      "cirosantilli/china-dictatorship",
       "yaojingang/yao-open-prompts",
       "gege-circle/.github",
       "Delta-ML/delta",
@@ -300,11 +296,9 @@
       "KartikChugh/Otto",
       "aaryansamanta/ai-ethos",
       "notque/vexjoy-agent",
-      "cirosantilli/china-dictatroship-7",
       "DharminJoshi/Final-Year-Project-Ideas-2025"
     ],
     "notes": {
-      "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
       "microsoft/ai-edu": "microsoft/ai-edu 是一套为中国学生、教师和IT专业人士提供的人工智能教育资源，帮助他们掌握人工智能领域的核心知识和技能。",
       "HuaizhengZhang/AI-Infra-from-Zero-to-Hero": "AI-Infra-from-Zero-to-Hero 是一套强大的机器学习系统解决方案，提供了从基础架构到实践应用的全面支持。",
       "umlx5h/LLPlayer": "LLPlayer 是一个媒体播放器，专为语言学习设计，提供双字幕、AI生成字幕、实时翻译等功能。",
@@ -313,7 +307,6 @@
       "noahshinn/reflexion": "Reflexion 是一款语言代理工具，基于 Verbal Reinforcement Learning 实现，可以帮助开发者训练更强大的语言模型。",
       "asyml/texar": "asyml/texar 是一个基于 TensorFlow 的机器学习、自然语言处理和文本生成工具集，旨在为深度学习和对话系统提供核心功能",
       "WenyuChiou/awesome-agentic-ai-zh": "Awesome-агentic-ai-zh 是一份中英双语的 AI 代理学习路线图，涵盖了从 LLM 基础到多智能体系统的 240+ 精选资源和实践案例。",
-      "cirosantilli/china-dictatorship": "cirosantilli/china-dictatorship是一款反中共政治宣传库，提供反中国政府宣传的信息和资源，帮助用户了解中国政治现状和历史。",
       "yaojingang/yao-open-prompts": "Yao Open Prompts 是一个中文 AI 提示库，适用于工作、学习、内容创作、营销和日常生活，提供高效的 AI 应用场景。",
       "gege-circle/.github": "gege-circle/.github 是 GitHub 的草场和戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。",
       "Delta-ML/delta": "DELTA 是一个基于深度学习的自然语言和语音处理平台，它提供了情感识别等核心功能",
@@ -321,7 +314,6 @@
       "KartikChugh/Otto": "Otto 是一个使机器学习成为自然语言体验的工具，帮助用户以直观的方式进行机器学习。",
       "aaryansamanta/ai-ethos": "ai-ethos 是一款非营利项目，致力于全球推广道德人工智能教育，提供工作坊、偏差减轻资源和全球研讨会，已经影响了 75+ 名学生来自 3 个国家。",
       "notque/vexjoy-agent": "VexJoy Agent是一款AI代理工具，它能智能路由并将自然语言请求转发给合适的专家代理，实现工作流程的管理和学习循环。",
-      "cirosantilli/china-dictatroship-7": "这是一个反中共政治宣传库，用于抗议中国政府的宣传活动，提供了各种资源和信息，包括新闻集、饭店和音乐建议。",
       "DharminJoshi/Final-Year-Project-Ideas-2025": "Final-Year-Project-Ideas-2025 是一个涵盖 AI、可持续性、健康、教育等领域的项目清单，旨在激发创造力和解决现实问题。"
     }
   },

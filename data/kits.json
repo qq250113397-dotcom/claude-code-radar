@@ -548,30 +548,5 @@
         "reason": "免费 3D 文件查看器，打开 PLY 文件"
       }
     ]
-  },
-  "fighting41love/funNLP": {
-    "title": "中文 NLP 资源大合集",
-    "step1": "funNLP 是一个中文自然语言处理资源库，收集了词典、语料、预训练模型几百个资源。你可以从里面找「敏感词词典」「地名词典」「情感分析数据集」，直接下载用到自己的项目里，不需要运行这个仓库本身。",
-    "mvpSteps": [
-      "打开 GitHub 仓库，Ctrl+F 搜索你需要的资源类型（比如「敏感词」「情感」）",
-      "下载对应的词典文件（通常是 txt 或 csv），看数据格式",
-      "在自己的 Python 项目里加载这个词典，做一个简单的关键词检测功能",
-      "进阶：用情感词典做一个评论情感分析小工具（正面/负面/中性）"
-    ],
-    "fileStructure": [
-      "data/（下载的词典文件）",
-      "main.py（你自己写的应用）"
-    ],
-    "prompt": "我想用 funNLP 的中文 NLP 资源做一个评论情感分析工具，参考：https://github.com/fighting41love/funNLP\n\n输入一段评论，判断是好评还是差评\n\n请帮我：\n1. 从 funNLP 找合适的情感词典（正面词/负面词）\n2. 用 Python 加载词典，写一个情感打分函数\n3. 做一个命令行工具：输入文字，输出「正面 85%」这样的结果\n4. 如果想做成网页版，用 Flask 包装的步骤\n\n代码要适合 Python 初学者。",
-    "skills": [
-      {
-        "name": "Python 3.8+",
-        "reason": "数据处理主要用 Python"
-      },
-      {
-        "name": "jieba",
-        "reason": "中文分词，pip install jieba"
-      }
-    ]
   }
 }

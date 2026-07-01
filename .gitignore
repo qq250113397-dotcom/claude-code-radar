@@ -43,3 +43,5 @@ next-env.d.ts
 # Cloudflare / OpenNext build caches
 .open-next/
 .wrangler/
+.claude/
+/pages-dist/
