@@ -9,7 +9,7 @@ const schemaOrg = {
   "name": "Claude Code 雷达",
   "alternateName": ["Claude Code Radar", "AI 编程工具榜单"],
   "url": "https://radar.lbenben.cc.cd",
-  "description": "追踪 GitHub 上 Claude Code、MCP、AI Agent 等领域的热门开源项目，每小时自动更新。",
+  "description": "追踪 GitHub 上 Claude Code、MCP、AI Agent 等领域的热门开源项目，每天自动更新。",
   "inLanguage": "zh-CN",
   "potentialAction": {
     "@type": "SearchAction",
@@ -42,15 +42,15 @@ export default function Home() {
               </div>
               <div>
                 <div className="flex items-center gap-2 mb-1">
-                  <span className="text-xs font-bold text-orange-400 bg-orange-500/20 px-2 py-0.5 rounded-full">推荐</span>
-                  <span className="font-semibold text-white text-sm">国内稳定使用 Claude Code</span>
+                  <span className="text-xs font-bold text-orange-400 bg-orange-500/20 px-2 py-0.5 rounded-full">强烈推荐</span>
+                  <span className="font-semibold text-white text-sm">AI Coding 必备网络 · Claude Code / Codex 畅玩无阻</span>
                 </div>
-                <p className="text-xs text-gray-300 mb-1">用自己的账号充值会员，支持支付宝微信，享受满血 Claude Code，非中转站，token 0 水分。</p>
+                <p className="text-xs text-gray-300 mb-1">用自己账号直连，支付宝微信付款，满血 Claude Code + Codex 稳定跑，不限速不封号，token 一滴不浪费。</p>
                 <div className="flex flex-wrap gap-x-3 gap-y-0.5">
-                  <span className="text-xs text-gray-400">⚡ CF 优选订阅</span>
-                  <span className="text-xs text-gray-400">🏠 住宅 IP 仅 $4.8</span>
-                  <span className="text-xs text-gray-400">🔒 不封号</span>
-                  <span className="text-xs text-gray-400">💰 封号退 75%</span>
+                  <span className="text-xs text-gray-400">⚡ 住宅 IP 仅 $4.8</span>
+                  <span className="text-xs text-gray-400">🔒 不封号 · 封号退 75%</span>
+                  <span className="text-xs text-gray-400">🇨🇳 支付宝 / 微信</span>
+                  <span className="text-xs text-gray-400">🚀 Claude Code · Codex · Cursor 均可用</span>
                 </div>
               </div>
             </div>
@@ -66,7 +66,7 @@ export default function Home() {
       <RepoBoard />
 
       <footer className="bg-gray-50 border-t border-gray-200 text-center text-xs text-gray-400 py-8">
-        数据来自 GitHub · 每小时自动更新 · <a href="https://radar.lbenben.cc.cd" className="hover:text-gray-600">radar.lbenben.cc.cd</a>
+        数据来自 GitHub · 每天自动更新 · <a href="https://radar.lbenben.cc.cd" className="hover:text-gray-600">radar.lbenben.cc.cd</a>
       </footer>
     </div>
   )

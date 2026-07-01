@@ -268,7 +268,7 @@ export default function RepoBoard() {
 
         {!loading && filtered.length > 0 && (
           <p className="text-center text-xs text-gray-400 mt-8">
-            共 {filtered.length} 个项目 · 数据来自 GitHub · 每小时更新
+            共 {filtered.length} 个项目 · 数据来自 GitHub · 每天更新
           </p>
         )}
       </div>
