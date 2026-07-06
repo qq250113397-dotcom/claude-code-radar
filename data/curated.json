@@ -92,7 +92,10 @@
       "calesthio/OpenMontage",
       "zai-org/GLM-5",
       "FlorianBruniaux/claude-code-ultimate-guide",
-      "plmbr/notebook-intelligence"
+      "plmbr/notebook-intelligence",
+      "Graphify-Labs/graphify",
+      "DietrichGebert/ponytail",
+      "zarazhangrui/codebase-to-course"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -186,7 +189,10 @@
       "calesthio/OpenMontage": "OpenMontage 是全球首个开源的代理式视频制作系统，内置 12 个 pipeline、52 个工具和 500+ agent 技能，能够将你的 AI 编程助手转变为全能视频制作工作室",
       "zai-org/GLM-5": "GLM-5 是一种从 Vibe Coding 到 Agentic Engineering 的工具，它可以帮助您构建更具自主性的 AI 编程。",
       "FlorianBruniaux/claude-code-ultimate-guide": "CLAUD CODE 最全面的指南，涵盖了流程、钩子、技能、MCP 服务器、测试和生产就绪模板等，共 430K+ 行代码。",
-      "plmbr/notebook-intelligence": "notebook-intelligence 是一款 JupyterLab 扩展，支持 Claude Code、Copilot、Ollama 和 OpenAI 兼容 LLM，帮助用户快速搭建 AI 编程环境。"
+      "plmbr/notebook-intelligence": "notebook-intelligence 是一款 JupyterLab 扩展，支持 Claude Code、Copilot、Ollama 和 OpenAI 兼容 LLM，帮助用户快速搭建 AI 编程环境。",
+      "Graphify-Labs/graphify": "Graphify 是一款 AI 编程助手技能，能够将任何代码文件夹、SQL schema、R 脚本、shell 脚本、文档、论文、图像或视频转化为可查询的知识图谱。",
+      "DietrichGebert/ponytail": "ponytail 是一款 AI agent 工具，让你像懒惰的资深开发者一样轻松编写代码，核心价值在于尽量减少编写代码的工作量。",
+      "zarazhangrui/codebase-to-course": "基于 Claude Code 的 codebase-to-course 可以将任何代码库转化为美观的交互式单页 HTML 课程"
     }
   },
   "ecommerce": {
@@ -210,7 +216,12 @@
       "sonnysangha/ecommerce-ai-nextjs-16-sanity-clerk-agentkit-stripe-checkout-vercel-ai-agents",
       "ankush850/ShopIQ-AI-Retail-Intelligence-Platform",
       "lucasboscatti/sales-ai-agent-langgraph",
-      "dh-orko/Help-me-get-rid-of-unhumans"
+      "dh-orko/Help-me-get-rid-of-unhumans",
+      "hookdeck/webhook-skills",
+      "NVIDIA-AI-Blueprints/retail-shopping-assistant",
+      "chattermate/chattermate.chat",
+      "ClicShopping/ClicShopping",
+      "CupOfOwls/kroger-mcp"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -232,7 +243,12 @@
       "sonnysangha/ecommerce-ai-nextjs-16-sanity-clerk-agentkit-stripe-checkout-vercel-ai-agents": "这是一个基于 Next.js 和 Sanity 的电子商务 AI 项目，帮助开发者快速构建高效的在线商店。",
       "ankush850/ShopIQ-AI-Retail-Intelligence-Platform": "ShopIQ 是一款 AI 驱动的零售智能平台，帮助分析购物数据预测趋势、揭示消费者行为模式、客户分群和产品亲和性",
       "lucasboscatti/sales-ai-agent-langgraph": "这是一个基于 LangChain 和 LangGraph 的虚拟销售代理，通过友好的 Streamlit 界面模拟客户交互，提供产品询价、订单管理和个性化推荐",
-      "dh-orko/Help-me-get-rid-of-unhumans": "Help-me-get-rid-of-unhumans 是一个 JavaScript 项目，旨在提供一个高效的 JSON 解析和字符串化功能。"
+      "dh-orko/Help-me-get-rid-of-unhumans": "Help-me-get-rid-of-unhumans 是一个 JavaScript 项目，旨在提供一个高效的 JSON 解析和字符串化功能。",
+      "hookdeck/webhook-skills": "hookdeck/webhook-skills 是一个 AI 编程工具，帮助 Claude Code 和其他 AI 编程代理整合 webhook 接口，实现 Stripe、Shopify、GitHub 等服务的事件驱动编程",
+      "NVIDIA-AI-Blueprints/retail-shopping-assistant": "Retail Shopping Assistant 是一款 AI 驱动的蓝图，提供智能零售顾问全面的接口",
+      "chattermate/chattermate.chat": "chattermate.chat 是一个开源的 AI 客户支持平台，提供 AI 机器人与人工交接、Shopify 和 Slack 集成以及可视化工作流编辑器。",
+      "ClicShopping/ClicShopping": "ClicShopping 是一个开源的 e-commerce 解决方案，基于现代响应式设计，提供强大的 AI 功能，易于安装，适用于 B2B、B2C 和 B2B-B2C 商业模式，帮助用户快速搭建高效的商业网站。",
+      "CupOfOwls/kroger-mcp": "Kroger-MCP 是一个快速的 FastMCP 服务器，允许 AI 助手通过 Model Context Protocol (MCP) 访问 Kroger 的购物功能，帮助 AI 助手查找商店、搜索产品、管理购物车和 Kroger 的综合购物数据。"
     }
   },
   "design": {
@@ -256,7 +272,12 @@
       "Light-Heart-Labs/ODS",
       "instill-ai/instill-core",
       "gege-circle/.github",
-      "study8677/awesome-architecture"
+      "study8677/awesome-architecture",
+      "Osmantic/ODS",
+      "DingTalk-Real-AI/dingtalk-workspace-cli",
+      "AIGODLIKE/ComfyUI-BlenderAI-node",
+      "vkhanhqui/figma-mcp-go",
+      "1038lab/ComfyUI-QwenVL"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -278,7 +299,12 @@
       "Light-Heart-Labs/ODS": "ODS 是一个将个人电脑转变为 AI 服务器的工具，让你轻松实现 LLM 推理、聊天界面、语音功能、智能代理、工作流、RAG 和图像生成",
       "instill-ai/instill-core": "Instill Core 是一款全栈 AI 基础设施工具，帮助开发者高效管理数据、模型和管道，构建出色的 AI 应用",
       "gege-circle/.github": "gege-circle/.github 是 GitHub 的草场和戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题。",
-      "study8677/awesome-architecture": "awesome-architecture 是一套体系化的系统设计工具，提供 26 个双语教程、25 个架构模板和 6 个全栈案例，帮助开发者设计和优化分布式系统、AI 原生系统和其他复杂系统。"
+      "study8677/awesome-architecture": "awesome-architecture 是一套体系化的系统设计工具，提供 26 个双语教程、25 个架构模板和 6 个全栈案例，帮助开发者设计和优化分布式系统、AI 原生系统和其他复杂系统。",
+      "Osmantic/ODS": "Osmantic/ODS 是一款 AI 服务器工具，能够将您的 PC、Mac 或 Linux 设备转化为 AI 服务器，提供 LLM 推理、聊天 UI、语音功能、代理、工作流、RAG 和图像生成等核心功能。",
+      "DingTalk-Real-AI/dingtalk-workspace-cli": "DingTalk Workspace 是一款由 DingTalk 开源的跨平台 CLI 工具，它集成了 DingTalk 全套产品功能，适用于人工用户和 AI 代理场景，极大地提升了工作效率。",
+      "AIGODLIKE/ComfyUI-BlenderAI-node": "ComfyUI-BlenderAI-node 是一款用于 AI 模型生成和下一代 Blender 渲染引擎的工具，提供高质量的纹理增强和生成能力",
+      "vkhanhqui/figma-mcp-go": "Figma MCP for free users 提供无限制的读写权限和文本到设计的自动化功能",
+      "1038lab/ComfyUI-QwenVL": "ComfyUI-QwenVL是一个自定义节点，集成了Qwen-VL系列，包括Qwen2.5-VL和Qwen3-VL，支持高级多模态AI在文本生成、图像理解和视频分析方面的应用"
     }
   },
   "education": {
@@ -301,7 +327,12 @@
       "aaryansamanta/ai-ethos",
       "notque/vexjoy-agent",
       "cirosantilli/china-dictatroship-7",
-      "DharminJoshi/Final-Year-Project-Ideas-2025"
+      "DharminJoshi/Final-Year-Project-Ideas-2025",
+      "mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8",
+      "panbinibn/OpenPacketFix_",
+      "zpc1314521/PCL2",
+      "oluiscabral/studorama",
+      "iwangjie/English-Chunks"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
@@ -322,7 +353,12 @@
       "aaryansamanta/ai-ethos": "ai-ethos 是一款非营利项目，致力于全球推广道德人工智能教育，提供工作坊、偏差减轻资源和全球研讨会，已经影响了 75+ 名学生来自 3 个国家。",
       "notque/vexjoy-agent": "VexJoy Agent是一款AI代理工具，它能智能路由并将自然语言请求转发给合适的专家代理，实现工作流程的管理和学习循环。",
       "cirosantilli/china-dictatroship-7": "这是一个反中共政治宣传库，用于抗议中国政府的宣传活动，提供了各种资源和信息，包括新闻集、饭店和音乐建议。",
-      "DharminJoshi/Final-Year-Project-Ideas-2025": "Final-Year-Project-Ideas-2025 是一个涵盖 AI、可持续性、健康、教育等领域的项目清单，旨在激发创造力和解决现实问题。"
+      "DharminJoshi/Final-Year-Project-Ideas-2025": "Final-Year-Project-Ideas-2025 是一个涵盖 AI、可持续性、健康、教育等领域的项目清单，旨在激发创造力和解决现实问题。",
+      "mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8": "mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8是反中共政治宣传库，包含常见问答集、新闻集和饭店和音乐建议。",
+      "panbinibn/OpenPacketFix_": "OpenPacketFix 是一个开源项目，致力于修复中国大陆对互联网的干预和审查，包括王沪宁等人策划的极左思想和网络审查。",
+      "zpc1314521/PCL2": "PCL2是一个反PCL宣传库，致力于揭露中共窃国半个多世纪的滔天罪恶。",
+      "oluiscabral/studorama": "Oluscabral/studorama 是一个 AI 驱动的学习工具，帮助你更有效地掌握知识",
+      "iwangjie/English-Chunks": "英语块学英语 - 英文块学习方法，通过 AI 实现快速提升口语英语能力"
     }
   },
   "ai-agent": {
@@ -341,7 +377,12 @@
       "crewAIInc/crewAI",
       "danny-avila/LibreChat",
       "mlflow/mlflow",
-      "promptfoo/promptfoo"
+      "promptfoo/promptfoo",
+      "DietrichGebert/ponytail",
+      "google/adk-python",
+      "comet-ml/opik",
+      "elizaOS/eliza",
+      "mksglu/context-mode"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -358,7 +399,12 @@
       "crewAIInc/crewAI": "CrewAI 是一个用于协调角色扮演和自主 AI agent 的框架，通过促进协同智能使 agent 能够无缝合作，解决复杂任务。",
       "danny-avila/LibreChat": "LibreChat 是一个高级 ChatGPT 克隆项目，提供了 Agent、MCP、技能、深度搜索等功能，支持 AI 模型切换和消息搜索等高级特性。",
       "mlflow/mlflow": "MLflow 是一款开源 AI 工程平台，帮助团队在控制成本和管理模型和数据访问的同时，调试、评估、监控和优化高质量的 AI 应用",
-      "promptfoo/promptfoo": "promptfoo 是一个用于测试和评估 AI agents 和 RAGs 的工具，帮助开发者比较不同 AI 模型的性能，例如 GPT 和 Claude，简化配置和 CI/CD 集成。"
+      "promptfoo/promptfoo": "promptfoo 是一个用于测试和评估 AI agents 和 RAGs 的工具，帮助开发者比较不同 AI 模型的性能，例如 GPT 和 Claude，简化配置和 CI/CD 集成。",
+      "DietrichGebert/ponytail": "Ponytail是一个帮助您让AI代理编写代码的工具，让您的AI代理编写的代码尽可能少。",
+      "google/adk-python": "google/adk-python 是一款开源的 Python 工具包，允许用户通过代码来构建、评估和部署复杂的 AI agent，提供灵活性和控制权。",
+      "comet-ml/opik": "opik 是一个用于调试、评估和监控大型语言模型应用的工具，帮助您通过全面跟踪、自动评估和生产就绪的仪表板提高工作效率",
+      "elizaOS/eliza": "eliza 是一个开源的自主操作系统，旨在提供一套完整的AI编程解决方案",
+      "mksglu/context-mode": "mksglu/context-mode 是一款优化 AI 编程代理环境的工具，它通过沙盒化输出、持久化会话内存和强制路由等功能，帮助用户提高编程效率和减少错误率。"
     }
   },
   "short-drama": {
@@ -377,7 +423,12 @@
       "xuanyustudio/LocalMiniDrama",
       "IgorShadurin/app.yumcut.com",
       "naqashafzal/AI-Content-Studio",
-      "SamurAIGPT/AI-Faceless-Video-Generator"
+      "SamurAIGPT/AI-Faceless-Video-Generator",
+      "Graphify-Labs/graphify",
+      "UllrAI/CineGen-ShortDrama",
+      "Anil-matcha/Open-AI-Micro-Drama-Generator",
+      "ChrisChen667788/wind-comic",
+      "BB31420/AI-Auto-Video-Generator"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -394,7 +445,12 @@
       "xuanyustudio/LocalMiniDrama": "LocalMiniDrama 是一个开源本地 AI 短剧生成工具，允许您在本机完成从故事到成片的创作过程，确保您的数据安全。",
       "IgorShadurin/app.yumcut.com": "YumCut 是一个免费的 AI 视频生成器，可以根据提示快速制作垂直视频，适合 TikTok、Reels 和 YouTube Shorts 等平台，支持自定义脚本、场景、配音、字幕和水印等功能，帮助创作者和独立开发者快速高效生产视频内容。",
       "naqashafzal/AI-Content-Studio": "AI-Content-Studio 是一个完全免费和开源的 AI 内容自动化工具，它可以生成脚本、创建语音导游、制作视频并自动上传至 YouTube —— 由 AI 驱动的手动 YouTube 成长。",
-      "SamurAIGPT/AI-Faceless-Video-Generator": "SamurAIGPT/AI-Faceless-Video-Generator 是一款 AI 生成视频工具，能用 AI 自动生成视频脚本、声音和嘴巴动画"
+      "SamurAIGPT/AI-Faceless-Video-Generator": "SamurAIGPT/AI-Faceless-Video-Generator 是一款 AI 生成视频工具，能用 AI 自动生成视频脚本、声音和嘴巴动画",
+      "Graphify-Labs/graphify": "Graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转化为可查询的知识图谱。",
+      "UllrAI/CineGen-ShortDrama": "CineGen-ShortDrama 是一款开源 AI 漫剧、动漫、短剧生成系统，通过其强大的 AI 生成能力为用户提供高效的创作体验。",
+      "Anil-matcha/Open-AI-Micro-Drama-Generator": "Open-AI-Micro-Drama-Generator是一款AI短片生成工具，使用多元智能管道将任何想法转化为完整的短篇电影。",
+      "ChrisChen667788/wind-comic": "风之漫画是基于多智能体 AI pipeline 的一个工具，它可以将一行文本转换为完成的短篇剧本，包括剧本、电影故事板和人物一致的视频。",
+      "BB31420/AI-Auto-Video-Generator": "AI-Auto-Video-Generator 是一款使用 AI 进行故事视频生成的工具，利用 OpenAI 的 GPT-3 和 DALL-E 等技术快速创作高质量视频。"
     }
   },
   "desktop-pet": {
