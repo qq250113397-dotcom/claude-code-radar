@@ -95,7 +95,8 @@
       "plmbr/notebook-intelligence",
       "Graphify-Labs/graphify",
       "DietrichGebert/ponytail",
-      "zarazhangrui/codebase-to-course"
+      "zarazhangrui/codebase-to-course",
+      "zylon-ai/private-gpt"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -192,7 +193,8 @@
       "plmbr/notebook-intelligence": "notebook-intelligence 是一款 JupyterLab 扩展，支持 Claude Code、Copilot、Ollama 和 OpenAI 兼容 LLM，帮助用户快速搭建 AI 编程环境。",
       "Graphify-Labs/graphify": "Graphify 是一款 AI 编程助手技能，能够将任何代码文件夹、SQL schema、R 脚本、shell 脚本、文档、论文、图像或视频转化为可查询的知识图谱。",
       "DietrichGebert/ponytail": "ponytail 是一款 AI agent 工具，让你像懒惰的资深开发者一样轻松编写代码，核心价值在于尽量减少编写代码的工作量。",
-      "zarazhangrui/codebase-to-course": "基于 Claude Code 的 codebase-to-course 可以将任何代码库转化为美观的交互式单页 HTML 课程"
+      "zarazhangrui/codebase-to-course": "基于 Claude Code 的 codebase-to-course 可以将任何代码库转化为美观的交互式单页 HTML 课程",
+      "zylon-ai/private-gpt": "私有 GPT API 层，支持本地模型，包括 RAG、技能、工具、MCP、文本到 SQL 等功能，兼容 OpenAI 兼容的推理服务器。"
     }
   },
   "ecommerce": {
@@ -221,7 +223,10 @@
       "NVIDIA-AI-Blueprints/retail-shopping-assistant",
       "chattermate/chattermate.chat",
       "ClicShopping/ClicShopping",
-      "CupOfOwls/kroger-mcp"
+      "CupOfOwls/kroger-mcp",
+      "KudoAI/amazongpt",
+      "SerendipityOneInc/ZooData-Skills",
+      "MentionNetwork/awesome-agentic-commerce"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -248,7 +253,10 @@
       "NVIDIA-AI-Blueprints/retail-shopping-assistant": "Retail Shopping Assistant 是一款 AI 驱动的蓝图，提供智能零售顾问全面的接口",
       "chattermate/chattermate.chat": "chattermate.chat 是一个开源的 AI 客户支持平台，提供 AI 机器人与人工交接、Shopify 和 Slack 集成以及可视化工作流编辑器。",
       "ClicShopping/ClicShopping": "ClicShopping 是一个开源的 e-commerce 解决方案，基于现代响应式设计，提供强大的 AI 功能，易于安装，适用于 B2B、B2C 和 B2B-B2C 商业模式，帮助用户快速搭建高效的商业网站。",
-      "CupOfOwls/kroger-mcp": "Kroger-MCP 是一个快速的 FastMCP 服务器，允许 AI 助手通过 Model Context Protocol (MCP) 访问 Kroger 的购物功能，帮助 AI 助手查找商店、搜索产品、管理购物车和 Kroger 的综合购物数据。"
+      "CupOfOwls/kroger-mcp": "Kroger-MCP 是一个快速的 FastMCP 服务器，允许 AI 助手通过 Model Context Protocol (MCP) 访问 Kroger 的购物功能，帮助 AI 助手查找商店、搜索产品、管理购物车和 Kroger 的综合购物数据。",
+      "KudoAI/amazongpt": "amazongpt 是一款基于最新 LLM 的 AI 聊天工具，能够为 Amazon 购物提供产品和类别摘要",
+      "SerendipityOneInc/ZooData-Skills": "ZooData-Skills 是一款 AI Agent 能力工具，专为 Amazon 产品研究设计，帮助您更有效地利用 Amazon API。",
+      "MentionNetwork/awesome-agentic-commerce": "awesome-agentic-commerce 是一个精心筛选的列表，提供了 AI agent 购物、销售和交易所需的协议、MCP 服务器、工具、应用、API 和服务，帮助商店主人、开发者、代理和营销人员。"
     }
   },
   "design": {
@@ -277,7 +285,12 @@
       "DingTalk-Real-AI/dingtalk-workspace-cli",
       "AIGODLIKE/ComfyUI-BlenderAI-node",
       "vkhanhqui/figma-mcp-go",
-      "1038lab/ComfyUI-QwenVL"
+      "1038lab/ComfyUI-QwenVL",
+      "Devin-AXIS/iPolloWork",
+      "if-ai/ComfyUI-IF_AI_tools",
+      "markfulton/NanoBananaEditor",
+      "gridaco/assistant",
+      "biaogebusy/web-builder"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -304,7 +317,12 @@
       "DingTalk-Real-AI/dingtalk-workspace-cli": "DingTalk Workspace 是一款由 DingTalk 开源的跨平台 CLI 工具，它集成了 DingTalk 全套产品功能，适用于人工用户和 AI 代理场景，极大地提升了工作效率。",
       "AIGODLIKE/ComfyUI-BlenderAI-node": "ComfyUI-BlenderAI-node 是一款用于 AI 模型生成和下一代 Blender 渲染引擎的工具，提供高质量的纹理增强和生成能力",
       "vkhanhqui/figma-mcp-go": "Figma MCP for free users 提供无限制的读写权限和文本到设计的自动化功能",
-      "1038lab/ComfyUI-QwenVL": "ComfyUI-QwenVL是一个自定义节点，集成了Qwen-VL系列，包括Qwen2.5-VL和Qwen3-VL，支持高级多模态AI在文本生成、图像理解和视频分析方面的应用"
+      "1038lab/ComfyUI-QwenVL": "ComfyUI-QwenVL是一个自定义节点，集成了Qwen-VL系列，包括Qwen2.5-VL和Qwen3-VL，支持高级多模态AI在文本生成、图像理解和视频分析方面的应用",
+      "Devin-AXIS/iPolloWork": "iPolloWork 是一款源可用、零依赖的 AI 代言人工作空间，提供代码、办公、设计、演示、网站和视频等多种功能，通过 AI 构建并轻松编辑文本、图像、颜色、布局和场景",
+      "if-ai/ComfyUI-IF_AI_tools": "ComfyUI-IF_AI_tools 是一套自定义节点，允许你使用本地大型语言模型（LLM）通过 Ollama 生成提示，提高图像生成工作流的效率。",
+      "markfulton/NanoBananaEditor": "NanoBananaEditor 是一个高级的 Nano Banana 图像生成和编辑应用，它提供了一个中心化的 AI 图像生成和修订平台",
+      "gridaco/assistant": "使用 Figma 设计并实现代码的助手，快速提升设计开发流程，实现设计内容管理和组件管理",
+      "biaogebusy/web-builder": "biaogebusy/web-builder 是一个基于 TailwindCSS 的低代码平台，允许用户快速构建现代化响应式 UI 和动态自定义组件"
     }
   },
   "education": {
@@ -332,7 +350,12 @@
       "panbinibn/OpenPacketFix_",
       "zpc1314521/PCL2",
       "oluiscabral/studorama",
-      "iwangjie/English-Chunks"
+      "iwangjie/English-Chunks",
+      "SenmuuuuW/universal-diagnostic-tutor-skill",
+      "knoxiboy/DoubtDesk",
+      "bobhaotian/speech-driven-lessons",
+      "b0LBwZ7r5HOeh6CBMuQIhVu3-s-random-fork/PCL2",
+      "rudra496/StealthHumanizer"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
@@ -358,7 +381,12 @@
       "panbinibn/OpenPacketFix_": "OpenPacketFix 是一个开源项目，致力于修复中国大陆对互联网的干预和审查，包括王沪宁等人策划的极左思想和网络审查。",
       "zpc1314521/PCL2": "PCL2是一个反PCL宣传库，致力于揭露中共窃国半个多世纪的滔天罪恶。",
       "oluiscabral/studorama": "Oluscabral/studorama 是一个 AI 驱动的学习工具，帮助你更有效地掌握知识",
-      "iwangjie/English-Chunks": "英语块学英语 - 英文块学习方法，通过 AI 实现快速提升口语英语能力"
+      "iwangjie/English-Chunks": "英语块学英语 - 英文块学习方法，通过 AI 实现快速提升口语英语能力",
+      "SenmuuuuW/universal-diagnostic-tutor-skill": "SenmuuuuW/universal-diagnostic-tutor-skill 是一个STEM和AI/CS学习的诊断式AI教练技能，帮助用户掌握概念、检查理解并建立实力",
+      "knoxiboy/DoubtDesk": "DoubtDesk 是一个匿名的 AI 驱动疑问解决平台，集成了教室环境，学生可以无顾虑地提问并获得即时答案",
+      "bobhaotian/speech-driven-lessons": "bobhaotian/speech-driven-lessons 是一款学习管理系统，它通过 AI 驱动的课程创建和交付来革新在线教育",
+      "b0LBwZ7r5HOeh6CBMuQIhVu3-s-random-fork/PCL2": "b0LBwZ7r5HOeh6CBMuQIhVu3-s-random-fork/PCL2是一个反PCL宣传库，致力于揭露王沪宁策划的中共窃国半个多世纪的滔天罪恶。",
+      "rudra496/StealthHumanizer": "StealthHumanizer 是一款免费开源的 AI 文本人化工具，支持 16+ 语言，能够绕过 GPTZero、Turnitin 和 AI 检测器，帮助学生和写作者更好地保护作品。"
     }
   },
   "ai-agent": {
@@ -382,7 +410,12 @@
       "google/adk-python",
       "comet-ml/opik",
       "elizaOS/eliza",
-      "mksglu/context-mode"
+      "mksglu/context-mode",
+      "agent0ai/agent-zero",
+      "Tencent/WeKnora",
+      "TransformerOptimus/SuperAGI",
+      "raga-ai-hub/RagaAI-Catalyst",
+      "microsoft/RD-Agent"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -404,7 +437,12 @@
       "google/adk-python": "google/adk-python 是一款开源的 Python 工具包，允许用户通过代码来构建、评估和部署复杂的 AI agent，提供灵活性和控制权。",
       "comet-ml/opik": "opik 是一个用于调试、评估和监控大型语言模型应用的工具，帮助您通过全面跟踪、自动评估和生产就绪的仪表板提高工作效率",
       "elizaOS/eliza": "eliza 是一个开源的自主操作系统，旨在提供一套完整的AI编程解决方案",
-      "mksglu/context-mode": "mksglu/context-mode 是一款优化 AI 编程代理环境的工具，它通过沙盒化输出、持久化会话内存和强制路由等功能，帮助用户提高编程效率和减少错误率。"
+      "mksglu/context-mode": "mksglu/context-mode 是一款优化 AI 编程代理环境的工具，它通过沙盒化输出、持久化会话内存和强制路由等功能，帮助用户提高编程效率和减少错误率。",
+      "agent0ai/agent-zero": "Agent Zero 是一款强大的 AI 框架，帮助你快速构建智能助手和自治系统",
+      "Tencent/WeKnora": "WeKnora 是一款开源的 LLM 知识平台，可以将原始文档转换为可查询的 RAG、自主推理代理和维护自我的 Wiki。",
+      "TransformerOptimus/SuperAGI": "SuperAGI 是一个开源的自主 AI agent 框架，帮助开发者快速可靠地构建和管理有用自主代理",
+      "raga-ai-hub/RagaAI-Catalyst": "RagaAI-Catalyst 是一款 Python SDK，提供 Agent AI 可观察性、监控和评估框架，帮助开发者更好地理解和优化复杂的多智能体系统。",
+      "microsoft/RD-Agent": "RD-Agent 是一款自动化工业生产力提升的工具，它让 AI 驱动数据驱动的 AI。"
     }
   },
   "short-drama": {
@@ -428,7 +466,12 @@
       "UllrAI/CineGen-ShortDrama",
       "Anil-matcha/Open-AI-Micro-Drama-Generator",
       "ChrisChen667788/wind-comic",
-      "BB31420/AI-Auto-Video-Generator"
+      "BB31420/AI-Auto-Video-Generator",
+      "aqm857886159/Nomi",
+      "rolfie-han/YoLuster-shorts",
+      "jeffstric/ZJT",
+      "happyhorseai/happyhorse",
+      "yubowen123/AIYOU_open-ai-video-drama-generator"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -450,7 +493,12 @@
       "UllrAI/CineGen-ShortDrama": "CineGen-ShortDrama 是一款开源 AI 漫剧、动漫、短剧生成系统，通过其强大的 AI 生成能力为用户提供高效的创作体验。",
       "Anil-matcha/Open-AI-Micro-Drama-Generator": "Open-AI-Micro-Drama-Generator是一款AI短片生成工具，使用多元智能管道将任何想法转化为完整的短篇电影。",
       "ChrisChen667788/wind-comic": "风之漫画是基于多智能体 AI pipeline 的一个工具，它可以将一行文本转换为完成的短篇剧本，包括剧本、电影故事板和人物一致的视频。",
-      "BB31420/AI-Auto-Video-Generator": "AI-Auto-Video-Generator 是一款使用 AI 进行故事视频生成的工具，利用 OpenAI 的 GPT-3 和 DALL-E 等技术快速创作高质量视频。"
+      "BB31420/AI-Auto-Video-Generator": "AI-Auto-Video-Generator 是一款使用 AI 进行故事视频生成的工具，利用 OpenAI 的 GPT-3 和 DALL-E 等技术快速创作高质量视频。",
+      "aqm857886159/Nomi": "Nomi 是一款开源本地桌面应用，用于 AI 视频创建，允许用户自行提供模型和 API 密钥，所有处理在本机完成，提高隐私和安全性。",
+      "rolfie-han/YoLuster-shorts": "YoLuster Shorts 是一个独立开发的 AI 短剧创作工作空间，帮助用户从最初的想法到故事板脚本、图像、视频和可复用资产管理，核心价值在于提供从概念到产物的全流程管理。",
+      "jeffstric/ZJT": "ZJT 是一个面向专业短剧制作的开源 AI 平台，它通过自动化脚本、故事板和最终视频合成等流程，提高了生产效率",
+      "happyhorseai/happyhorse": "HappyHorse AI 是一个在线工具，可将文本或图片转换成高画质的电影视频，通过高级动画合成技术实现多镜头故事、平滑过渡和真实感。",
+      "yubowen123/AIYOU_open-ai-video-drama-generator": "AIYOU 是一个 AI 短剧平台，能够自动化剧本创作、故事板设计和视频生成，集成了 5 个 API，价格为 2-3 RMB/分钟。"
     }
   },
   "desktop-pet": {
