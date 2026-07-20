@@ -96,7 +96,8 @@
       "Graphify-Labs/graphify",
       "DietrichGebert/ponytail",
       "zarazhangrui/codebase-to-course",
-      "zylon-ai/private-gpt"
+      "zylon-ai/private-gpt",
+      "HarmonicSecurity/claudit-sec"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -194,7 +195,8 @@
       "Graphify-Labs/graphify": "Graphify 是一款 AI 编程助手技能，能够将任何代码文件夹、SQL schema、R 脚本、shell 脚本、文档、论文、图像或视频转化为可查询的知识图谱。",
       "DietrichGebert/ponytail": "ponytail 是一款 AI agent 工具，让你像懒惰的资深开发者一样轻松编写代码，核心价值在于尽量减少编写代码的工作量。",
       "zarazhangrui/codebase-to-course": "基于 Claude Code 的 codebase-to-course 可以将任何代码库转化为美观的交互式单页 HTML 课程",
-      "zylon-ai/private-gpt": "私有 GPT API 层，支持本地模型，包括 RAG、技能、工具、MCP、文本到 SQL 等功能，兼容 OpenAI 兼容的推理服务器。"
+      "zylon-ai/private-gpt": "私有 GPT API 层，支持本地模型，包括 RAG、技能、工具、MCP、文本到 SQL 等功能，兼容 OpenAI 兼容的推理服务器。",
+      "HarmonicSecurity/claudit-sec": "claudit-sec 是一款用于 Claude Desktop 和 Claude Code 的 macOS 安全审计工具，提供单一命令的 MCP 服务器、扩展、插件、连接器、计划任务和权限的可见性"
     }
   },
   "ecommerce": {
@@ -226,7 +228,8 @@
       "CupOfOwls/kroger-mcp",
       "KudoAI/amazongpt",
       "SerendipityOneInc/ZooData-Skills",
-      "MentionNetwork/awesome-agentic-commerce"
+      "MentionNetwork/awesome-agentic-commerce",
+      "hikari0511/awesome-amazon-ec-skills"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -256,7 +259,8 @@
       "CupOfOwls/kroger-mcp": "Kroger-MCP 是一个快速的 FastMCP 服务器，允许 AI 助手通过 Model Context Protocol (MCP) 访问 Kroger 的购物功能，帮助 AI 助手查找商店、搜索产品、管理购物车和 Kroger 的综合购物数据。",
       "KudoAI/amazongpt": "amazongpt 是一款基于最新 LLM 的 AI 聊天工具，能够为 Amazon 购物提供产品和类别摘要",
       "SerendipityOneInc/ZooData-Skills": "ZooData-Skills 是一款 AI Agent 能力工具，专为 Amazon 产品研究设计，帮助您更有效地利用 Amazon API。",
-      "MentionNetwork/awesome-agentic-commerce": "awesome-agentic-commerce 是一个精心筛选的列表，提供了 AI agent 购物、销售和交易所需的协议、MCP 服务器、工具、应用、API 和服务，帮助商店主人、开发者、代理和营销人员。"
+      "MentionNetwork/awesome-agentic-commerce": "awesome-agentic-commerce 是一个精心筛选的列表，提供了 AI agent 购物、销售和交易所需的协议、MCP 服务器、工具、应用、API 和服务，帮助商店主人、开发者、代理和营销人员。",
+      "hikari0511/awesome-amazon-ec-skills": "awesome-amazon-ec-skills 是一个聚焦亚马逊出海和1688供货上游的 Claude/AI Agent Skills 合集，帮助用户快速构建电商场景下的 AI 应用。"
     }
   },
   "design": {
@@ -290,7 +294,12 @@
       "if-ai/ComfyUI-IF_AI_tools",
       "markfulton/NanoBananaEditor",
       "gridaco/assistant",
-      "biaogebusy/web-builder"
+      "biaogebusy/web-builder",
+      "Hugo-Dz/spritefusion-pixel-snapper",
+      "benjiyaya/HeartMuLa_ComfyUI",
+      "kasonye/ui-aesthetics-skill",
+      "figma/ai-plugin-template",
+      "bergside/design-md-figma"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -322,7 +331,12 @@
       "if-ai/ComfyUI-IF_AI_tools": "ComfyUI-IF_AI_tools 是一套自定义节点，允许你使用本地大型语言模型（LLM）通过 Ollama 生成提示，提高图像生成工作流的效率。",
       "markfulton/NanoBananaEditor": "NanoBananaEditor 是一个高级的 Nano Banana 图像生成和编辑应用，它提供了一个中心化的 AI 图像生成和修订平台",
       "gridaco/assistant": "使用 Figma 设计并实现代码的助手，快速提升设计开发流程，实现设计内容管理和组件管理",
-      "biaogebusy/web-builder": "biaogebusy/web-builder 是一个基于 TailwindCSS 的低代码平台，允许用户快速构建现代化响应式 UI 和动态自定义组件"
+      "biaogebusy/web-builder": "biaogebusy/web-builder 是一个基于 TailwindCSS 的低代码平台，允许用户快速构建现代化响应式 UI 和动态自定义组件",
+      "Hugo-Dz/spritefusion-pixel-snapper": "spritefusion-pixel-snapper是一款用于精确网格化像素艺术的工具，专门用于修复AI生成的混乱不定的像素艺术。",
+      "benjiyaya/HeartMuLa_ComfyUI": "HeartMuLa_ComfyUI 是一个自定义节点，为 HeartMuLa AI 音乐生成和文本转录提供便捷的用户界面",
+      "kasonye/ui-aesthetics-skill": "kasonye/ui-aesthetics-skill 是一个用于改善 AI 美观性判断能力的技能，专注于 web UI 的生成、审查和优化",
+      "figma/ai-plugin-template": "这是 Figma 插件模板，使用 OpenAI GPT 模型实现 AI 协作。",
+      "bergside/design-md-figma": "bergside/design-md-figma 是一款 Figma 插件，它能提取本地设计规范并生成 DESIGN.md 和 SKILL.md 文件，帮助 AI 编程工具如 Claude Code 等提高编程效率"
     }
   },
   "education": {
@@ -415,7 +429,12 @@
       "Tencent/WeKnora",
       "TransformerOptimus/SuperAGI",
       "raga-ai-hub/RagaAI-Catalyst",
-      "microsoft/RD-Agent"
+      "microsoft/RD-Agent",
+      "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "dataelement/bisheng",
+      "google/adk-go",
+      "MervinPraison/PraisonAI",
+      "aiwaves-cn/agents"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -442,7 +461,12 @@
       "Tencent/WeKnora": "WeKnora 是一款开源的 LLM 知识平台，可以将原始文档转换为可查询的 RAG、自主推理代理和维护自我的 Wiki。",
       "TransformerOptimus/SuperAGI": "SuperAGI 是一个开源的自主 AI agent 框架，帮助开发者快速可靠地构建和管理有用自主代理",
       "raga-ai-hub/RagaAI-Catalyst": "RagaAI-Catalyst 是一款 Python SDK，提供 Agent AI 可观察性、监控和评估框架，帮助开发者更好地理解和优化复杂的多智能体系统。",
-      "microsoft/RD-Agent": "RD-Agent 是一款自动化工业生产力提升的工具，它让 AI 驱动数据驱动的 AI。"
+      "microsoft/RD-Agent": "RD-Agent 是一款自动化工业生产力提升的工具，它让 AI 驱动数据驱动的 AI。",
+      "wanshuiyin/Auto-claude-code-research-in-sleep": "ARIS 是一款轻量级的 Markdown-only 技能，用于自主机器学习研究，包括跨模型评估循环、想法发现和实验自动化，完全无需任何框架或锁定。",
+      "dataelement/bisheng": "BISHENG 是一个开源 LLM 运维平台，专为企业级 AI 应用打造，提供强大的 GenAI 流程、模型管理和评估等核心功能",
+      "google/adk-go": "google/adk-go 是一个开源的 Go 工具包，提供了构建、评估和部署复杂 AI agent 的灵活性和控制权。",
+      "MervinPraison/PraisonAI": "PraisonAI 是一个 AI 工作人员平台，可以让你在 5 行代码中部署自我完善的智能代理，进行任务研究、规划、编码和执行。",
+      "aiwaves-cn/agents": "Agents 是一款开源框架，支持数据驱动、自我演化的自治语言代理，帮助开发者构建更具自主性的语言模型"
     }
   },
   "short-drama": {
@@ -471,7 +495,12 @@
       "rolfie-han/YoLuster-shorts",
       "jeffstric/ZJT",
       "happyhorseai/happyhorse",
-      "yubowen123/AIYOU_open-ai-video-drama-generator"
+      "yubowen123/AIYOU_open-ai-video-drama-generator",
+      "coleam00/hyperframes-ai-video-generation",
+      "drasstry/shortdrama-pipeline",
+      "runesleo/claude-video-kit",
+      "CyberJ0605/cinematic-video-prompt-engineer-skill",
+      "adithya-s-k/Storyblocks"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -498,7 +527,12 @@
       "rolfie-han/YoLuster-shorts": "YoLuster Shorts 是一个独立开发的 AI 短剧创作工作空间，帮助用户从最初的想法到故事板脚本、图像、视频和可复用资产管理，核心价值在于提供从概念到产物的全流程管理。",
       "jeffstric/ZJT": "ZJT 是一个面向专业短剧制作的开源 AI 平台，它通过自动化脚本、故事板和最终视频合成等流程，提高了生产效率",
       "happyhorseai/happyhorse": "HappyHorse AI 是一个在线工具，可将文本或图片转换成高画质的电影视频，通过高级动画合成技术实现多镜头故事、平滑过渡和真实感。",
-      "yubowen123/AIYOU_open-ai-video-drama-generator": "AIYOU 是一个 AI 短剧平台，能够自动化剧本创作、故事板设计和视频生成，集成了 5 个 API，价格为 2-3 RMB/分钟。"
+      "yubowen123/AIYOU_open-ai-video-drama-generator": "AIYOU 是一个 AI 短剧平台，能够自动化剧本创作、故事板设计和视频生成，集成了 5 个 API，价格为 2-3 RMB/分钟。",
+      "coleam00/hyperframes-ai-video-generation": "HyperFrames-ai-video-generation 是一款可以将任何 URL 转换为精美 AI 声音和生成的 HyperFrames 短视频的工具。它可以帮助您快速创作高质量的视频。",
+      "drasstry/shortdrama-pipeline": "短剧 pipeline 是一款后端优先的 AI pipeline，用于生成中文短剧脚本、角色和视频。",
+      "runesleo/claude-video-kit": "CLAUD Video Kit 是一款基于 Claude Code 的 AI 短视频生成管道工具",
+      "CyberJ0605/cinematic-video-prompt-engineer-skill": "Cinematic Video Prompt Engineer Skill 是一个使用 Codex 能力生成电影级 AI 视频提示的工具，可以从剧情概要中诊断情绪、结构、镜头设计等并输出 AI 视频生成所需的提示。",
+      "adithya-s-k/Storyblocks": "Storyblocks 是一个开源项目，它将 AI 文本生成和图像合成技术融合在一起，创造出迷人的视频故事。"
     }
   },
   "desktop-pet": {
