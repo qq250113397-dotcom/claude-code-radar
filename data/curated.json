@@ -97,7 +97,9 @@
       "DietrichGebert/ponytail",
       "zarazhangrui/codebase-to-course",
       "zylon-ai/private-gpt",
-      "HarmonicSecurity/claudit-sec"
+      "HarmonicSecurity/claudit-sec",
+      "MODSetter/SurfSense",
+      "google/agents-cli"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -196,7 +198,9 @@
       "DietrichGebert/ponytail": "ponytail 是一款 AI agent 工具，让你像懒惰的资深开发者一样轻松编写代码，核心价值在于尽量减少编写代码的工作量。",
       "zarazhangrui/codebase-to-course": "基于 Claude Code 的 codebase-to-course 可以将任何代码库转化为美观的交互式单页 HTML 课程",
       "zylon-ai/private-gpt": "私有 GPT API 层，支持本地模型，包括 RAG、技能、工具、MCP、文本到 SQL 等功能，兼容 OpenAI 兼容的推理服务器。",
-      "HarmonicSecurity/claudit-sec": "claudit-sec 是一款用于 Claude Desktop 和 Claude Code 的 macOS 安全审计工具，提供单一命令的 MCP 服务器、扩展、插件、连接器、计划任务和权限的可见性"
+      "HarmonicSecurity/claudit-sec": "claudit-sec 是一款用于 Claude Desktop 和 Claude Code 的 macOS 安全审计工具，提供单一命令的 MCP 服务器、扩展、插件、连接器、计划任务和权限的可见性",
+      "MODSetter/SurfSense": "MODSetter/SurfSense 是一个开源的 AI 研究平台，允许用户通过一体化平台或 API 访问实时数据，包括 Reddit、YouTube 等多个来源，提供更快速和全面的人工智能开发体验。",
+      "google/agents-cli": "google/agents-cli 是一款 CLI 和技能集，帮助任何编码助手成为专家，创建、评估和部署 Google Cloud 上的 AI agent。"
     }
   },
   "ecommerce": {
@@ -229,7 +233,8 @@
       "KudoAI/amazongpt",
       "SerendipityOneInc/ZooData-Skills",
       "MentionNetwork/awesome-agentic-commerce",
-      "hikari0511/awesome-amazon-ec-skills"
+      "hikari0511/awesome-amazon-ec-skills",
+      "melgarafael/DeskcommCRM"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -260,7 +265,8 @@
       "KudoAI/amazongpt": "amazongpt 是一款基于最新 LLM 的 AI 聊天工具，能够为 Amazon 购物提供产品和类别摘要",
       "SerendipityOneInc/ZooData-Skills": "ZooData-Skills 是一款 AI Agent 能力工具，专为 Amazon 产品研究设计，帮助您更有效地利用 Amazon API。",
       "MentionNetwork/awesome-agentic-commerce": "awesome-agentic-commerce 是一个精心筛选的列表，提供了 AI agent 购物、销售和交易所需的协议、MCP 服务器、工具、应用、API 和服务，帮助商店主人、开发者、代理和营销人员。",
-      "hikari0511/awesome-amazon-ec-skills": "awesome-amazon-ec-skills 是一个聚焦亚马逊出海和1688供货上游的 Claude/AI Agent Skills 合集，帮助用户快速构建电商场景下的 AI 应用。"
+      "hikari0511/awesome-amazon-ec-skills": "awesome-amazon-ec-skills 是一个聚焦亚马逊出海和1688供货上游的 Claude/AI Agent Skills 合集，帮助用户快速构建电商场景下的 AI 应用。",
+      "melgarafael/DeskcommCRM": "DeskcommCRM 是一款开源的 AI 销售操作系统，提供自主托管的 CRM 功能和本地 AI agent，支持 WhatsApp，旨在为任何通过聊天销售的企业提供开源替代方案"
     }
   },
   "design": {
@@ -299,7 +305,8 @@
       "benjiyaya/HeartMuLa_ComfyUI",
       "kasonye/ui-aesthetics-skill",
       "figma/ai-plugin-template",
-      "bergside/design-md-figma"
+      "bergside/design-md-figma",
+      "mikesheehan54/Claude-Code-Design-AI"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -336,7 +343,8 @@
       "benjiyaya/HeartMuLa_ComfyUI": "HeartMuLa_ComfyUI 是一个自定义节点，为 HeartMuLa AI 音乐生成和文本转录提供便捷的用户界面",
       "kasonye/ui-aesthetics-skill": "kasonye/ui-aesthetics-skill 是一个用于改善 AI 美观性判断能力的技能，专注于 web UI 的生成、审查和优化",
       "figma/ai-plugin-template": "这是 Figma 插件模板，使用 OpenAI GPT 模型实现 AI 协作。",
-      "bergside/design-md-figma": "bergside/design-md-figma 是一款 Figma 插件，它能提取本地设计规范并生成 DESIGN.md 和 SKILL.md 文件，帮助 AI 编程工具如 Claude Code 等提高编程效率"
+      "bergside/design-md-figma": "bergside/design-md-figma 是一款 Figma 插件，它能提取本地设计规范并生成 DESIGN.md 和 SKILL.md 文件，帮助 AI 编程工具如 Claude Code 等提高编程效率",
+      "mikesheehan54/Claude-Code-Design-AI": "Claude Design 是一款 UI/UX 设计辅助工具，能够快速生成 React 组件、Figma 组件和 Tailwind CSS 代码等，帮助前端开发者提高设计效率。"
     }
   },
   "education": {
@@ -434,7 +442,12 @@
       "dataelement/bisheng",
       "google/adk-go",
       "MervinPraison/PraisonAI",
-      "aiwaves-cn/agents"
+      "aiwaves-cn/agents",
+      "earendil-works/pi",
+      "Giskard-AI/giskard-oss",
+      "ATH-MaaS/ComfyUI-Copilot",
+      "Marker-Inc-Korea/AutoRAG",
+      "agentuniverse-ai/agentUniverse"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -466,7 +479,12 @@
       "dataelement/bisheng": "BISHENG 是一个开源 LLM 运维平台，专为企业级 AI 应用打造，提供强大的 GenAI 流程、模型管理和评估等核心功能",
       "google/adk-go": "google/adk-go 是一个开源的 Go 工具包，提供了构建、评估和部署复杂 AI agent 的灵活性和控制权。",
       "MervinPraison/PraisonAI": "PraisonAI 是一个 AI 工作人员平台，可以让你在 5 行代码中部署自我完善的智能代理，进行任务研究、规划、编码和执行。",
-      "aiwaves-cn/agents": "Agents 是一款开源框架，支持数据驱动、自我演化的自治语言代理，帮助开发者构建更具自主性的语言模型"
+      "aiwaves-cn/agents": "Agents 是一款开源框架，支持数据驱动、自我演化的自治语言代理，帮助开发者构建更具自主性的语言模型",
+      "earendil-works/pi": "Earendil-Works/Pi 是一款 AI agent 工具箱，提供统一的 LLM API、agent 循环、TUI 和编码 agent CLI，帮助开发者高效构建 AI 代理。",
+      "Giskard-AI/giskard-oss": "Giskard-oss 是一款开源的评估和测试库，专为大语言模型代理提供安全性和公平性的保障",
+      "ATH-MaaS/ComfyUI-Copilot": "ComfyUI-Copilot 是一个 AI 驱动的自定义节点，旨在提升工作流自动化和智能辅助能力",
+      "Marker-Inc-Korea/AutoRAG": "AutoRAG 是一个智能文件查找工具，它通过频繁使用变得越来越聪明",
+      "agentuniverse-ai/agentUniverse": "agentUniverse 是一个用于构建多智能体应用的 LLM 多智能体框架，让开发者轻松创建复杂的智能体应用"
     }
   },
   "short-drama": {
@@ -500,7 +518,12 @@
       "drasstry/shortdrama-pipeline",
       "runesleo/claude-video-kit",
       "CyberJ0605/cinematic-video-prompt-engineer-skill",
-      "adithya-s-k/Storyblocks"
+      "adithya-s-k/Storyblocks",
+      "bermufine/dcmp",
+      "prakashdk/video-creator",
+      "HuyLe82US/awesome-seedance-prompts",
+      "bybren-llc/story-systems-template",
+      "RowanUnderwood/Synesthesia-AI-Video-Director"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -532,7 +555,12 @@
       "drasstry/shortdrama-pipeline": "短剧 pipeline 是一款后端优先的 AI pipeline，用于生成中文短剧脚本、角色和视频。",
       "runesleo/claude-video-kit": "CLAUD Video Kit 是一款基于 Claude Code 的 AI 短视频生成管道工具",
       "CyberJ0605/cinematic-video-prompt-engineer-skill": "Cinematic Video Prompt Engineer Skill 是一个使用 Codex 能力生成电影级 AI 视频提示的工具，可以从剧情概要中诊断情绪、结构、镜头设计等并输出 AI 视频生成所需的提示。",
-      "adithya-s-k/Storyblocks": "Storyblocks 是一个开源项目，它将 AI 文本生成和图像合成技术融合在一起，创造出迷人的视频故事。"
+      "adithya-s-k/Storyblocks": "Storyblocks 是一个开源项目，它将 AI 文本生成和图像合成技术融合在一起，创造出迷人的视频故事。",
+      "bermufine/dcmp": "dcmp 是一个用于收集和播放全球各地电视台直播频道的项目，允许用户在线观看来自不同国家的电视节目。",
+      "prakashdk/video-creator": "prakashdk/video-creator 是一个全离线管道，使用 AI 自动生成视频，包括脚本生成、TTS 语音配音、图像生成、字幕和最终视频拼接，适合短片和故事创作，无需互联网。",
+      "HuyLe82US/awesome-seedance-prompts": "awesome-seedance-prompts 是一个高保真 AI 视频生成的(prompt)库和资源中心，快速生成从电影到广告的高质量输出。",
+      "bybren-llc/story-systems-template": "BYBREN-LLC Story Systems Template 是一款用于剧本、小说和电影制作的创作项目模板，集成多种 AI 助手并支持实时同步。",
+      "RowanUnderwood/Synesthesia-AI-Video-Director": "Synesthesia Engine 是一个本地 Gradio 应用，用于自动化 AI 音乐视频工作流程，通过音频分析、LLM 驱动的故事编排和 LTX Desktop 视频生成来实现"
     }
   },
   "desktop-pet": {
