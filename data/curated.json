@@ -99,7 +99,8 @@
       "zylon-ai/private-gpt",
       "HarmonicSecurity/claudit-sec",
       "MODSetter/SurfSense",
-      "google/agents-cli"
+      "google/agents-cli",
+      "HKUDS/nanobot"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -200,7 +201,8 @@
       "zylon-ai/private-gpt": "私有 GPT API 层，支持本地模型，包括 RAG、技能、工具、MCP、文本到 SQL 等功能，兼容 OpenAI 兼容的推理服务器。",
       "HarmonicSecurity/claudit-sec": "claudit-sec 是一款用于 Claude Desktop 和 Claude Code 的 macOS 安全审计工具，提供单一命令的 MCP 服务器、扩展、插件、连接器、计划任务和权限的可见性",
       "MODSetter/SurfSense": "MODSetter/SurfSense 是一个开源的 AI 研究平台，允许用户通过一体化平台或 API 访问实时数据，包括 Reddit、YouTube 等多个来源，提供更快速和全面的人工智能开发体验。",
-      "google/agents-cli": "google/agents-cli 是一款 CLI 和技能集，帮助任何编码助手成为专家，创建、评估和部署 Google Cloud 上的 AI agent。"
+      "google/agents-cli": "google/agents-cli 是一款 CLI 和技能集，帮助任何编码助手成为专家，创建、评估和部署 Google Cloud 上的 AI agent。",
+      "HKUDS/nanobot": "nanobot 是一款开源、轻量级的 Python 框架，提供个人 AI agent 的自主管理和多-agent 流程支持"
     }
   },
   "ecommerce": {
@@ -377,7 +379,9 @@
       "knoxiboy/DoubtDesk",
       "bobhaotian/speech-driven-lessons",
       "b0LBwZ7r5HOeh6CBMuQIhVu3-s-random-fork/PCL2",
-      "rudra496/StealthHumanizer"
+      "rudra496/StealthHumanizer",
+      "oomol-lab/epub-translator",
+      "Daravai1234/china-dictatorship"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
@@ -408,7 +412,9 @@
       "knoxiboy/DoubtDesk": "DoubtDesk 是一个匿名的 AI 驱动疑问解决平台，集成了教室环境，学生可以无顾虑地提问并获得即时答案",
       "bobhaotian/speech-driven-lessons": "bobhaotian/speech-driven-lessons 是一款学习管理系统，它通过 AI 驱动的课程创建和交付来革新在线教育",
       "b0LBwZ7r5HOeh6CBMuQIhVu3-s-random-fork/PCL2": "b0LBwZ7r5HOeh6CBMuQIhVu3-s-random-fork/PCL2是一个反PCL宣传库，致力于揭露王沪宁策划的中共窃国半个多世纪的滔天罪恶。",
-      "rudra496/StealthHumanizer": "StealthHumanizer 是一款免费开源的 AI 文本人化工具，支持 16+ 语言，能够绕过 GPTZero、Turnitin 和 AI 检测器，帮助学生和写作者更好地保护作品。"
+      "rudra496/StealthHumanizer": "StealthHumanizer 是一款免费开源的 AI 文本人化工具，支持 16+ 语言，能够绕过 GPTZero、Turnitin 和 AI 检测器，帮助学生和写作者更好地保护作品。",
+      "oomol-lab/epub-translator": "EPUB-转换器是一款 AI 工具，使用大型语言模型翻译 EPUB 书籍，保留原文内容，方便语言学习和对比阅读。",
+      "Daravai1234/china-dictatorship": "Daravai1234/china-dictatorship是一个反中共政治宣传库，包含常见问答集、新闻集和饭店和音乐建议。"
     }
   },
   "ai-agent": {
@@ -447,7 +453,12 @@
       "Giskard-AI/giskard-oss",
       "ATH-MaaS/ComfyUI-Copilot",
       "Marker-Inc-Korea/AutoRAG",
-      "agentuniverse-ai/agentUniverse"
+      "agentuniverse-ai/agentUniverse",
+      "hexo-ai/sia",
+      "agentjido/jido",
+      "asinghcsu/AgenticRAG-Survey",
+      "gi-dellav/zerostack",
+      "wrtnlabs/autobe"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -484,7 +495,12 @@
       "Giskard-AI/giskard-oss": "Giskard-oss 是一款开源的评估和测试库，专为大语言模型代理提供安全性和公平性的保障",
       "ATH-MaaS/ComfyUI-Copilot": "ComfyUI-Copilot 是一个 AI 驱动的自定义节点，旨在提升工作流自动化和智能辅助能力",
       "Marker-Inc-Korea/AutoRAG": "AutoRAG 是一个智能文件查找工具，它通过频繁使用变得越来越聪明",
-      "agentuniverse-ai/agentUniverse": "agentUniverse 是一个用于构建多智能体应用的 LLM 多智能体框架，让开发者轻松创建复杂的智能体应用"
+      "agentuniverse-ai/agentUniverse": "agentUniverse 是一个用于构建多智能体应用的 LLM 多智能体框架，让开发者轻松创建复杂的智能体应用",
+      "hexo-ai/sia": "SIA 是一个自我改进的 AI 框架，能自动提高任何 AI 系统的性能，提升模型和代理的表现",
+      "agentjido/jido": "Jido 是一个基于 Elixir 的自动化 agent 框架，用于实现分布式、自治行为和动态工作流程。",
+      "asinghcsu/AgenticRAG-Survey": "Agentic-RAG 是一个基于 AI LLM agent 的高级检索增强生成系统，通过这种系统可以更有效地生成高质量的内容",
+      "gi-dellav/zerostack": "零Stack 是一款轻量级的 Rust 编写的编码代理，优化了内存占用和性能，适合于高效的编码需求。",
+      "wrtnlabs/autobe": "Autobe 是一款 AI 编程助手，通过编译技能生成 100% 可工作的后端服务器代码"
     }
   },
   "short-drama": {
@@ -523,7 +539,9 @@
       "prakashdk/video-creator",
       "HuyLe82US/awesome-seedance-prompts",
       "bybren-llc/story-systems-template",
-      "RowanUnderwood/Synesthesia-AI-Video-Director"
+      "RowanUnderwood/Synesthesia-AI-Video-Director",
+      "Stonewuu/ai-fusion-video",
+      "worldwonderer/drama-skills"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -560,7 +578,9 @@
       "prakashdk/video-creator": "prakashdk/video-creator 是一个全离线管道，使用 AI 自动生成视频，包括脚本生成、TTS 语音配音、图像生成、字幕和最终视频拼接，适合短片和故事创作，无需互联网。",
       "HuyLe82US/awesome-seedance-prompts": "awesome-seedance-prompts 是一个高保真 AI 视频生成的(prompt)库和资源中心，快速生成从电影到广告的高质量输出。",
       "bybren-llc/story-systems-template": "BYBREN-LLC Story Systems Template 是一款用于剧本、小说和电影制作的创作项目模板，集成多种 AI 助手并支持实时同步。",
-      "RowanUnderwood/Synesthesia-AI-Video-Director": "Synesthesia Engine 是一个本地 Gradio 应用，用于自动化 AI 音乐视频工作流程，通过音频分析、LLM 驱动的故事编排和 LTX Desktop 视频生成来实现"
+      "RowanUnderwood/Synesthesia-AI-Video-Director": "Synesthesia Engine 是一个本地 Gradio 应用，用于自动化 AI 音乐视频工作流程，通过音频分析、LLM 驱动的故事编排和 LTX Desktop 视频生成来实现",
+      "Stonewuu/ai-fusion-video": "【融光】是一款基于 Agent 的全流程 AI 短剧/漫剧/视频创作平台，帮助用户快速高效地生成视频内容。",
+      "worldwonderer/drama-skills": "drama-skills 是一个 AI 短剧/漫剧创作技能集，提供剧本、资产、分镜、图片/视频提示词等功能，帮助 Claude Code 和 Codex 用户快速高效创作。"
     }
   },
   "desktop-pet": {
