@@ -100,7 +100,8 @@
       "HarmonicSecurity/claudit-sec",
       "MODSetter/SurfSense",
       "google/agents-cli",
-      "HKUDS/nanobot"
+      "HKUDS/nanobot",
+      "MCPBlender/blender-mcp"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -202,7 +203,8 @@
       "HarmonicSecurity/claudit-sec": "claudit-sec 是一款用于 Claude Desktop 和 Claude Code 的 macOS 安全审计工具，提供单一命令的 MCP 服务器、扩展、插件、连接器、计划任务和权限的可见性",
       "MODSetter/SurfSense": "MODSetter/SurfSense 是一个开源的 AI 研究平台，允许用户通过一体化平台或 API 访问实时数据，包括 Reddit、YouTube 等多个来源，提供更快速和全面的人工智能开发体验。",
       "google/agents-cli": "google/agents-cli 是一款 CLI 和技能集，帮助任何编码助手成为专家，创建、评估和部署 Google Cloud 上的 AI agent。",
-      "HKUDS/nanobot": "nanobot 是一款开源、轻量级的 Python 框架，提供个人 AI agent 的自主管理和多-agent 流程支持"
+      "HKUDS/nanobot": "nanobot 是一款开源、轻量级的 Python 框架，提供个人 AI agent 的自主管理和多-agent 流程支持",
+      "MCPBlender/blender-mcp": "blender-mcp 是一款基于 Claude AI 的 Blender 插件，通过 MCP 技术实现了对 Blender 3D 模型、材料和场景的自动化生成和控制"
     }
   },
   "ecommerce": {
@@ -308,7 +310,8 @@
       "kasonye/ui-aesthetics-skill",
       "figma/ai-plugin-template",
       "bergside/design-md-figma",
-      "mikesheehan54/Claude-Code-Design-AI"
+      "mikesheehan54/Claude-Code-Design-AI",
+      "Optima-CityU/LLM4AD_Next"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -346,7 +349,8 @@
       "kasonye/ui-aesthetics-skill": "kasonye/ui-aesthetics-skill 是一个用于改善 AI 美观性判断能力的技能，专注于 web UI 的生成、审查和优化",
       "figma/ai-plugin-template": "这是 Figma 插件模板，使用 OpenAI GPT 模型实现 AI 协作。",
       "bergside/design-md-figma": "bergside/design-md-figma 是一款 Figma 插件，它能提取本地设计规范并生成 DESIGN.md 和 SKILL.md 文件，帮助 AI 编程工具如 Claude Code 等提高编程效率",
-      "mikesheehan54/Claude-Code-Design-AI": "Claude Design 是一款 UI/UX 设计辅助工具，能够快速生成 React 组件、Figma 组件和 Tailwind CSS 代码等，帮助前端开发者提高设计效率。"
+      "mikesheehan54/Claude-Code-Design-AI": "Claude Design 是一款 UI/UX 设计辅助工具，能够快速生成 React 组件、Figma 组件和 Tailwind CSS 代码等，帮助前端开发者提高设计效率。",
+      "Optima-CityU/LLM4AD_Next": "LLM4AD_Next 是一款下一代 AI 设计平台，提供直观的 UI 交互和与 AI agent 的无缝协作，极大地降低了自动算法设计的门槛"
     }
   },
   "education": {
@@ -458,7 +462,12 @@
       "agentjido/jido",
       "asinghcsu/AgenticRAG-Survey",
       "gi-dellav/zerostack",
-      "wrtnlabs/autobe"
+      "wrtnlabs/autobe",
+      "wrtnlabs/agentica",
+      "christopherkarani/Wax",
+      "weirdmachine64/GhidraGPT",
+      "Compresr-ai/Context-Gateway",
+      "zavora-ai/adk-rust"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -500,7 +509,12 @@
       "agentjido/jido": "Jido 是一个基于 Elixir 的自动化 agent 框架，用于实现分布式、自治行为和动态工作流程。",
       "asinghcsu/AgenticRAG-Survey": "Agentic-RAG 是一个基于 AI LLM agent 的高级检索增强生成系统，通过这种系统可以更有效地生成高质量的内容",
       "gi-dellav/zerostack": "零Stack 是一款轻量级的 Rust 编写的编码代理，优化了内存占用和性能，适合于高效的编码需求。",
-      "wrtnlabs/autobe": "Autobe 是一款 AI 编程助手，通过编译技能生成 100% 可工作的后端服务器代码"
+      "wrtnlabs/autobe": "Autobe 是一款 AI 编程助手，通过编译技能生成 100% 可工作的后端服务器代码",
+      "wrtnlabs/agentica": "Agentica 是一个增强型 AI 函数调用框架，通过编译器技能提供高效的 AI 开发体验。",
+      "christopherkarani/Wax": "Wax 是一个单文件内存层，为 AI agent 提供快速的子毫秒 RAG 支持，特别优化在 Apple Silicon 上运行，完全基于 Swift 一文件实现，方便直接使用无需额外依赖。",
+      "weirdmachine64/GhidraGPT": "GhidraGPT 是一款集成 Ghidra 和 LLM 模型的工具，通过 AI 强化逆向工程，提高代码分析效率。",
+      "Compresr-ai/Context-Gateway": "Context Gateway 是一个代理工具，可以提升任何 AI agent 工作流的效率和性能，通过实时历史压缩和上下文优化来提供更好的结果",
+      "zavora-ai/adk-rust": "ADK-Rust 是一款 Rust 编程语言的 AI agent 开发工具集，提供模块化组件来构建 AI 模型、实时语音等功能，实现简单高效的 AI agent 开发。"
     }
   },
   "short-drama": {
