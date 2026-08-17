@@ -101,7 +101,8 @@
       "MODSetter/SurfSense",
       "google/agents-cli",
       "HKUDS/nanobot",
-      "MCPBlender/blender-mcp"
+      "MCPBlender/blender-mcp",
+      "ahujasid/blender-mcp"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -204,7 +205,8 @@
       "MODSetter/SurfSense": "MODSetter/SurfSense 是一个开源的 AI 研究平台，允许用户通过一体化平台或 API 访问实时数据，包括 Reddit、YouTube 等多个来源，提供更快速和全面的人工智能开发体验。",
       "google/agents-cli": "google/agents-cli 是一款 CLI 和技能集，帮助任何编码助手成为专家，创建、评估和部署 Google Cloud 上的 AI agent。",
       "HKUDS/nanobot": "nanobot 是一款开源、轻量级的 Python 框架，提供个人 AI agent 的自主管理和多-agent 流程支持",
-      "MCPBlender/blender-mcp": "blender-mcp 是一款基于 Claude AI 的 Blender 插件，通过 MCP 技术实现了对 Blender 3D 模型、材料和场景的自动化生成和控制"
+      "MCPBlender/blender-mcp": "blender-mcp 是一款基于 Claude AI 的 Blender 插件，通过 MCP 技术实现了对 Blender 3D 模型、材料和场景的自动化生成和控制",
+      "ahujasid/blender-mcp": "ahujasid/blender-mcp 是一款社区插件，允许您使用任意 LLM 控制 Blender 3D，实现 AI 驱动的 3D 模型创作"
     }
   },
   "ecommerce": {
@@ -238,7 +240,8 @@
       "SerendipityOneInc/ZooData-Skills",
       "MentionNetwork/awesome-agentic-commerce",
       "hikari0511/awesome-amazon-ec-skills",
-      "melgarafael/DeskcommCRM"
+      "melgarafael/DeskcommCRM",
+      "WANGLEVY9/VidForge"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -270,7 +273,8 @@
       "SerendipityOneInc/ZooData-Skills": "ZooData-Skills 是一款 AI Agent 能力工具，专为 Amazon 产品研究设计，帮助您更有效地利用 Amazon API。",
       "MentionNetwork/awesome-agentic-commerce": "awesome-agentic-commerce 是一个精心筛选的列表，提供了 AI agent 购物、销售和交易所需的协议、MCP 服务器、工具、应用、API 和服务，帮助商店主人、开发者、代理和营销人员。",
       "hikari0511/awesome-amazon-ec-skills": "awesome-amazon-ec-skills 是一个聚焦亚马逊出海和1688供货上游的 Claude/AI Agent Skills 合集，帮助用户快速构建电商场景下的 AI 应用。",
-      "melgarafael/DeskcommCRM": "DeskcommCRM 是一款开源的 AI 销售操作系统，提供自主托管的 CRM 功能和本地 AI agent，支持 WhatsApp，旨在为任何通过聊天销售的企业提供开源替代方案"
+      "melgarafael/DeskcommCRM": "DeskcommCRM 是一款开源的 AI 销售操作系统，提供自主托管的 CRM 功能和本地 AI agent，支持 WhatsApp，旨在为任何通过聊天销售的企业提供开源替代方案",
+      "WANGLEVY9/VidForge": "VidForge 是一个开源的 AI pipeline，专注于短视频商业内容的分析和生成，核心价值在于帮助用户高效地创建高质量的视频内容。"
     }
   },
   "design": {
@@ -311,7 +315,8 @@
       "figma/ai-plugin-template",
       "bergside/design-md-figma",
       "mikesheehan54/Claude-Code-Design-AI",
-      "Optima-CityU/LLM4AD_Next"
+      "Optima-CityU/LLM4AD_Next",
+      "Commando-X/vuln-bank"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -350,7 +355,8 @@
       "figma/ai-plugin-template": "这是 Figma 插件模板，使用 OpenAI GPT 模型实现 AI 协作。",
       "bergside/design-md-figma": "bergside/design-md-figma 是一款 Figma 插件，它能提取本地设计规范并生成 DESIGN.md 和 SKILL.md 文件，帮助 AI 编程工具如 Claude Code 等提高编程效率",
       "mikesheehan54/Claude-Code-Design-AI": "Claude Design 是一款 UI/UX 设计辅助工具，能够快速生成 React 组件、Figma 组件和 Tailwind CSS 代码等，帮助前端开发者提高设计效率。",
-      "Optima-CityU/LLM4AD_Next": "LLM4AD_Next 是一款下一代 AI 设计平台，提供直观的 UI 交互和与 AI agent 的无缝协作，极大地降低了自动算法设计的门槛"
+      "Optima-CityU/LLM4AD_Next": "LLM4AD_Next 是一款下一代 AI 设计平台，提供直观的 UI 交互和与 AI agent 的无缝协作，极大地降低了自动算法设计的门槛",
+      "Commando-X/vuln-bank": "Commando-X/vuln-bank 是一个模拟银行应用程序，旨在帮助安全测试、API 安全和 AI 集成应用程序的安全测试和代码审查。"
     }
   },
   "education": {
@@ -467,7 +473,12 @@
       "christopherkarani/Wax",
       "weirdmachine64/GhidraGPT",
       "Compresr-ai/Context-Gateway",
-      "zavora-ai/adk-rust"
+      "zavora-ai/adk-rust",
+      "rlaope/oh-my-hermes",
+      "Code-and-Sorts/awesome-copilot-agents",
+      "ARCANGEL0/EVA",
+      "ratel-ai/ratel",
+      "OnlyTerp/openclaw-optimization-guide"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -514,7 +525,12 @@
       "christopherkarani/Wax": "Wax 是一个单文件内存层，为 AI agent 提供快速的子毫秒 RAG 支持，特别优化在 Apple Silicon 上运行，完全基于 Swift 一文件实现，方便直接使用无需额外依赖。",
       "weirdmachine64/GhidraGPT": "GhidraGPT 是一款集成 Ghidra 和 LLM 模型的工具，通过 AI 强化逆向工程，提高代码分析效率。",
       "Compresr-ai/Context-Gateway": "Context Gateway 是一个代理工具，可以提升任何 AI agent 工作流的效率和性能，通过实时历史压缩和上下文优化来提供更好的结果",
-      "zavora-ai/adk-rust": "ADK-Rust 是一款 Rust 编程语言的 AI agent 开发工具集，提供模块化组件来构建 AI 模型、实时语音等功能，实现简单高效的 AI agent 开发。"
+      "zavora-ai/adk-rust": "ADK-Rust 是一款 Rust 编程语言的 AI agent 开发工具集，提供模块化组件来构建 AI 模型、实时语音等功能，实现简单高效的 AI agent 开发。",
+      "rlaope/oh-my-hermes": "oh-my-hermes 是一款 AI agent 工具，提供了优化工具、内存系统、子代理和混合模型等功能，帮助开发者构建高效的 AI 应用。",
+      "Code-and-Sorts/awesome-copilot-agents": "✨awesome-copilot-agents 是一份精心筛选的 GitHub 指令、提示、技能和 agent Markdown 文件清单，旨在增强您的 GitHub Copilot AI 体验。",
+      "ARCANGEL0/EVA": "EVA 是一个 AI 助力渗透测试代理，提供结构化攻击指南、上下文分析和多后端 AI 集成，极大地提升了攻防安全工作流的效率",
+      "ratel-ai/ratel": "Ratel 是一个用于 AI agent 的上下文工程工具，帮助开发者通过减少 token 数量（约 80%）和修复工具过载问题，提高 AI 应用程序的准确率和效率。",
+      "OnlyTerp/openclaw-optimization-guide": "只Terp/openclaw-optimization-guide是一款针对 Claude Code / AI 编程用户的开发指南，帮助您优化 AI agent，提高速度、降低成本。"
     }
   },
   "short-drama": {
@@ -555,7 +571,8 @@
       "bybren-llc/story-systems-template",
       "RowanUnderwood/Synesthesia-AI-Video-Director",
       "Stonewuu/ai-fusion-video",
-      "worldwonderer/drama-skills"
+      "worldwonderer/drama-skills",
+      "eternityspring/shuohao-skills"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -594,7 +611,8 @@
       "bybren-llc/story-systems-template": "BYBREN-LLC Story Systems Template 是一款用于剧本、小说和电影制作的创作项目模板，集成多种 AI 助手并支持实时同步。",
       "RowanUnderwood/Synesthesia-AI-Video-Director": "Synesthesia Engine 是一个本地 Gradio 应用，用于自动化 AI 音乐视频工作流程，通过音频分析、LLM 驱动的故事编排和 LTX Desktop 视频生成来实现",
       "Stonewuu/ai-fusion-video": "【融光】是一款基于 Agent 的全流程 AI 短剧/漫剧/视频创作平台，帮助用户快速高效地生成视频内容。",
-      "worldwonderer/drama-skills": "drama-skills 是一个 AI 短剧/漫剧创作技能集，提供剧本、资产、分镜、图片/视频提示词等功能，帮助 Claude Code 和 Codex 用户快速高效创作。"
+      "worldwonderer/drama-skills": "drama-skills 是一个 AI 短剧/漫剧创作技能集，提供剧本、资产、分镜、图片/视频提示词等功能，帮助 Claude Code 和 Codex 用户快速高效创作。",
+      "eternityspring/shuohao-skills": "shuohao-skills 是一套 AI 短剧制作的技能集合，帮助用户快速拆角色、排大纲、出场景与道具设定、写剧本、切分镜。"
     }
   },
   "desktop-pet": {
