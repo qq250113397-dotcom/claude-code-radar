@@ -102,7 +102,8 @@
       "google/agents-cli",
       "HKUDS/nanobot",
       "MCPBlender/blender-mcp",
-      "ahujasid/blender-mcp"
+      "ahujasid/blender-mcp",
+      "t8y2/dbx"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -206,7 +207,8 @@
       "google/agents-cli": "google/agents-cli 是一款 CLI 和技能集，帮助任何编码助手成为专家，创建、评估和部署 Google Cloud 上的 AI agent。",
       "HKUDS/nanobot": "nanobot 是一款开源、轻量级的 Python 框架，提供个人 AI agent 的自主管理和多-agent 流程支持",
       "MCPBlender/blender-mcp": "blender-mcp 是一款基于 Claude AI 的 Blender 插件，通过 MCP 技术实现了对 Blender 3D 模型、材料和场景的自动化生成和控制",
-      "ahujasid/blender-mcp": "ahujasid/blender-mcp 是一款社区插件，允许您使用任意 LLM 控制 Blender 3D，实现 AI 驱动的 3D 模型创作"
+      "ahujasid/blender-mcp": "ahujasid/blender-mcp 是一款社区插件，允许您使用任意 LLM 控制 Blender 3D，实现 AI 驱动的 3D 模型创作",
+      "t8y2/dbx": "t8y2/dbx 是一款轻量级跨平台数据库管理工具，支持 90+ 数据库，内置 AI 助手和 MCP Server，提供桌面端、Docker、CLI 等实用功能。"
     }
   },
   "ecommerce": {
@@ -241,7 +243,8 @@
       "MentionNetwork/awesome-agentic-commerce",
       "hikari0511/awesome-amazon-ec-skills",
       "melgarafael/DeskcommCRM",
-      "WANGLEVY9/VidForge"
+      "WANGLEVY9/VidForge",
+      "anacei/ShopIQ-AI-Retail-Intelligence-Platform"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -274,7 +277,8 @@
       "MentionNetwork/awesome-agentic-commerce": "awesome-agentic-commerce 是一个精心筛选的列表，提供了 AI agent 购物、销售和交易所需的协议、MCP 服务器、工具、应用、API 和服务，帮助商店主人、开发者、代理和营销人员。",
       "hikari0511/awesome-amazon-ec-skills": "awesome-amazon-ec-skills 是一个聚焦亚马逊出海和1688供货上游的 Claude/AI Agent Skills 合集，帮助用户快速构建电商场景下的 AI 应用。",
       "melgarafael/DeskcommCRM": "DeskcommCRM 是一款开源的 AI 销售操作系统，提供自主托管的 CRM 功能和本地 AI agent，支持 WhatsApp，旨在为任何通过聊天销售的企业提供开源替代方案",
-      "WANGLEVY9/VidForge": "VidForge 是一个开源的 AI pipeline，专注于短视频商业内容的分析和生成，核心价值在于帮助用户高效地创建高质量的视频内容。"
+      "WANGLEVY9/VidForge": "VidForge 是一个开源的 AI pipeline，专注于短视频商业内容的分析和生成，核心价值在于帮助用户高效地创建高质量的视频内容。",
+      "anacei/ShopIQ-AI-Retail-Intelligence-Platform": "ShopIQ 是一个 AI 驱动的零售智能平台，帮助分析购物数据预测趋势、发现购物者行为模式、客户分群和产品喜好度"
     }
   },
   "design": {
@@ -316,7 +320,8 @@
       "bergside/design-md-figma",
       "mikesheehan54/Claude-Code-Design-AI",
       "Optima-CityU/LLM4AD_Next",
-      "Commando-X/vuln-bank"
+      "Commando-X/vuln-bank",
+      "6551Team/claude-code-design-guide"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -356,7 +361,8 @@
       "bergside/design-md-figma": "bergside/design-md-figma 是一款 Figma 插件，它能提取本地设计规范并生成 DESIGN.md 和 SKILL.md 文件，帮助 AI 编程工具如 Claude Code 等提高编程效率",
       "mikesheehan54/Claude-Code-Design-AI": "Claude Design 是一款 UI/UX 设计辅助工具，能够快速生成 React 组件、Figma 组件和 Tailwind CSS 代码等，帮助前端开发者提高设计效率。",
       "Optima-CityU/LLM4AD_Next": "LLM4AD_Next 是一款下一代 AI 设计平台，提供直观的 UI 交互和与 AI agent 的无缝协作，极大地降低了自动算法设计的门槛",
-      "Commando-X/vuln-bank": "Commando-X/vuln-bank 是一个模拟银行应用程序，旨在帮助安全测试、API 安全和 AI 集成应用程序的安全测试和代码审查。"
+      "Commando-X/vuln-bank": "Commando-X/vuln-bank 是一个模拟银行应用程序，旨在帮助安全测试、API 安全和 AI 集成应用程序的安全测试和代码审查。",
+      "6551Team/claude-code-design-guide": "CLAUD CODE 是一款面向开发者的深度指南，涵盖从早期互联网设计模式到 AI agent 实现的全面知识，帮助开发者更好地理解和应用 CLAUD CODE。"
     }
   },
   "education": {
@@ -391,7 +397,8 @@
       "b0LBwZ7r5HOeh6CBMuQIhVu3-s-random-fork/PCL2",
       "rudra496/StealthHumanizer",
       "oomol-lab/epub-translator",
-      "Daravai1234/china-dictatorship"
+      "Daravai1234/china-dictatorship",
+      "ozrwayne/claude-english-immersion"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
@@ -424,7 +431,8 @@
       "b0LBwZ7r5HOeh6CBMuQIhVu3-s-random-fork/PCL2": "b0LBwZ7r5HOeh6CBMuQIhVu3-s-random-fork/PCL2是一个反PCL宣传库，致力于揭露王沪宁策划的中共窃国半个多世纪的滔天罪恶。",
       "rudra496/StealthHumanizer": "StealthHumanizer 是一款免费开源的 AI 文本人化工具，支持 16+ 语言，能够绕过 GPTZero、Turnitin 和 AI 检测器，帮助学生和写作者更好地保护作品。",
       "oomol-lab/epub-translator": "EPUB-转换器是一款 AI 工具，使用大型语言模型翻译 EPUB 书籍，保留原文内容，方便语言学习和对比阅读。",
-      "Daravai1234/china-dictatorship": "Daravai1234/china-dictatorship是一个反中共政治宣传库，包含常见问答集、新闻集和饭店和音乐建议。"
+      "Daravai1234/china-dictatorship": "Daravai1234/china-dictatorship是一个反中共政治宣传库，包含常见问答集、新闻集和饭店和音乐建议。",
+      "ozrwayne/claude-english-immersion": "CLAUDIE 英文沉浸工具，通过每日 AI 对话提升语言学习，特别适合 PTE 考试准备"
     }
   },
   "ai-agent": {
@@ -478,7 +486,11 @@
       "Code-and-Sorts/awesome-copilot-agents",
       "ARCANGEL0/EVA",
       "ratel-ai/ratel",
-      "OnlyTerp/openclaw-optimization-guide"
+      "OnlyTerp/openclaw-optimization-guide",
+      "Tencent/AI-Infra-Guard",
+      "v2rockets/Loyal-Elephie",
+      "zszszszsz/.config",
+      "FareedKhan-dev/optimize-ai-agent-memory"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -530,7 +542,11 @@
       "Code-and-Sorts/awesome-copilot-agents": "✨awesome-copilot-agents 是一份精心筛选的 GitHub 指令、提示、技能和 agent Markdown 文件清单，旨在增强您的 GitHub Copilot AI 体验。",
       "ARCANGEL0/EVA": "EVA 是一个 AI 助力渗透测试代理，提供结构化攻击指南、上下文分析和多后端 AI 集成，极大地提升了攻防安全工作流的效率",
       "ratel-ai/ratel": "Ratel 是一个用于 AI agent 的上下文工程工具，帮助开发者通过减少 token 数量（约 80%）和修复工具过载问题，提高 AI 应用程序的准确率和效率。",
-      "OnlyTerp/openclaw-optimization-guide": "只Terp/openclaw-optimization-guide是一款针对 Claude Code / AI 编程用户的开发指南，帮助您优化 AI agent，提高速度、降低成本。"
+      "OnlyTerp/openclaw-optimization-guide": "只Terp/openclaw-optimization-guide是一款针对 Claude Code / AI 编程用户的开发指南，帮助您优化 AI agent，提高速度、降低成本。",
+      "Tencent/AI-Infra-Guard": "Tencent/AI-Infra-Guard 是一款全栈 AI 红队平台，通过 Agent Scan、Skills Scan、MCP scan、AI Infra scan 和 LLM 拒绝跳出评估来保障 AI 生态系统的安全。",
+      "v2rockets/Loyal-Elephie": "Loyal-Elephie 是一个简单的 RAG 聊天机器人，专为本地 LLM 设计，支持 12 种语言，兼容 OpenAI API，提供可靠的记忆功能。",
+      "zszszszsz/.config": "为 OpenWrt Configuration 项目生成一句中文介绍：\"OpenWrt Configuration 是一个用于管理 OpenWrt 路由器配置的工具，提供了一个易于使用的界面来配置路由器设置，包括网络设置、安全设置和系统设置等。\"",
+      "FareedKhan-dev/optimize-ai-agent-memory": "FareedKhan-dev/optimize-ai-agent-memory 是一套优化 AI Agent 内存的工具集，帮助开发者提升 AI 模型的性能和效率。"
     }
   },
   "short-drama": {
@@ -572,7 +588,10 @@
       "RowanUnderwood/Synesthesia-AI-Video-Director",
       "Stonewuu/ai-fusion-video",
       "worldwonderer/drama-skills",
-      "eternityspring/shuohao-skills"
+      "eternityspring/shuohao-skills",
+      "cclank/lanshu-create-ai-presenter-video",
+      "machina-exm/film-studio-skills",
+      "feyzilim/clipfactory"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -612,7 +631,10 @@
       "RowanUnderwood/Synesthesia-AI-Video-Director": "Synesthesia Engine 是一个本地 Gradio 应用，用于自动化 AI 音乐视频工作流程，通过音频分析、LLM 驱动的故事编排和 LTX Desktop 视频生成来实现",
       "Stonewuu/ai-fusion-video": "【融光】是一款基于 Agent 的全流程 AI 短剧/漫剧/视频创作平台，帮助用户快速高效地生成视频内容。",
       "worldwonderer/drama-skills": "drama-skills 是一个 AI 短剧/漫剧创作技能集，提供剧本、资产、分镜、图片/视频提示词等功能，帮助 Claude Code 和 Codex 用户快速高效创作。",
-      "eternityspring/shuohao-skills": "shuohao-skills 是一套 AI 短剧制作的技能集合，帮助用户快速拆角色、排大纲、出场景与道具设定、写剧本、切分镜。"
+      "eternityspring/shuohao-skills": "shuohao-skills 是一套 AI 短剧制作的技能集合，帮助用户快速拆角色、排大纲、出场景与道具设定、写剧本、切分镜。",
+      "cclank/lanshu-create-ai-presenter-video": "Lanshu-Create-AI-Presenter-Video是一款提供中立的Codex技能，能够生成经过验证的AI主持人视频，从脚本和授权的主持人图片开始。",
+      "machina-exm/film-studio-skills": "film-studio-skills 是一套可安装的 agent 能力，帮助 AI 视频生产从脚本到锁定，生成可用的拍摄提示。",
+      "feyzilim/clipfactory": "clipfactory 是一个 AI 脚本生成工具，帮助用户快速创建短垂直视频，利用 AI 脚本、语音、场景规划、字幕和 FFmpeg 渲染等功能，实现批量生成。"
     }
   },
   "desktop-pet": {
