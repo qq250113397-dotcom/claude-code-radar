@@ -244,7 +244,8 @@
       "hikari0511/awesome-amazon-ec-skills",
       "melgarafael/DeskcommCRM",
       "WANGLEVY9/VidForge",
-      "anacei/ShopIQ-AI-Retail-Intelligence-Platform"
+      "anacei/ShopIQ-AI-Retail-Intelligence-Platform",
+      "MaximilianYes/Build-ai-agent-no-code"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -278,7 +279,8 @@
       "hikari0511/awesome-amazon-ec-skills": "awesome-amazon-ec-skills 是一个聚焦亚马逊出海和1688供货上游的 Claude/AI Agent Skills 合集，帮助用户快速构建电商场景下的 AI 应用。",
       "melgarafael/DeskcommCRM": "DeskcommCRM 是一款开源的 AI 销售操作系统，提供自主托管的 CRM 功能和本地 AI agent，支持 WhatsApp，旨在为任何通过聊天销售的企业提供开源替代方案",
       "WANGLEVY9/VidForge": "VidForge 是一个开源的 AI pipeline，专注于短视频商业内容的分析和生成，核心价值在于帮助用户高效地创建高质量的视频内容。",
-      "anacei/ShopIQ-AI-Retail-Intelligence-Platform": "ShopIQ 是一个 AI 驱动的零售智能平台，帮助分析购物数据预测趋势、发现购物者行为模式、客户分群和产品喜好度"
+      "anacei/ShopIQ-AI-Retail-Intelligence-Platform": "ShopIQ 是一个 AI 驱动的零售智能平台，帮助分析购物数据预测趋势、发现购物者行为模式、客户分群和产品喜好度",
+      "MaximilianYes/Build-ai-agent-no-code": "Build-ai-agent-no-code 是一款无编码需求的 AI agent 和聊天机器人工具，让你可以创建 24/7 自动化 AI agent 和聊天机器人用于你的网站、SaaS 或 Shopify 商店。"
     }
   },
   "design": {
@@ -398,7 +400,8 @@
       "rudra496/StealthHumanizer",
       "oomol-lab/epub-translator",
       "Daravai1234/china-dictatorship",
-      "ozrwayne/claude-english-immersion"
+      "ozrwayne/claude-english-immersion",
+      "Archibaldys/llm-language-learning"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
@@ -432,7 +435,8 @@
       "rudra496/StealthHumanizer": "StealthHumanizer 是一款免费开源的 AI 文本人化工具，支持 16+ 语言，能够绕过 GPTZero、Turnitin 和 AI 检测器，帮助学生和写作者更好地保护作品。",
       "oomol-lab/epub-translator": "EPUB-转换器是一款 AI 工具，使用大型语言模型翻译 EPUB 书籍，保留原文内容，方便语言学习和对比阅读。",
       "Daravai1234/china-dictatorship": "Daravai1234/china-dictatorship是一个反中共政治宣传库，包含常见问答集、新闻集和饭店和音乐建议。",
-      "ozrwayne/claude-english-immersion": "CLAUDIE 英文沉浸工具，通过每日 AI 对话提升语言学习，特别适合 PTE 考试准备"
+      "ozrwayne/claude-english-immersion": "CLAUDIE 英文沉浸工具，通过每日 AI 对话提升语言学习，特别适合 PTE 考试准备",
+      "Archibaldys/llm-language-learning": "LLM 语言学习工具帮助全球技术工作者掌握流利的英语，实时与 AI 教练进行练习，准备日常开发者会议和面试。"
     }
   },
   "ai-agent": {
@@ -591,7 +595,8 @@
       "eternityspring/shuohao-skills",
       "cclank/lanshu-create-ai-presenter-video",
       "machina-exm/film-studio-skills",
-      "feyzilim/clipfactory"
+      "feyzilim/clipfactory",
+      "zenstory-ai/drama-skills"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -634,7 +639,8 @@
       "eternityspring/shuohao-skills": "shuohao-skills 是一套 AI 短剧制作的技能集合，帮助用户快速拆角色、排大纲、出场景与道具设定、写剧本、切分镜。",
       "cclank/lanshu-create-ai-presenter-video": "Lanshu-Create-AI-Presenter-Video是一款提供中立的Codex技能，能够生成经过验证的AI主持人视频，从脚本和授权的主持人图片开始。",
       "machina-exm/film-studio-skills": "film-studio-skills 是一套可安装的 agent 能力，帮助 AI 视频生产从脚本到锁定，生成可用的拍摄提示。",
-      "feyzilim/clipfactory": "clipfactory 是一个 AI 脚本生成工具，帮助用户快速创建短垂直视频，利用 AI 脚本、语音、场景规划、字幕和 FFmpeg 渲染等功能，实现批量生成。"
+      "feyzilim/clipfactory": "clipfactory 是一个 AI 脚本生成工具，帮助用户快速创建短垂直视频，利用 AI 脚本、语音、场景规划、字幕和 FFmpeg 渲染等功能，实现批量生成。",
+      "zenstory-ai/drama-skills": "Drama-Skills 是一套 AI 短剧/漫剧创作 skill 合集，提供剧本、资产、分镜、图片/视频提示词等功能，适配 Claude Code 与 Codex，帮助用户快速高效创作。"
     }
   },
   "desktop-pet": {
