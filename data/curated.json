@@ -245,7 +245,9 @@
       "melgarafael/DeskcommCRM",
       "WANGLEVY9/VidForge",
       "anacei/ShopIQ-AI-Retail-Intelligence-Platform",
-      "MaximilianYes/Build-ai-agent-no-code"
+      "MaximilianYes/Build-ai-agent-no-code",
+      "Kooboo/Kooboo",
+      "aaadanzghe/ecommerce-content-agent"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -280,7 +282,9 @@
       "melgarafael/DeskcommCRM": "DeskcommCRM 是一款开源的 AI 销售操作系统，提供自主托管的 CRM 功能和本地 AI agent，支持 WhatsApp，旨在为任何通过聊天销售的企业提供开源替代方案",
       "WANGLEVY9/VidForge": "VidForge 是一个开源的 AI pipeline，专注于短视频商业内容的分析和生成，核心价值在于帮助用户高效地创建高质量的视频内容。",
       "anacei/ShopIQ-AI-Retail-Intelligence-Platform": "ShopIQ 是一个 AI 驱动的零售智能平台，帮助分析购物数据预测趋势、发现购物者行为模式、客户分群和产品喜好度",
-      "MaximilianYes/Build-ai-agent-no-code": "Build-ai-agent-no-code 是一款无编码需求的 AI agent 和聊天机器人工具，让你可以创建 24/7 自动化 AI agent 和聊天机器人用于你的网站、SaaS 或 Shopify 商店。"
+      "MaximilianYes/Build-ai-agent-no-code": "Build-ai-agent-no-code 是一款无编码需求的 AI agent 和聊天机器人工具，让你可以创建 24/7 自动化 AI agent 和聊天机器人用于你的网站、SaaS 或 Shopify 商店。",
+      "Kooboo/Kooboo": "Kooboo 是一个高性能的网站、电子商务和 web 应用平台，集 Native AI、JavaScript 开发和可移植站点和应用市场于一身，提供高效的 AI 编程体验",
+      "aaadanzghe/ecommerce-content-agent": "ecommere-content-agent 是一款电商内容智能体，从商品理解到文案、图片、短视频生成的全链路AI系统"
     }
   },
   "design": {
@@ -401,7 +405,8 @@
       "oomol-lab/epub-translator",
       "Daravai1234/china-dictatorship",
       "ozrwayne/claude-english-immersion",
-      "Archibaldys/llm-language-learning"
+      "Archibaldys/llm-language-learning",
+      "shauryagangrade/awesome-ai-prompts"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
@@ -436,7 +441,8 @@
       "oomol-lab/epub-translator": "EPUB-转换器是一款 AI 工具，使用大型语言模型翻译 EPUB 书籍，保留原文内容，方便语言学习和对比阅读。",
       "Daravai1234/china-dictatorship": "Daravai1234/china-dictatorship是一个反中共政治宣传库，包含常见问答集、新闻集和饭店和音乐建议。",
       "ozrwayne/claude-english-immersion": "CLAUDIE 英文沉浸工具，通过每日 AI 对话提升语言学习，特别适合 PTE 考试准备",
-      "Archibaldys/llm-language-learning": "LLM 语言学习工具帮助全球技术工作者掌握流利的英语，实时与 AI 教练进行练习，准备日常开发者会议和面试。"
+      "Archibaldys/llm-language-learning": "LLM 语言学习工具帮助全球技术工作者掌握流利的英语，实时与 AI 教练进行练习，准备日常开发者会议和面试。",
+      "shauryagangrade/awesome-ai-prompts": "awesome-ai-prompts 是一个精心收集的复制粘贴 AI 提示工具，帮助学生开发者通过验证而不是猜测来实现更高效的编码。"
     }
   },
   "ai-agent": {
