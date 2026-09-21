@@ -110,7 +110,9 @@
       "Evil0ctal/Douyin_TikTok_Download_API",
       "tradecatlabs/vibe-coding-cn",
       "lnkiai/m3e-canvas",
-      "WorldFlowAI/everything-claude-code"
+      "WorldFlowAI/everything-claude-code",
+      "ahujasid/mcp-for-blender",
+      "google/artemis"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -222,7 +224,9 @@
       "Evil0ctal/Douyin_TikTok_Download_API": "Evil0ctal/Douyin_TikTok_Download_API 是一个自托管的抖音和 TikTok 数据采集工具，提供无水印视频下载 API 和多种调用方式。",
       "tradecatlabs/vibe-coding-cn": "Vibe Coding 是一套 AI 结对编程工作流工具，帮助用户掌握从入门到精通的编程技能，核心价值在于其实用的 Prompt、Skill、Workflow 和 上下文管理功能。",
       "lnkiai/m3e-canvas": "lnkiai/m3e-canvas 是一个在线设计工具，可以在浏览器中快速绘制 Material 3 风格的屏幕，并将其转换为编程提示。",
-      "WorldFlowAI/everything-claude-code": "everything-claude-code 是一个用于提高 AI 助手开发效率的工具集，提供了 agent、命令、技能、规则和钩子等核心功能"
+      "WorldFlowAI/everything-claude-code": "everything-claude-code 是一个用于提高 AI 助手开发效率的工具集，提供了 agent、命令、技能、规则和钩子等核心功能",
+      "ahujasid/mcp-for-blender": "ahujasid/mcp-for-blender 是一款社区插件，可以让你使用任意LLM来控制Blender 3D，实现AI驱动的3D建模",
+      "google/artemis": "ARTEMIS 是一款用于将自然语言指令转换为可靠的 Android 自动化工具，它可以实现 99%+ 的成功率并与 AI 编程助手如 Claude Code 集成。"
     }
   },
   "ecommerce": {
@@ -262,7 +266,8 @@
       "MaximilianYes/Build-ai-agent-no-code",
       "Kooboo/Kooboo",
       "aaadanzghe/ecommerce-content-agent",
-      "feichanggege/ecommerce-visual-copywriting-skill"
+      "feichanggege/ecommerce-visual-copywriting-skill",
+      "vulpy-io/vulpy-commerce-core"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -300,7 +305,8 @@
       "MaximilianYes/Build-ai-agent-no-code": "Build-ai-agent-no-code 是一款无编码需求的 AI agent 和聊天机器人工具，让你可以创建 24/7 自动化 AI agent 和聊天机器人用于你的网站、SaaS 或 Shopify 商店。",
       "Kooboo/Kooboo": "Kooboo 是一个高性能的网站、电子商务和 web 应用平台，集 Native AI、JavaScript 开发和可移植站点和应用市场于一身，提供高效的 AI 编程体验",
       "aaadanzghe/ecommerce-content-agent": "ecommere-content-agent 是一款电商内容智能体，从商品理解到文案、图片、短视频生成的全链路AI系统",
-      "feichanggege/ecommerce-visual-copywriting-skill": "电商视觉文案设计SOP Skill 是一款 AI 编程工具，帮助用户快速生成专业的商品图片，实现 5 年资深设计经验的效果。"
+      "feichanggege/ecommerce-visual-copywriting-skill": "电商视觉文案设计SOP Skill 是一款 AI 编程工具，帮助用户快速生成专业的商品图片，实现 5 年资深设计经验的效果。",
+      "vulpy-io/vulpy-commerce-core": "Vulpy Commerce-Core 是一个开源的电子商务解决方案，基于 Medusa v2、Next.js 和 Payload CMS，内置 AI 助手 Fox，提供 AI 驱动的商店体验"
     }
   },
   "design": {
@@ -343,7 +349,8 @@
       "mikesheehan54/Claude-Code-Design-AI",
       "Optima-CityU/LLM4AD_Next",
       "Commando-X/vuln-bank",
-      "6551Team/claude-code-design-guide"
+      "6551Team/claude-code-design-guide",
+      "hoangpm96/reqwise-figma-mcp"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -384,7 +391,8 @@
       "mikesheehan54/Claude-Code-Design-AI": "Claude Design 是一款 UI/UX 设计辅助工具，能够快速生成 React 组件、Figma 组件和 Tailwind CSS 代码等，帮助前端开发者提高设计效率。",
       "Optima-CityU/LLM4AD_Next": "LLM4AD_Next 是一款下一代 AI 设计平台，提供直观的 UI 交互和与 AI agent 的无缝协作，极大地降低了自动算法设计的门槛",
       "Commando-X/vuln-bank": "Commando-X/vuln-bank 是一个模拟银行应用程序，旨在帮助安全测试、API 安全和 AI 集成应用程序的安全测试和代码审查。",
-      "6551Team/claude-code-design-guide": "CLAUD CODE 是一款面向开发者的深度指南，涵盖从早期互联网设计模式到 AI agent 实现的全面知识，帮助开发者更好地理解和应用 CLAUD CODE。"
+      "6551Team/claude-code-design-guide": "CLAUD CODE 是一款面向开发者的深度指南，涵盖从早期互联网设计模式到 AI agent 实现的全面知识，帮助开发者更好地理解和应用 CLAUD CODE。",
+      "hoangpm96/reqwise-figma-mcp": "Reqwise Figma MCP 是一个用于让 AI agent 安全读取和绘制 Figma canvas 的服务"
     }
   },
   "education": {
@@ -422,7 +430,11 @@
       "Daravai1234/china-dictatorship",
       "ozrwayne/claude-english-immersion",
       "Archibaldys/llm-language-learning",
-      "shauryagangrade/awesome-ai-prompts"
+      "shauryagangrade/awesome-ai-prompts",
+      "jude-miller-dev/Milky-institute-online",
+      "Halleck45/OpenPronounce",
+      "SirhanMacx/Claw-ED",
+      "RohanMuppa/brightspace-mcp-server"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
@@ -458,7 +470,11 @@
       "Daravai1234/china-dictatorship": "Daravai1234/china-dictatorship是一个反中共政治宣传库，包含常见问答集、新闻集和饭店和音乐建议。",
       "ozrwayne/claude-english-immersion": "CLAUDIE 英文沉浸工具，通过每日 AI 对话提升语言学习，特别适合 PTE 考试准备",
       "Archibaldys/llm-language-learning": "LLM 语言学习工具帮助全球技术工作者掌握流利的英语，实时与 AI 教练进行练习，准备日常开发者会议和面试。",
-      "shauryagangrade/awesome-ai-prompts": "awesome-ai-prompts 是一个精心收集的复制粘贴 AI 提示工具，帮助学生开发者通过验证而不是猜测来实现更高效的编码。"
+      "shauryagangrade/awesome-ai-prompts": "awesome-ai-prompts 是一个精心收集的复制粘贴 AI 提示工具，帮助学生开发者通过验证而不是猜测来实现更高效的编码。",
+      "jude-miller-dev/Milky-institute-online": "基于Spring Cloud的在线成人教育项目Milky-institute-online，提供学习服务和课程推荐AI Agent，提升教育效率。",
+      "Halleck45/OpenPronounce": "OpenPronounce是一款开源的英语发音评估工具，基于Wav2Vec2和DTW技术，提供自主托管的替代方案，适合教育技术领域的应用。",
+      "SirhanMacx/Claw-ED": "Claw-ED 是一个本地化的 AI 教学助手，允许教师创建可编辑的教案草稿、学生材料和幻灯片。",
+      "RohanMuppa/brightspace-mcp-server": "Brightspace-MCP-Server 是一个用于与 Brightspace 教学管理系统进行交互的服务器，通过它可以方便地获取成绩、任务、公告、学生名单、课程大纲和学习内容，适用于任何学校。"
     }
   },
   "ai-agent": {
@@ -518,7 +534,8 @@
       "zszszszsz/.config",
       "FareedKhan-dev/optimize-ai-agent-memory",
       "unslothai/unsloth",
-      "langfuse/langfuse"
+      "langfuse/langfuse",
+      "JuliusBrussee/caveman"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -576,7 +593,8 @@
       "zszszszsz/.config": "为 OpenWrt Configuration 项目生成一句中文介绍：\"OpenWrt Configuration 是一个用于管理 OpenWrt 路由器配置的工具，提供了一个易于使用的界面来配置路由器设置，包括网络设置、安全设置和系统设置等。\"",
       "FareedKhan-dev/optimize-ai-agent-memory": "FareedKhan-dev/optimize-ai-agent-memory 是一套优化 AI Agent 内存的工具集，帮助开发者提升 AI 模型的性能和效率。",
       "unslothai/unsloth": "这是一个本地 UI 工具，允许用户在本地运行和训练 LLMs 和扩散模型，极大提高了 AI 模型的开发和调试效率。",
-      "langfuse/langfuse": "langfuse 是一个开源的语言模型评估和可观察性平台，帮助开发者追踪、评估和优化大规模语言模型应用。"
+      "langfuse/langfuse": "langfuse 是一个开源的语言模型评估和可观察性平台，帮助开发者追踪、评估和优化大规模语言模型应用。",
+      "JuliusBrussee/caveman": "caveman是一款简化编码的工具，帮助你通过使用最少的令牌实现高效编码。"
     }
   },
   "short-drama": {
@@ -622,7 +640,8 @@
       "cclank/lanshu-create-ai-presenter-video",
       "machina-exm/film-studio-skills",
       "feyzilim/clipfactory",
-      "zenstory-ai/drama-skills"
+      "zenstory-ai/drama-skills",
+      "hypit-ai/hypit"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -666,7 +685,8 @@
       "cclank/lanshu-create-ai-presenter-video": "Lanshu-Create-AI-Presenter-Video是一款提供中立的Codex技能，能够生成经过验证的AI主持人视频，从脚本和授权的主持人图片开始。",
       "machina-exm/film-studio-skills": "film-studio-skills 是一套可安装的 agent 能力，帮助 AI 视频生产从脚本到锁定，生成可用的拍摄提示。",
       "feyzilim/clipfactory": "clipfactory 是一个 AI 脚本生成工具，帮助用户快速创建短垂直视频，利用 AI 脚本、语音、场景规划、字幕和 FFmpeg 渲染等功能，实现批量生成。",
-      "zenstory-ai/drama-skills": "Drama-Skills 是一套 AI 短剧/漫剧创作 skill 合集，提供剧本、资产、分镜、图片/视频提示词等功能，适配 Claude Code 与 Codex，帮助用户快速高效创作。"
+      "zenstory-ai/drama-skills": "Drama-Skills 是一套 AI 短剧/漫剧创作 skill 合集，提供剧本、资产、分镜、图片/视频提示词等功能，适配 Claude Code 与 Codex，帮助用户快速高效创作。",
+      "hypit-ai/hypit": "Hypit 是一个 AI 代理工具，允许你使用 AI agent 克隆任何流行视频，核心价值在于能够快速生成多个视频版本。"
     }
   },
   "desktop-pet": {
