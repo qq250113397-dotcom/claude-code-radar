@@ -114,7 +114,9 @@
       "ahujasid/mcp-for-blender",
       "google/artemis",
       "unclecode/crawl4ai",
-      "feder-cr/invisible_playwright_mcp"
+      "feder-cr/invisible_playwright_mcp",
+      "firecrawl/firecrawl",
+      "apify/mcpc"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -230,7 +232,9 @@
       "ahujasid/mcp-for-blender": "ahujasid/mcp-for-blender 是一款社区插件，可以让你使用任意LLM来控制Blender 3D，实现AI驱动的3D建模",
       "google/artemis": "ARTEMIS 是一款用于将自然语言指令转换为可靠的 Android 自动化工具，它可以实现 99%+ 的成功率并与 AI 编程助手如 Claude Code 集成。",
       "unclecode/crawl4ai": "Crawl4AI 是一款开源的网页爬虫和采集工具，能够将任何网站转换为干净的 Markdown 格式，适合用于 LLM 和 AI agents 的数据准备。",
-      "feder-cr/invisible_playwright_mcp": "Playwright MCP 是一种 AI agent，通过在 anti-detect stealth Firefox 下浏览网页，实现了浏览器自动化和无人机浏览，极大地提高了机器人操作的隐匿性和安全性。"
+      "feder-cr/invisible_playwright_mcp": "Playwright MCP 是一种 AI agent，通过在 anti-detect stealth Firefox 下浏览网页，实现了浏览器自动化和无人机浏览，极大地提高了机器人操作的隐匿性和安全性。",
+      "firecrawl/firecrawl": "火爬虫是超级智能库的基础，能让 AI agent 从网络获取数据",
+      "apify/mcpc": "mcpc 是一个兼容性最强的 MCP CLI 客户端，提供持久会话、OAuth 2.1 等核心功能"
     }
   },
   "ecommerce": {
@@ -444,7 +448,8 @@
       "jude-miller-dev/Milky-institute-online",
       "Halleck45/OpenPronounce",
       "SirhanMacx/Claw-ED",
-      "RohanMuppa/brightspace-mcp-server"
+      "RohanMuppa/brightspace-mcp-server",
+      "bpwhelan/GameSentenceMiner"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
@@ -484,7 +489,8 @@
       "jude-miller-dev/Milky-institute-online": "基于Spring Cloud的在线成人教育项目Milky-institute-online，提供学习服务和课程推荐AI Agent，提升教育效率。",
       "Halleck45/OpenPronounce": "OpenPronounce是一款开源的英语发音评估工具，基于Wav2Vec2和DTW技术，提供自主托管的替代方案，适合教育技术领域的应用。",
       "SirhanMacx/Claw-ED": "Claw-ED 是一个本地化的 AI 教学助手，允许教师创建可编辑的教案草稿、学生材料和幻灯片。",
-      "RohanMuppa/brightspace-mcp-server": "Brightspace-MCP-Server 是一个用于与 Brightspace 教学管理系统进行交互的服务器，通过它可以方便地获取成绩、任务、公告、学生名单、课程大纲和学习内容，适用于任何学校。"
+      "RohanMuppa/brightspace-mcp-server": "Brightspace-MCP-Server 是一个用于与 Brightspace 教学管理系统进行交互的服务器，通过它可以方便地获取成绩、任务、公告、学生名单、课程大纲和学习内容，适用于任何学校。",
+      "bpwhelan/GameSentenceMiner": "bpwhelan/GameSentenceMiner 是一款语言学习工具，通过游戏和视觉媒体让学习者全面沉浸式体验，提高语言学习效率。"
     }
   },
   "ai-agent": {
@@ -547,7 +553,10 @@
       "langfuse/langfuse",
       "JuliusBrussee/caveman",
       "unclecode/crawl4ai",
-      "LibreChat-AI/LibreChat"
+      "LibreChat-AI/LibreChat",
+      "firecrawl/firecrawl",
+      "oumi-ai/oumi",
+      "samugit83/redamon"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -608,7 +617,10 @@
       "langfuse/langfuse": "langfuse 是一个开源的语言模型评估和可观察性平台，帮助开发者追踪、评估和优化大规模语言模型应用。",
       "JuliusBrussee/caveman": "caveman是一款简化编码的工具，帮助你通过使用最少的令牌实现高效编码。",
       "unclecode/crawl4ai": "Crawl4AI 是一个开源的网页爬虫和数据提取工具，用于为 LLM 和 AI agent 提供干净的 Markdown 数据，帮助您快速获取任何网站的信息。",
-      "LibreChat-AI/LibreChat": "LibreChat是一个开源聊天机器人平台，提供了多种AI模型和功能，帮助用户自定义和部署自己的聊天机器人。"
+      "LibreChat-AI/LibreChat": "LibreChat是一个开源聊天机器人平台，提供了多种AI模型和功能，帮助用户自定义和部署自己的聊天机器人。",
+      "firecrawl/firecrawl": "火爬是一款超级强大的 AI Agent 数据采集库，帮助您获取网络和超越网络的数据，打造超级智能。",
+      "oumi-ai/oumi": "Oumi 是一款轻松调整和部署 Qwen、Gemma 或任何开放式智能语言模型的工具，帮助您快速评估和部署智能语言模型。",
+      "samugit83/redamon": "RedAmon 是一款开源的自主 AI 渗透测试框架，它可以帮助您识别和修复攻击面中的漏洞"
     }
   },
   "short-drama": {
@@ -657,7 +669,8 @@
       "zenstory-ai/drama-skills",
       "hypit-ai/hypit",
       "62656456/ai-film-skills",
-      "FeiFei-AIDev/ai-script-generation-skill"
+      "FeiFei-AIDev/ai-script-generation-skill",
+      "echris6/motion-video-kit"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -704,7 +717,8 @@
       "zenstory-ai/drama-skills": "Drama-Skills 是一套 AI 短剧/漫剧创作 skill 合集，提供剧本、资产、分镜、图片/视频提示词等功能，适配 Claude Code 与 Codex，帮助用户快速高效创作。",
       "hypit-ai/hypit": "Hypit 是一个 AI 代理工具，允许你使用 AI agent 克隆任何流行视频，核心价值在于能够快速生成多个视频版本。",
       "62656456/ai-film-skills": "Open Film Skills 是一套 21 个独立模块，涵盖故事、导演、视觉资产和 AI 电影制作等方面，帮助用户快速学习和掌握电影制作技能。",
-      "FeiFei-AIDev/ai-script-generation-skill": "Codex/Claude技能，生成双语AI短视频脚本，提供框架、钩子和示例，帮助开发者高效生成AI编程内容。"
+      "FeiFei-AIDev/ai-script-generation-skill": "Codex/Claude技能，生成双语AI短视频脚本，提供框架、钩子和示例，帮助开发者高效生成AI编程内容。",
+      "echris6/motion-video-kit": "Motion Video Kit 是一款 AI-assisted 业务视频工具集，提供独立审查循环、28 个启动电影动画原则、音效设计等功能，帮助您制作高质量的商业视频"
     }
   },
   "desktop-pet": {
