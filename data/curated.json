@@ -116,7 +116,9 @@
       "unclecode/crawl4ai",
       "feder-cr/invisible_playwright_mcp",
       "firecrawl/firecrawl",
-      "apify/mcpc"
+      "apify/mcpc",
+      "morluto/rea",
+      "justhil/pi-app"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -234,7 +236,9 @@
       "unclecode/crawl4ai": "Crawl4AI 是一款开源的网页爬虫和采集工具，能够将任何网站转换为干净的 Markdown 格式，适合用于 LLM 和 AI agents 的数据准备。",
       "feder-cr/invisible_playwright_mcp": "Playwright MCP 是一种 AI agent，通过在 anti-detect stealth Firefox 下浏览网页，实现了浏览器自动化和无人机浏览，极大地提高了机器人操作的隐匿性和安全性。",
       "firecrawl/firecrawl": "火爬虫是超级智能库的基础，能让 AI agent 从网络获取数据",
-      "apify/mcpc": "mcpc 是一个兼容性最强的 MCP CLI 客户端，提供持久会话、OAuth 2.1 等核心功能"
+      "apify/mcpc": "mcpc 是一个兼容性最强的 MCP CLI 客户端，提供持久会话、OAuth 2.1 等核心功能",
+      "morluto/rea": "REA 是一个强大的逆向工程工具，使用 agent 技术让用户可以轻松分析和理解任何应用行为或原生二进制代码",
+      "justhil/pi-app": "justhil/pi-app 是一个桌面客户端，用于与 pi 编程 Agent 进行交互，核心价值在于它提供了直观的界面和高效的 Git 代码管理体验。"
     }
   },
   "ecommerce": {
@@ -362,7 +366,8 @@
       "6551Team/claude-code-design-guide",
       "hoangpm96/reqwise-figma-mcp",
       "devnen/Dia-TTS-Server",
-      "PavelLaptev/FigClaw"
+      "PavelLaptev/FigClaw",
+      "sirioberati/Genjustsu-Open-Source-Workflow"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -406,7 +411,8 @@
       "6551Team/claude-code-design-guide": "CLAUD CODE 是一款面向开发者的深度指南，涵盖从早期互联网设计模式到 AI agent 实现的全面知识，帮助开发者更好地理解和应用 CLAUD CODE。",
       "hoangpm96/reqwise-figma-mcp": "Reqwise Figma MCP 是一个用于让 AI agent 安全读取和绘制 Figma canvas 的服务",
       "devnen/Dia-TTS-Server": "Dia-TTS-Server是一个自主托管的语音合成服务，提供易用的Web UI和灵活的API端点，帮助你生成高质量的语音。",
-      "PavelLaptev/FigClaw": "FigClaw 是一个 AI 驱动的 Figma 插件，允许你与画布聊天，检查和操纵节点，并执行 Figma 插件 API 代码"
+      "PavelLaptev/FigClaw": "FigClaw 是一个 AI 驱动的 Figma 插件，允许你与画布聊天，检查和操纵节点，并执行 Figma 插件 API 代码",
+      "sirioberati/Genjustsu-Open-Source-Workflow": "Genjustsu-Open-Source-Workflow是一个开源的AI视频替换工作流，通过将深度图、SAM分割、脸部网格和音频处理结合起来，允许用户替换人物和对象，支持本地WebUI方便输入、预览和导出。"
     }
   },
   "education": {
@@ -449,7 +455,9 @@
       "Halleck45/OpenPronounce",
       "SirhanMacx/Claw-ED",
       "RohanMuppa/brightspace-mcp-server",
-      "bpwhelan/GameSentenceMiner"
+      "bpwhelan/GameSentenceMiner",
+      "helixnow/deep-student",
+      "cuic19053-hue/awesome-student-ai-skills"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
@@ -490,7 +498,9 @@
       "Halleck45/OpenPronounce": "OpenPronounce是一款开源的英语发音评估工具，基于Wav2Vec2和DTW技术，提供自主托管的替代方案，适合教育技术领域的应用。",
       "SirhanMacx/Claw-ED": "Claw-ED 是一个本地化的 AI 教学助手，允许教师创建可编辑的教案草稿、学生材料和幻灯片。",
       "RohanMuppa/brightspace-mcp-server": "Brightspace-MCP-Server 是一个用于与 Brightspace 教学管理系统进行交互的服务器，通过它可以方便地获取成绩、任务、公告、学生名单、课程大纲和学习内容，适用于任何学校。",
-      "bpwhelan/GameSentenceMiner": "bpwhelan/GameSentenceMiner 是一款语言学习工具，通过游戏和视觉媒体让学习者全面沉浸式体验，提高语言学习效率。"
+      "bpwhelan/GameSentenceMiner": "bpwhelan/GameSentenceMiner 是一款语言学习工具，通过游戏和视觉媒体让学习者全面沉浸式体验，提高语言学习效率。",
+      "helixnow/deep-student": "Deep-Student 是一款开源的本地化 AI 学习工作台，它让学习更高效",
+      "cuic19053-hue/awesome-student-ai-skills": "awesome-student-ai-skills 是一套大学生申报书 AI Skill 集合，能够帮助用户快速生成规范 Word 文档，解决申请书撰写难题。"
     }
   },
   "ai-agent": {
@@ -556,7 +566,10 @@
       "LibreChat-AI/LibreChat",
       "firecrawl/firecrawl",
       "oumi-ai/oumi",
-      "samugit83/redamon"
+      "samugit83/redamon",
+      "dipakkr/awesome-ai-engineering",
+      "DjangoPeng/agent-hub",
+      "SageMindAI/autogen-agi"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -620,7 +633,10 @@
       "LibreChat-AI/LibreChat": "LibreChat是一个开源聊天机器人平台，提供了多种AI模型和功能，帮助用户自定义和部署自己的聊天机器人。",
       "firecrawl/firecrawl": "火爬是一款超级强大的 AI Agent 数据采集库，帮助您获取网络和超越网络的数据，打造超级智能。",
       "oumi-ai/oumi": "Oumi 是一款轻松调整和部署 Qwen、Gemma 或任何开放式智能语言模型的工具，帮助您快速评估和部署智能语言模型。",
-      "samugit83/redamon": "RedAmon 是一款开源的自主 AI 渗透测试框架，它可以帮助您识别和修复攻击面中的漏洞"
+      "samugit83/redamon": "RedAmon 是一款开源的自主 AI 渗透测试框架，它可以帮助您识别和修复攻击面中的漏洞",
+      "dipakkr/awesome-ai-engineering": "awesome-ai-engineering 是一个 AI 工程资源收藏，提供 LLMs、RAG、AI Agents 等领域的工具、项目和路线图，帮助您打造生产级 AI 系统",
+      "DjangoPeng/agent-hub": "agent-hub 是一个 AI Agent 项目集合，旨在提升企业工作流、语言学习和多模态交互的效率",
+      "SageMindAI/autogen-agi": "AutoGen AGI 是一款 AI agent 自动生成工具，通过 AutoGen 提升 AI 的决策能力和复杂任务处理能力。"
     }
   },
   "short-drama": {
@@ -670,7 +686,9 @@
       "hypit-ai/hypit",
       "62656456/ai-film-skills",
       "FeiFei-AIDev/ai-script-generation-skill",
-      "echris6/motion-video-kit"
+      "echris6/motion-video-kit",
+      "yi1108/printfilm",
+      "Tenney95/AI-Canvas-tauri"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -718,7 +736,9 @@
       "hypit-ai/hypit": "Hypit 是一个 AI 代理工具，允许你使用 AI agent 克隆任何流行视频，核心价值在于能够快速生成多个视频版本。",
       "62656456/ai-film-skills": "Open Film Skills 是一套 21 个独立模块，涵盖故事、导演、视觉资产和 AI 电影制作等方面，帮助用户快速学习和掌握电影制作技能。",
       "FeiFei-AIDev/ai-script-generation-skill": "Codex/Claude技能，生成双语AI短视频脚本，提供框架、钩子和示例，帮助开发者高效生成AI编程内容。",
-      "echris6/motion-video-kit": "Motion Video Kit 是一款 AI-assisted 业务视频工具集，提供独立审查循环、28 个启动电影动画原则、音效设计等功能，帮助您制作高质量的商业视频"
+      "echris6/motion-video-kit": "Motion Video Kit 是一款 AI-assisted 业务视频工具集，提供独立审查循环、28 个启动电影动画原则、音效设计等功能，帮助您制作高质量的商业视频",
+      "yi1108/printfilm": "PRINTFILM 是一个 AI 短视频营销和 AI 短剧创作平台，帮助用户快速高效地创建专业的短视频。",
+      "Tenney95/AI-Canvas-tauri": "AI-Canvas-tauri 是一款本地优先的 AI 画布工具，提供 AI 短剧、AI 资产管理、图像/视频生成、分镜制作与视频剪辑等功能。"
     }
   },
   "desktop-pet": {
