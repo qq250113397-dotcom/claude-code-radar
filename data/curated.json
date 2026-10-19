@@ -118,7 +118,9 @@
       "firecrawl/firecrawl",
       "apify/mcpc",
       "morluto/rea",
-      "justhil/pi-app"
+      "justhil/pi-app",
+      "DayuanJiang/next-ai-draw-io",
+      "tw93/Waza"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -238,7 +240,9 @@
       "firecrawl/firecrawl": "火爬虫是超级智能库的基础，能让 AI agent 从网络获取数据",
       "apify/mcpc": "mcpc 是一个兼容性最强的 MCP CLI 客户端，提供持久会话、OAuth 2.1 等核心功能",
       "morluto/rea": "REA 是一个强大的逆向工程工具，使用 agent 技术让用户可以轻松分析和理解任何应用行为或原生二进制代码",
-      "justhil/pi-app": "justhil/pi-app 是一个桌面客户端，用于与 pi 编程 Agent 进行交互，核心价值在于它提供了直观的界面和高效的 Git 代码管理体验。"
+      "justhil/pi-app": "justhil/pi-app 是一个桌面客户端，用于与 pi 编程 Agent 进行交互，核心价值在于它提供了直观的界面和高效的 Git 代码管理体验。",
+      "DayuanJiang/next-ai-draw-io": "next-ai-draw-io 是一个通过与 AI 交流来绘制和编辑 draw.io 图表的工具，通过它你可以快速高效地创建图表。",
+      "tw93/Waza": "Waza 是一款帮助你提升编程技能的实用工具，专注于为 AI 编程助手如 Claude Code 等提供核心技能和编程技巧。"
     }
   },
   "ecommerce": {
@@ -280,7 +284,10 @@
       "aaadanzghe/ecommerce-content-agent",
       "feichanggege/ecommerce-visual-copywriting-skill",
       "vulpy-io/vulpy-commerce-core",
-      "linbei0/EcomGen"
+      "linbei0/EcomGen",
+      "HelpCode-ai/anythingmcp",
+      "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+      "bvdr/familywell"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -320,7 +327,10 @@
       "aaadanzghe/ecommerce-content-agent": "ecommere-content-agent 是一款电商内容智能体，从商品理解到文案、图片、短视频生成的全链路AI系统",
       "feichanggege/ecommerce-visual-copywriting-skill": "电商视觉文案设计SOP Skill 是一款 AI 编程工具，帮助用户快速生成专业的商品图片，实现 5 年资深设计经验的效果。",
       "vulpy-io/vulpy-commerce-core": "Vulpy Commerce-Core 是一个开源的电子商务解决方案，基于 Medusa v2、Next.js 和 Payload CMS，内置 AI 助手 Fox，提供 AI 驱动的商店体验",
-      "linbei0/EcomGen": "EcomGen 是一个本地化的 AI 电商图像套装生成器，专为个人卖家设计，提供 25 个可重用套装、产品真实度保护、OpenAI 兼容性和自主 ZIP 导出功能。"
+      "linbei0/EcomGen": "EcomGen 是一个本地化的 AI 电商图像套装生成器，专为个人卖家设计，提供 25 个可重用套装、产品真实度保护、OpenAI 兼容性和自主 ZIP 导出功能。",
+      "HelpCode-ai/anythingmcp": "AnythingMCP 是一个 AI agent 网关，能够将任何 REST/OpenAPI、GraphQL、SOAP 或 SQL API 转换为 MCP 工具。",
+      "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit": "AI 跨境电商运营智能体工具箱，帮助运营人员通过 7 个可复用的 AI Agent 工作流，高效管理运营流程",
+      "bvdr/familywell": "bvdr/familywell 是一个家庭组织工具，集购物清单、待办事项、日历、消费记录、项目管理和食谱等功能于一体，支持自主部署和人工智能助手。"
     }
   },
   "design": {
@@ -367,7 +377,8 @@
       "hoangpm96/reqwise-figma-mcp",
       "devnen/Dia-TTS-Server",
       "PavelLaptev/FigClaw",
-      "sirioberati/Genjustsu-Open-Source-Workflow"
+      "sirioberati/Genjustsu-Open-Source-Workflow",
+      "kaankiziltug/logo-design-skill"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -412,7 +423,8 @@
       "hoangpm96/reqwise-figma-mcp": "Reqwise Figma MCP 是一个用于让 AI agent 安全读取和绘制 Figma canvas 的服务",
       "devnen/Dia-TTS-Server": "Dia-TTS-Server是一个自主托管的语音合成服务，提供易用的Web UI和灵活的API端点，帮助你生成高质量的语音。",
       "PavelLaptev/FigClaw": "FigClaw 是一个 AI 驱动的 Figma 插件，允许你与画布聊天，检查和操纵节点，并执行 Figma 插件 API 代码",
-      "sirioberati/Genjustsu-Open-Source-Workflow": "Genjustsu-Open-Source-Workflow是一个开源的AI视频替换工作流，通过将深度图、SAM分割、脸部网格和音频处理结合起来，允许用户替换人物和对象，支持本地WebUI方便输入、预览和导出。"
+      "sirioberati/Genjustsu-Open-Source-Workflow": "Genjustsu-Open-Source-Workflow是一个开源的AI视频替换工作流，通过将深度图、SAM分割、脸部网格和音频处理结合起来，允许用户替换人物和对象，支持本地WebUI方便输入、预览和导出。",
+      "kaankiziltug/logo-design-skill": "kaankiziltug/logo-design-skill 是一个 Logo 设计技能，提供 Logo 设计原则、流程、SVG 手工技巧、测试工具以及 1400+ 个 Logo 参考库。"
     }
   },
   "education": {
@@ -457,7 +469,8 @@
       "RohanMuppa/brightspace-mcp-server",
       "bpwhelan/GameSentenceMiner",
       "helixnow/deep-student",
-      "cuic19053-hue/awesome-student-ai-skills"
+      "cuic19053-hue/awesome-student-ai-skills",
+      "mengxi-ream/read-frog"
     ],
     "notes": {
       "fighting41love/funNLP": "fighting41love/funNLP：一个庞大的中文自然语言处理工具集，包含中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器等功能。",
@@ -500,7 +513,8 @@
       "RohanMuppa/brightspace-mcp-server": "Brightspace-MCP-Server 是一个用于与 Brightspace 教学管理系统进行交互的服务器，通过它可以方便地获取成绩、任务、公告、学生名单、课程大纲和学习内容，适用于任何学校。",
       "bpwhelan/GameSentenceMiner": "bpwhelan/GameSentenceMiner 是一款语言学习工具，通过游戏和视觉媒体让学习者全面沉浸式体验，提高语言学习效率。",
       "helixnow/deep-student": "Deep-Student 是一款开源的本地化 AI 学习工作台，它让学习更高效",
-      "cuic19053-hue/awesome-student-ai-skills": "awesome-student-ai-skills 是一套大学生申报书 AI Skill 集合，能够帮助用户快速生成规范 Word 文档，解决申请书撰写难题。"
+      "cuic19053-hue/awesome-student-ai-skills": "awesome-student-ai-skills 是一套大学生申报书 AI Skill 集合，能够帮助用户快速生成规范 Word 文档，解决申请书撰写难题。",
+      "mengxi-ream/read-frog": "Read Frog 是一个开源的 AI 语言学习与闪词卡工具，提供沉浸式翻译替代方案，帮助用户提高语言技能。"
     }
   },
   "ai-agent": {
@@ -688,7 +702,9 @@
       "FeiFei-AIDev/ai-script-generation-skill",
       "echris6/motion-video-kit",
       "yi1108/printfilm",
-      "Tenney95/AI-Canvas-tauri"
+      "Tenney95/AI-Canvas-tauri",
+      "notepower2k1/CapCap",
+      "phucnguyentvp1/frameweaver"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -738,7 +754,9 @@
       "FeiFei-AIDev/ai-script-generation-skill": "Codex/Claude技能，生成双语AI短视频脚本，提供框架、钩子和示例，帮助开发者高效生成AI编程内容。",
       "echris6/motion-video-kit": "Motion Video Kit 是一款 AI-assisted 业务视频工具集，提供独立审查循环、28 个启动电影动画原则、音效设计等功能，帮助您制作高质量的商业视频",
       "yi1108/printfilm": "PRINTFILM 是一个 AI 短视频营销和 AI 短剧创作平台，帮助用户快速高效地创建专业的短视频。",
-      "Tenney95/AI-Canvas-tauri": "AI-Canvas-tauri 是一款本地优先的 AI 画布工具，提供 AI 短剧、AI 资产管理、图像/视频生成、分镜制作与视频剪辑等功能。"
+      "Tenney95/AI-Canvas-tauri": "AI-Canvas-tauri 是一款本地优先的 AI 画布工具，提供 AI 短剧、AI 资产管理、图像/视频生成、分镜制作与视频剪辑等功能。",
+      "notepower2k1/CapCap": "CapCap 是一个用于短视频本地化和配音的 Windows 桌面应用，它整合了语音识别、翻译、字幕样式设定、语音生成、时间线编辑、预览和导出等功能，特别适用于越南内容生产",
+      "phucnguyentvp1/frameweaver": "Frameweaver 是一个本地视频工作空间，集成了场景生成、时间线编辑、语音分析、旁白、字幕、音频混合和媒体管理等功能，极大地提高了视频制作的效率。"
     }
   },
   "desktop-pet": {
