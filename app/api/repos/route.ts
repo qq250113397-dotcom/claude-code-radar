@@ -18,7 +18,7 @@ async function fetchRepos(
   let repos: Repo[]
 
   if (categoryId === 'trending') {
-    repos = (await getTrendingRepos(category.queries)).filter((r) => !isBlocked(r))
+    repos = await getTrendingRepos(category.queries)
   } else {
     const results = await Promise.all(
       category.queries.map((q) => searchRepos(q, 'stars', 8))
@@ -30,7 +30,7 @@ async function fetchRepos(
       return true
     })
     repos.sort((a, b) => b.stargazers_count - a.stargazers_count)
-    repos = repos.filter((r) => !isBlocked(r)).slice(0, 20)
+    repos = repos.slice(0, 20)
   }
 
   if (category.hasCurated) {
@@ -41,6 +41,9 @@ async function fetchRepos(
     const existingIds = new Set(repos.map((r) => r.id))
     repos = [...curatedValid.filter((r) => !existingIds.has(r.id)), ...repos]
   }
+
+  // 搜索结果和精选名单都从这里过，统一拦敏感项目
+  repos = repos.filter((r) => !isBlocked(r, notes[r.full_name]))
 
   return { repos, label: category.label, notes }
 }

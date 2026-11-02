@@ -5,14 +5,52 @@
 
 import json
 import os
+import re
 import time
 import urllib.request
 import urllib.error
 import urllib.parse
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-CF_API_TOKEN = os.environ["CF_API_TOKEN"]
-CF_ACCOUNT_ID = os.environ["CF_ACCOUNT_ID"]
+CF_API_TOKEN = os.environ.get("CF_API_TOKEN", "")
+CF_ACCOUNT_ID = os.environ.get("CF_ACCOUNT_ID", "")
+
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
+
+# 屏蔽名单，和 lib/blocklist.ts 同一份规则，改匹配逻辑要两边一起改
+with open(os.path.join(DATA_DIR, "blocklist.json"), encoding="utf-8") as f:
+    BLOCK = json.load(f)
+BLOCK_OWNERS = {o.lower() for o in BLOCK["owners"]}
+BLOCK_REPOS = {r.lower() for r in BLOCK["repos"]}
+
+
+def _norm(s: str) -> str:
+    return " " + re.sub(r"[^a-z0-9\u4e00-\u9fff]+", " ", s.lower()).strip() + " "
+
+
+BLOCK_WORDS = [_norm(w) if w.isascii() else w for w in BLOCK["words"]]
+
+
+def is_blocked(repo: dict, note: str = "") -> bool:
+    name = repo["full_name"].lower()
+    if name in BLOCK_REPOS or name.split("/")[0] in BLOCK_OWNERS:
+        return True
+    text = _norm(" ".join([repo["full_name"], repo.get("description") or "", *repo.get("topics", []), note or ""]))
+    return any(w in text for w in BLOCK_WORDS)
+
+
+def prune_blocked(curated: dict) -> int:
+    """把已收录的敏感项目从 curated.json 里删掉（只按名字和中文解读判断）"""
+    removed = 0
+    for cat in curated.values():
+        notes = cat.get("notes", {})
+        keep = [r for r in cat.get("repos", []) if not is_blocked({"full_name": r}, notes.get(r, ""))]
+        for r in set(cat.get("repos", [])) - set(keep):
+            notes.pop(r, None)
+            print(f"  屏蔽: {r}")
+            removed += 1
+        cat["repos"] = keep
+    return removed
 
 GITHUB_HEADERS = {
     "Accept": "application/vnd.github+json",
@@ -179,6 +217,7 @@ def process_category(category_id: str, config: dict, curated: dict) -> int:
         repo for full_name, repo in candidates.items()
         if full_name not in existing_notes
         and repo["stargazers_count"] >= config["min_stars"]
+        and not is_blocked(repo)
     ]
     new_repos.sort(key=lambda r: r["stargazers_count"], reverse=True)
     new_repos = new_repos[:config["max_new"]]
@@ -195,6 +234,9 @@ def process_category(category_id: str, config: dict, curated: dict) -> int:
         try:
             note = codex_describe(repo)
             print(f"    → {note}")
+            if is_blocked(repo, note):
+                print("    命中屏蔽词，跳过")
+                continue
             existing_notes[full_name] = note
             if full_name not in existing_repos:
                 existing_repos.append(full_name)
@@ -209,9 +251,12 @@ def process_category(category_id: str, config: dict, curated: dict) -> int:
 
 
 def main():
-    curated_path = os.path.join(os.path.dirname(__file__), "..", "data", "curated.json")
+    if not CF_API_TOKEN or not CF_ACCOUNT_ID:
+        raise SystemExit("缺少 CF_API_TOKEN / CF_ACCOUNT_ID")
+    curated_path = os.path.join(DATA_DIR, "curated.json")
     with open(curated_path, encoding="utf-8") as f:
         curated = json.load(f)
+    prune_blocked(curated)
 
     total_added = 0
     for category_id, config in CATEGORY_CONFIGS.items():
