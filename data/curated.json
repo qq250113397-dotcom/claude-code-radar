@@ -120,7 +120,10 @@
       "morluto/rea",
       "justhil/pi-app",
       "DayuanJiang/next-ai-draw-io",
-      "tw93/Waza"
+      "tw93/Waza",
+      "xerj-org/xerj",
+      "JetBrains/thinkrail",
+      "Dicklesworthstone/destructive_command_guard"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -242,7 +245,10 @@
       "morluto/rea": "REA 是一个强大的逆向工程工具，使用 agent 技术让用户可以轻松分析和理解任何应用行为或原生二进制代码",
       "justhil/pi-app": "justhil/pi-app 是一个桌面客户端，用于与 pi 编程 Agent 进行交互，核心价值在于它提供了直观的界面和高效的 Git 代码管理体验。",
       "DayuanJiang/next-ai-draw-io": "next-ai-draw-io 是一个通过与 AI 交流来绘制和编辑 draw.io 图表的工具，通过它你可以快速高效地创建图表。",
-      "tw93/Waza": "Waza 是一款帮助你提升编程技能的实用工具，专注于为 AI 编程助手如 Claude Code 等提供核心技能和编程技巧。"
+      "tw93/Waza": "Waza 是一款帮助你提升编程技能的实用工具，专注于为 AI 编程助手如 Claude Code 等提供核心技能和编程技巧。",
+      "xerj-org/xerj": "Xerj 是一个 AI 搜索引擎和 MCP 服务器，支持 bot 和 agent 的代码、文档、日志、JSONL/CSV 和 PDF 等全文检索和向量检索，帮助开发者快速高效地找到所需信息。",
+      "JetBrains/thinkrail": "JetBrains/thinkrail 是一个轻量级的 IDE，它能够自适应你的工作方式，让你更高效地编程。",
+      "Dicklesworthstone/destructive_command_guard": "-destructive_command_guard 是一个快速的 Rust 安全钩子，阻止 AI 编程代理运行有害 shell、git 和文件系统命令，保护您的开发安全。"
     }
   },
   "ecommerce": {
@@ -287,7 +293,9 @@
       "linbei0/EcomGen",
       "HelpCode-ai/anythingmcp",
       "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-      "bvdr/familywell"
+      "bvdr/familywell",
+      "nexscope-ai/ecommerce-ai-tools",
+      "haadoRamiz/Jarvis1.0"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -330,7 +338,9 @@
       "linbei0/EcomGen": "EcomGen 是一个本地化的 AI 电商图像套装生成器，专为个人卖家设计，提供 25 个可重用套装、产品真实度保护、OpenAI 兼容性和自主 ZIP 导出功能。",
       "HelpCode-ai/anythingmcp": "AnythingMCP 是一个 AI agent 网关，能够将任何 REST/OpenAPI、GraphQL、SOAP 或 SQL API 转换为 MCP 工具。",
       "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit": "AI 跨境电商运营智能体工具箱，帮助运营人员通过 7 个可复用的 AI Agent 工作流，高效管理运营流程",
-      "bvdr/familywell": "bvdr/familywell 是一个家庭组织工具，集购物清单、待办事项、日历、消费记录、项目管理和食谱等功能于一体，支持自主部署和人工智能助手。"
+      "bvdr/familywell": "bvdr/familywell 是一个家庭组织工具，集购物清单、待办事项、日历、消费记录、项目管理和食谱等功能于一体，支持自主部署和人工智能助手。",
+      "nexscope-ai/ecommerce-ai-tools": "这是 Nexscope 官方提供的 e-commerce AI 工具集，帮助开发者快速构建和比较 AI 产品视频工作流程和数据 API，实现免费产品列表的自动化。",
+      "haadoRamiz/Jarvis1.0": "Jarvis1.0 是一个 AI 辅助工具，可以自动执行任务、搜索内容以及控制浏览器，极大提高工作效率。"
     }
   },
   "design": {
@@ -589,7 +599,9 @@
       "DjangoPeng/agent-hub",
       "SageMindAI/autogen-agi",
       "BigPizzaV3/CodexPlusPlus",
-      "cortex-tms/cortex-tms"
+      "cortex-tms/cortex-tms",
+      "jiwoochris/artex-global",
+      "glebis/claude-skills"
     ],
     "notes": {
       "affaan-m/ECC": "ECC 是一款专为 Claude Code 和 AI 编程开发的性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发体验。",
@@ -658,7 +670,9 @@
       "DjangoPeng/agent-hub": "agent-hub 是一个 AI Agent 项目集合，旨在提升企业工作流、语言学习和多模态交互的效率",
       "SageMindAI/autogen-agi": "AutoGen AGI 是一款 AI agent 自动生成工具，通过 AutoGen 提升 AI 的决策能力和复杂任务处理能力。",
       "BigPizzaV3/CodexPlusPlus": "CodexPlusPlus是一个为CodexApp提供增强功能的工具，旨在让Codex使用更方便和舒适。",
-      "cortex-tms/cortex-tms": "cortex-tms 是一款 AI 优化的项目模板，旨在最大限度地提高 AI agent 的性能。"
+      "cortex-tms/cortex-tms": "cortex-tms 是一款 AI 优化的项目模板，旨在最大限度地提高 AI agent 的性能。",
+      "jiwoochris/artex-global": "ARTEX-Global 是一个 LLM 多代理自主渗透测试框架，提供多语种支持，专用于授权、防御和检测用途。",
+      "glebis/claude-skills": "CLAude-skills 是一套 AI 工作流的增强技能集，提供更高效的 AI 编程体验"
     }
   },
   "short-drama": {
