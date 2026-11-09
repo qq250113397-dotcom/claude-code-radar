@@ -123,7 +123,10 @@
       "tw93/Waza",
       "xerj-org/xerj",
       "JetBrains/thinkrail",
-      "Dicklesworthstone/destructive_command_guard"
+      "Dicklesworthstone/destructive_command_guard",
+      "OpenMontageInc/OpenMontage",
+      "davila7/claude-code-templates",
+      "jub0t/Concat"
     ],
     "notes": {
       "anthropics/claude-code": "Anthropic 官方出品的 AI 编程 CLI 工具，在终端直接用自然语言写代码、改 bug、读项目，是目前最强的 AI Coding 工具之一。",
@@ -248,7 +251,10 @@
       "tw93/Waza": "Waza 是一款帮助你提升编程技能的实用工具，专注于为 AI 编程助手如 Claude Code 等提供核心技能和编程技巧。",
       "xerj-org/xerj": "Xerj 是一个 AI 搜索引擎和 MCP 服务器，支持 bot 和 agent 的代码、文档、日志、JSONL/CSV 和 PDF 等全文检索和向量检索，帮助开发者快速高效地找到所需信息。",
       "JetBrains/thinkrail": "JetBrains/thinkrail 是一个轻量级的 IDE，它能够自适应你的工作方式，让你更高效地编程。",
-      "Dicklesworthstone/destructive_command_guard": "-destructive_command_guard 是一个快速的 Rust 安全钩子，阻止 AI 编程代理运行有害 shell、git 和文件系统命令，保护您的开发安全。"
+      "Dicklesworthstone/destructive_command_guard": "-destructive_command_guard 是一个快速的 Rust 安全钩子，阻止 AI 编程代理运行有害 shell、git 和文件系统命令，保护您的开发安全。",
+      "OpenMontageInc/OpenMontage": "OpenMontage 是一款开源的 AI 视频生产系统，赋予你的编程助手全能视频工作室能力",
+      "davila7/claude-code-templates": "CLAUE Code 是一个开源的代码注册表和 CLI，帮助您管理 AI 编程组件，包括 agent、命令、技能、钩子、 MCPs、设置和模块，提高您的 AI 编程效率。",
+      "jub0t/Concat": "Concat 是一款真正免费开源的本地视频编辑器，支持跨平台，通过 JSON-RPC API 和 MCP 脚本化，实现零依赖、零在线的视频编辑。"
     }
   },
   "ecommerce": {
@@ -295,7 +301,8 @@
       "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
       "bvdr/familywell",
       "nexscope-ai/ecommerce-ai-tools",
-      "haadoRamiz/Jarvis1.0"
+      "haadoRamiz/Jarvis1.0",
+      "andredelgado/continente-mcp"
     ],
     "notes": {
       "beikeshop/beikeshop": "beikeshop 是一款免费开源的 Laravel 电商平台，支持多语种和货币，集成 AI 代理，提供可定制的视觉设计和丰富的插件市场。",
@@ -340,7 +347,8 @@
       "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit": "AI 跨境电商运营智能体工具箱，帮助运营人员通过 7 个可复用的 AI Agent 工作流，高效管理运营流程",
       "bvdr/familywell": "bvdr/familywell 是一个家庭组织工具，集购物清单、待办事项、日历、消费记录、项目管理和食谱等功能于一体，支持自主部署和人工智能助手。",
       "nexscope-ai/ecommerce-ai-tools": "这是 Nexscope 官方提供的 e-commerce AI 工具集，帮助开发者快速构建和比较 AI 产品视频工作流程和数据 API，实现免费产品列表的自动化。",
-      "haadoRamiz/Jarvis1.0": "Jarvis1.0 是一个 AI 辅助工具，可以自动执行任务、搜索内容以及控制浏览器，极大提高工作效率。"
+      "haadoRamiz/Jarvis1.0": "Jarvis1.0 是一个 AI 辅助工具，可以自动执行任务、搜索内容以及控制浏览器，极大提高工作效率。",
+      "andredelgado/continente-mcp": "Continente-MCP 是一款为 Continente.pt 提供官方服务的 unofficial MCP 服务器，允许 Claude 和其他 AI 助手执行购物任务。"
     }
   },
   "design": {
@@ -387,7 +395,8 @@
       "PavelLaptev/FigClaw",
       "sirioberati/Genjustsu-Open-Source-Workflow",
       "kaankiziltug/logo-design-skill",
-      "bergside/awesome-design-skills"
+      "bergside/awesome-design-skills",
+      "cutetailbud/ff-ruyijs"
     ],
     "notes": {
       "onlook-dev/onlook": "onlook 是一款开源的 AI 设计工具，帮助设计师通过可视化方式快速构建、样式和编辑 React 应用。",
@@ -432,7 +441,8 @@
       "PavelLaptev/FigClaw": "FigClaw 是一个 AI 驱动的 Figma 插件，允许你与画布聊天，检查和操纵节点，并执行 Figma 插件 API 代码",
       "sirioberati/Genjustsu-Open-Source-Workflow": "Genjustsu-Open-Source-Workflow是一个开源的AI视频替换工作流，通过将深度图、SAM分割、脸部网格和音频处理结合起来，允许用户替换人物和对象，支持本地WebUI方便输入、预览和导出。",
       "kaankiziltug/logo-design-skill": "kaankiziltug/logo-design-skill 是一个 Logo 设计技能，提供 Logo 设计原则、流程、SVG 手工技巧、测试工具以及 1400+ 个 Logo 参考库。",
-      "bergside/awesome-design-skills": "awesome-design-skills 是一份包含 67 个设计技能文件的清单，适用于 Claude Design、Google Stitch、Codex 和其他 AI 工具，帮助你提高设计效率和创造力。"
+      "bergside/awesome-design-skills": "awesome-design-skills 是一份包含 67 个设计技能文件的清单，适用于 Claude Design、Google Stitch、Codex 和其他 AI 工具，帮助你提高设计效率和创造力。",
+      "cutetailbud/ff-ruyijs": "FF-RuyiJS是一款轻量级无头浏览器，专为AI agents（如Codex或Claude Code）提供浏览器自动化功能，能够突破各种web保护系统和登录流程，适用于逆向工程场景。"
     }
   },
   "education": {
@@ -706,7 +716,10 @@
       "notepower2k1/CapCap",
       "phucnguyentvp1/frameweaver",
       "darkzOGx/youtube-automation-agent",
-      "UnderleveledBuilder/awesome-short-drama-skills"
+      "UnderleveledBuilder/awesome-short-drama-skills",
+      "digitalsamba/claude-code-video-toolkit",
+      "sarpstar/cinecode",
+      "imMamdouhaboammar/motion-graphics-skills"
     ],
     "notes": {
       "safishamsi/graphify": "graphify 是一个 AI 编程助手技能，能够将任何代码文件夹、SQL 架构、R 脚本、shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。",
@@ -760,7 +773,10 @@
       "notepower2k1/CapCap": "CapCap 是一个用于短视频本地化和配音的 Windows 桌面应用，它整合了语音识别、翻译、字幕样式设定、语音生成、时间线编辑、预览和导出等功能，特别适用于越南内容生产",
       "phucnguyentvp1/frameweaver": "Frameweaver 是一个本地视频工作空间，集成了场景生成、时间线编辑、语音分析、旁白、字幕、音频混合和媒体管理等功能，极大地提高了视频制作的效率。",
       "darkzOGx/youtube-automation-agent": "YouTube-automation-agent 是一款开源、自主的 AI agent，能够全面管理 YouTube 频道，包括主题研究、脚本编写、讲述和视觉生成、视频优化和发布，基于您的审批，随后利用分析数据进行学习。",
-      "UnderleveledBuilder/awesome-short-drama-skills": "awesome-short-drama-skills 是一个 AI 短剧技能包，提供剧本、改编、分镜等功能，帮助你快速创作高质量的 AI 短剧。"
+      "UnderleveledBuilder/awesome-short-drama-skills": "awesome-short-drama-skills 是一个 AI 短剧技能包，提供剧本、改编、分镜等功能，帮助你快速创作高质量的 AI 短剧。",
+      "digitalsamba/claude-code-video-toolkit": "CLAUE-code 视频工具箱：使用 Python 脚本、AI 语音、音乐和视频片段生成视频，成本仅几分钱。",
+      "sarpstar/cinecode": "Cinecode 是一款 AI 编程工具，可以生成短片、长视频、广告、解说视频和音乐视频，通过编码生成每个帧并设计音频，输出 MP4 文件。",
+      "imMamdouhaboammar/motion-graphics-skills": "motion-graphics-skills 是一个用于 AI agents 的动态图形工具，能够帮助 Claude Code 和 Codex 等 AI 编程用户快速创建品牌电影、动态字体、2D/3D 和程序化视频。"
     }
   },
   "desktop-pet": {
